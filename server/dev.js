@@ -1,6 +1,10 @@
-var webpack = require('webpack');
-var WebpackDevServer = require('webpack-dev-server');
-var config = require('../webpack.config.dev');
+const webpack = require('webpack');
+const WebpackDevServer = require('webpack-dev-server');
+
+global.compileForServer = false;
+global.compileHTML = true;
+const config = require('../webpack.config');
+const port = process.env.PORT || 3000;
 
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
@@ -9,10 +13,10 @@ new WebpackDevServer(webpack(config), {
   stats: {
     colors: true,
   },
-}).listen(3000, '0.0.0.0', function webpackListen(err) {
+}).listen(port, '0.0.0.0', function webpackListen(err) {
   if (err) {
     console.log(err);
   }
 
-  console.log('Listening at localhost:3000');
+  console.log('Listening on http://localhost:' + port);
 });
