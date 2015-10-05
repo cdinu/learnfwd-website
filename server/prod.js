@@ -8,10 +8,10 @@ import routes from '../routes';
 
 const app = express();
 
-const template = fs.readFileSync('./index.html').toString();
+const template = fs.readFileSync('./server-dist/index.html').toString();
 const history = createMemoryHistory();
 
-app.use(express.static('dist'));
+app.use(express.static('./dist', {index: false }));
 
 app.get('*', (req, res) => {
   const location = history.createLocation(req.url);
@@ -32,6 +32,6 @@ app.get('*', (req, res) => {
 
 const server = app.listen(3000, () => {
   const { host, port } = server.address();
-  console.log('App listening at http://%s:%s', host, port);
+  console.log('App listening at http://%s:%s', host || 'localhost', port);
 });
 
