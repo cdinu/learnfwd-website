@@ -1,9 +1,11 @@
 const HTMLWebpack = require('html-webpack-plugin');
 const ExtractText = require('extract-text-webpack-plugin');
 const webpack = require('webpack');
+const path = require('path');
 
 const debug = (process.env.NODE_ENV !== 'production');
-const server = (global.compileForServer === undefined) ? !!process.env.SERVER : global.compileForServer;
+const server = (global.compileForServer === undefined) ? (!!process.env.SERVER) : global.compileForServer;
+const compileHTML = (global.compileHTML === undefined) ? (server || process.env.COMPILE_HTML) : global.compileHTML;
 
 const nodeModules = {};
 if (server) {
@@ -29,7 +31,7 @@ const config = module.exports = {
     index: server ? './server' : './client',
   },
   output: {
-    path: server ? 'server-dist' : 'dist',
+    path: path.resolve(server ? 'server-dist' : 'dist'),
     filename: '[name].js',
   },
   externals: nodeModules,
@@ -87,7 +89,7 @@ if (!server && debug) {
   config.plugins.push(new webpack.HotModuleReplacementPlugin());
 }
 
-if (server || process.env.WITH_HTML) {
+if (compileHTML) {
   config.plugins.push(
     new HTMLWebpack({
       inject: true,
