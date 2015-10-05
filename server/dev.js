@@ -6,8 +6,6 @@ global.compileHTML = true;
 const config = require('../webpack.config');
 const port = process.env.PORT || 3000;
 
-console.log(config);
-
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   hot: true,
