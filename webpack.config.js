@@ -21,9 +21,10 @@ if (server) {
 }
 
 function styleLoader(loader) {
-  if (server) { return loader; }
-  if (debug) { return 'style-loader!' + loader; }
-  return ExtractText.extract('style-loader', loader);
+  loader = loader ? '!' + loader : '';
+  if (server) { return 'css-loader/locals' + loader; }
+  if (debug) { return 'style-loader!css-loader?sourceMap' + loader; }
+  return ExtractText.extract('style-loader', 'css-loader?sourceMap' + loader);
 }
 
 const config = module.exports = {
@@ -43,9 +44,9 @@ const config = module.exports = {
     loaders: [
       { test: /\.jsx?$/, loader: (debug ? 'react-hot-loader!' : '') + 'babel-loader', exclude: /node_modules/ },
       { test: /\.json$/, loader: 'json' },
-      { test: /\.scss$/, loader: styleLoader('css?sourceMap!sass') },
-      { test: /\.sass$/, loader: styleLoader('css?sourceMap!sass?indentedSyntax=true') },
-      { test: /\.css$/, loader: styleLoader('css?sourceMap') },
+      { test: /\.scss$/, loader: styleLoader('sass') },
+      { test: /\.sass$/, loader: styleLoader('sass?indentedSyntax=true') },
+      { test: /\.css$/, loader: styleLoader() },
       { test: /\.(png|jpg|woff2?|ttf|eot|svg)(\?|$)/, loader: 'file' },
     ],
   },
