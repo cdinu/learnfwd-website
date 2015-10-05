@@ -1,0 +1,10 @@
+:local(.nav) {
+  background: #bbb;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+:local(.nav) a {
+  padding-right: 10px;
+}
