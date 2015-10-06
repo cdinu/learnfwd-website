@@ -20,8 +20,8 @@ if (server) {
     });
 }
 
-function styleLoader(loader) {
-  loader = loader ? '!' + loader : '';
+function styleLoader(_loader) {
+  const loader = _loader ? '!' + _loader : '';
   if (server) { return 'css-loader/locals' + loader; }
   if (debug) { return 'style-loader!css-loader?sourceMap' + loader; }
   return ExtractText.extract('style-loader', 'css-loader?sourceMap' + loader);
