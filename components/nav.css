@@ -8,3 +8,11 @@
 :local(.nav) a {
   padding-right: 10px;
 }
+:local(.logoHeader) {
+  display: inline-block;
+  height: 3em;
+  width: 3em;
+};
+:local(.test) {
+  background-color: red;
+}
