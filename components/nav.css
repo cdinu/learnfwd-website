@@ -4,6 +4,27 @@
   width: 3em;
 }
 
-:local(.layout){
-  background: url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover;
+:local(.layout) {
+  background: url(http://localhost:3000/img/test.jpg) center / cover;
 }
+
+:local(.navcontainer) {
+  height: 300px;
+  position: relative;
+}
+
+:local(.title) {
+  color: white;
+ }
+
+
+/*:local(.lfwdTitle){
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+:local(.lfwdLogo){
+  color: white;
+  width: 20%;
+}*/

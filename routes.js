@@ -8,6 +8,7 @@ export default (
   <Route component={app} path='/'>
     <IndexRoute component={pages.home} />
     <Route component={pages.about} path='about' />
+    <Route component={pages.contact} path='contact' />
     <Route component={pages.notFound} path="*" />
   </Route>
 );
