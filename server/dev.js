@@ -8,6 +8,7 @@ const port = process.env.PORT || 3000;
 
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
+  contentBase: config.contentBase,
   hot: true,
   historyApiFallback: true,
   stats: {

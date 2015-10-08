@@ -35,6 +35,7 @@ const config = module.exports = {
     path: path.resolve(server ? 'server-dist' : 'dist'),
     filename: '[name].js',
   },
+  contentBase: path.resolve('public'),
   externals: nodeModules,
   devtool: debug ? '#source-map' : null,
   module: {

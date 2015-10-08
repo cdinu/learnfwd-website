@@ -5,7 +5,8 @@ export default class Page extends Component {
     return (
       <div>
         <h1>
-        HomePage
+          HomePage
+          <img src='/img/food.jpg' />
         </h1>
       </div>
     );
