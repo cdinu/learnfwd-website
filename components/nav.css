@@ -1,18 +1,9 @@
-:local(.nav) {
-  background: #bbb;
-  display: block;
-  width: 100%;
-  padding: 10px;
-}
-
-:local(.nav) a {
-  padding-right: 10px;
-}
 :local(.logoHeader) {
   display: inline-block;
   height: 3em;
   width: 3em;
-};
-:local(.test) {
-  background-color: red;
+}
+
+:local(.layout){
+  background: url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover;
 }

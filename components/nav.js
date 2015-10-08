@@ -1,41 +1,38 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
+import { Menu, MenuItem } from 'react-mdl';
 import styles from './nav.css';
-// <nav className={styles.nav}>
-//           <Link to='/'>Home</Link>
-//           <Link to='/about'>About</Link>
-//         </nav>
+
 export default class Nav extends Component {
   render() {
     return (
       <div>
-        <div className={'mdl-layout mdl-js-layout mdl-layout--fixed-header' + styles.test}>
-          <header className="mdl-layout__header">
-            <div className="mdl-layout__header-row">
-              <img src='http://learnfwd.com/assets/img/logo-learnfwd-03.png' className={styles.logoHeader}></img>
-              <span className="mdl-layout-title">Learn Forward</span>
-              <div className="mdl-layout-spacer"></div>
-              <nav className="mdl-navigation mdl-layout--large-screen-only">
-                <Link className="mdl-navigation__link" to="/">Home</Link>
-                <Link className="mdl-navigation__link" to="/about">About</Link>
-                <Link className="mdl-navigation__link" to="/demo">Demo</Link>
-                <Link className="mdl-navigation__link" to="/team">Team</Link>
-                <Link className="mdl-navigation__link" to="/contact">Contact</Link>
-              </nav>
-            </div>
-          </header>
-          <div className="mdl-layout__drawer">
-            <span className="mdl-layout-title">Learn Forward</span>
-            <nav className="mdl-navigation">
-              <Link className="mdl-navigation__link" to="/">Home</Link>
-              <Link className="mdl-navigation__link" to="/about">About</Link>
-              <Link className="mdl-navigation__link" to="/demo">Demo</Link>
-              <Link className="mdl-navigation__link" to="/team">Team</Link>
-              <Link className="mdl-navigation__link" to="/contact">Contact</Link>
-            </nav>
-          </div>
+        <div style={{ height: '300px', position: 'relative' }}>
+          <Layout className={styles.layout}>
+            <Header transparent={true} title="Learn Forward" style={{ color: 'white' }}>
+              <Navigation>
+                <Link to="/">Home</Link>
+                <a href='#' name="more_vert" id="demo-menu-lower-left">Products</a>
+                <Menu target="demo-menu-lower-left">
+                  <MenuItem>
+                    <Link to="/about">Learn Forward Author</Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link to="/about">Learn Forward Platform</Link>
+                  </MenuItem>
+                </Menu>
+                <Link to="/solutions">Solutions</Link>
+                <Link to="/demo">Demo</Link>
+                <Link to="/about">About us</Link>
+                <Link to="/contact">Contact</Link>
+              </Navigation>
+            </Header>
+            <Content />
+          </Layout>
         </div>
       </div>
+
     );
   }
 }
