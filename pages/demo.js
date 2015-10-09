@@ -27,5 +27,4 @@ export default class Page extends Component {
     );
   }
 }
-
 Page.displayName = 'LfpDemo';
