@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import { Navbar, NavBrand, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 // import styles from './nav.css';
 
@@ -8,47 +9,32 @@ import { Link } from 'react-router';
 // <Link to="/demo">Demo</Link>
 // <Link to="/about">About us</Link>
 // <Link to="/contact">Contact</Link>
-export default class Nav extends Component {
+export default class LfwdNav extends Component {
   render() {
     return (
-      <div>
-        <nav className="navbar test navbar-default">
-          <div className="container-fluid">
-            <div className="navbar-header">
-              <button type="button" className="navbar-toggle collapsed" dataToggle="collapse" dataTarget="#bs-example-navbar-collapse-1" ariaExpanded="false">
-                <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-              </button>
-              <Link className="navbar-brand" to="/">Learn Forward</Link>
-            </div>
-            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul className="nav navbar-nav navbar-right">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/products">Products & Features</Link></li>
-                <li><Link to="/solutions">Solutions for</Link></li>
-                <li><Link to="/demo">Demo</Link></li>
-                <li><Link to="/about">About us</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li className="dropdown">
-                  <a href="#" className="dropdown-toggle" dataToggle="dropdown" role="button" ariaHaspopup="true" ariaExpanded="false">Dropdown <span className="caret"></span></a>
-                  <ul className="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" className="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-
+      <Navbar inverse toggleNavKey={0}>
+        <NavBrand><Link to="/">Learn Forward</Link></NavBrand>
+        <Nav right eventKey={0}> {/* This is the eventKey referenced */}
+          <NavItem eventKey={1} href="/">Home</NavItem>
+          <NavDropdown eventKey={2} title="Products" id="collapsible-navbar-dropdown">
+            <MenuItem eventKey="1" href='/products'>Learn Forward Author</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey="2" href='/products'>Learn Forward Platform</MenuItem>
+          </NavDropdown>
+          <NavDropdown eventKey={3} title="Solutions" id="collapsible-navbar-dropdown">
+            <MenuItem eventKey="1" href='/solutions'>for Educational publishers</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey="2" href='/solutions'>for Schools & Teachers</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey="3" href='/solutions'>for Corporate Training</MenuItem>
+          </NavDropdown>
+          <NavItem eventKey={4} href="/demo">Demo</NavItem>
+          <NavItem eventKey={5} href="/about">About us</NavItem>
+          <NavItem eventKey={6} href="/contact">Contact</NavItem>
+        </Nav>
+      </Navbar>
     );
   }
 }
 
-Nav.displayName = 'LfwdNav';
+LfwdNav.displayName = 'LfwdNav';
