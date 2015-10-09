@@ -42,28 +42,26 @@ export default class Page extends Component {
                   </div>
                 </div>
                 <div className="col-sm-4">
-                <img src="/public/img/team-andrei.jpg"/>
+                  <img src="/public/img/team-andrei.jpg"/>
                   <div>Junior Software Engineer</div>
                     <h3>ANDREI CONSTANTINESCU</h3>
                     <p>Genuinely curious about web programming, he started in our company from contributions to small projects and quickly graduated to maintaining large websites by himself. He turns provocations into good practice and is progressing immensely. </p>
                   </div>
                 </div>
                 <div className="col-sm-4">
-                <img src="/public/img/team-dana.jpg"/>
+                  <img src="/public/img/team-dana.jpg"/>
                   <div>Junior content developer</div>
                     <h3>DANA COTORAN</h3>
-                    <p>Possibly the quietest person you've ever met. Besides that, she is a fast learner: with no previous coding knowledge she managed to handle HTML5 and CSS in no time. She is a also a very good illustrator and she has a keen eye for design. These two skills make her a very good fit to handle HTML content from conversions to layout and colors.
-                    </p>
+                    <p>Possibly the quietest person you've ever met. Besides that, she is a fast learner: with no previous coding knowledge she managed to handle HTML5 and CSS in no time. She is a also a very good illustrator and she has a keen eye for design. These two skills make her a very good fit to handle HTML content from conversions to layout and colors.</p>
                   </div>
                 </div>
                 <div className="col-sm-4">
-                <img src="/public/img/team-theo.jpg/>
-                <span>Software Engineer</span>
+                  <img src="/public/img/team-theo.jpg/>
+                  <span>Software Engineer</span>
                   <h3 className="cursive">THEODOR VĂRARU</h3>
-                  <p className="small">Do not get fooled by his borderline-hipster-boyish-geekish look. Or by his young age. He is a powerhouse when it comes to modern web development technologies, software development principles, efficient interface programming and the likes. He is strongly opinionated (we regard it as a feature, not a bug) and he has a keen sense of design. Rare stuff when it comes to programmers.
-                  </p>
+                  <p className="small">Do not get fooled by his borderline-hipster-boyish-geekish look. Or by his young age. He is a powerhouse when it comes to modern web development technologies, software development principles, efficient interface programming and the likes. He is strongly opinionated (we regard it as a feature, not a bug) and he has a keen sense of design. Rare stuff when it comes to programmers.</p>
                 </div>
-                </div>
+              </div>
             </div>
     );
   }
