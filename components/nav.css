@@ -1,4 +1,4 @@
-:local(.logoHeader) {
+/*:local(.logoHeader) {
   display: inline-block;
   height: 3em;
   width: 3em;
@@ -16,17 +16,42 @@
 :local(.title) {
   color: white;
  }
-.test {
-  background: #3498db;
-}
+*/
 
 /*:local(.lfwdTitle){
   display: block;
   position: relative;
   box-sizing: border-box;
 }
-
+*/
 :local(.lfwdLogo){
+  display: inline-block;
+  height: 8em;
+  width: 8em;
+
+}
+
+:local(.navbar){
+  z-index: 1000;
+}
+
+
+.lfp-page- .navbar-default {
+  background: transparent;
+  border-radius: 0px;
+  border: 0px;
+  box-shadow: none;
+
+}
+
+.lfp-page- .navbar-default .navbar-nav>li>a {
   color: white;
-  width: 20%;
-}*/
+}
+
+:local(.navbarHome){
+  z-index: 1000;
+}
+
+:local(.navbarHome) a, li a {
+  color: white;
+}

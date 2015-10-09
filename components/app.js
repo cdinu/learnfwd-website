@@ -5,10 +5,8 @@ import Footer from './footer';
 export default class App extends Component {
   render() {
     return (
-      <div className='lfpApp'>
-        <aside>
-          <Nav/>
-        </aside>
+      <div className={'lfpApp lfp-page-' + this.props.location.pathname.substr(1)}>
+        <Nav location={this.props.location}/>
         <main>
           {this.props.children}
         </main>

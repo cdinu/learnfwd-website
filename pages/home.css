@@ -2,3 +2,39 @@
   background-color: red;
   color: white;
 }
+:local(.imgBack) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*background-size: cover;*/
+  background-position: center center;
+}
+
+:local(.mainStripe) {
+  /*position: relative;*/
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+
+:local(.overlay){
+  position: absolute;
+  top: 0;
+  background: rgba(0,0,0,0.4);
+  height: 100%;
+  width: 100%;
+  
+}
+:local(.container){}
+
+:local(.callout){
+  margin-top: 30vh;
+  text-align: center;
+  line-height: 110%;
+}
+:local(.callout) h1 {
+  font-size: 8em;
+  font-weight: 100;
+}
