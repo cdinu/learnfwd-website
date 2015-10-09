@@ -1,4 +1,4 @@
-:local(.background) {
-  back-ground-color: red;
+:local(.bg) {
+  background-color: red;
   color: white;
 }
