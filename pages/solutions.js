@@ -8,6 +8,11 @@ export default class Page extends Component {
         <h1 className={styles.background}>
           Solutions for
         </h1>
+        <ul>
+          <li>Educational Publishers</li>
+          <li>Schools & Teachers / K-12</li>
+          <li>Corporate Training</li>
+        </ul>
       </div>
     );
   }
