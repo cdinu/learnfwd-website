@@ -27,6 +27,21 @@ export default class Page extends Component {
             <p>You think you can handle dozens of tasks in a highly stressful environment? You must be Leo’s relative. She has forged her patience in previous jobs leading the intricate affairs of one of the biggest e-commerce websites in Romania and her knowledge regarding online and her skills as team-leader recommended her as a very good project manager, fit for a company where too often creativity challenges good order. We have not been wrong.</p>
           </div>
         </div>
+        <h2>Advisors</h2>
+        <div className="row">
+          <div className="col-sm-4">
+            <h3>Angela McFarlane</h3>
+            <div>Chief Executive at The College of Teachers UK, researcher in EdTech,international author</div>
+          </div>
+          <div className="col-sm-4">
+            <h3>Charles Cormack</h3>
+              <p>business dev investment</p>
+          </div>
+          <div className="col-sm-4">
+            <h3>Owen White</h3>
+              <p>20 years ed-tech experience, 11 at Pearson as digital strategy director</p>
+          </div>
+        </div>
         <h2>Outstanding past team members</h2>
         <div classNameName="row">
           <div className="col-sm-4">
