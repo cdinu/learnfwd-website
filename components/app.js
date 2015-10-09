@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import Nav from './nav';
+import Footer from './footer';
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
         <main>
           {this.props.children}
         </main>
+        <Footer/>
       </div>
     );
   }
