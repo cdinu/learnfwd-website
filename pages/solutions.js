@@ -6,7 +6,7 @@ export default class Page extends Component {
     return (
       <div>
         <h1 className={styles.background}>
-          Solutions for 
+          Solutions for
         </h1>
       </div>
     );
