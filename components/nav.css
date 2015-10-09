@@ -16,7 +16,9 @@
 :local(.title) {
   color: white;
  }
-
+.test {
+  background: #3498db;
+}
 
 /*:local(.lfwdTitle){
   display: block;
