@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styles from './home.css';
 import { Button } from 'react-bootstrap';
 import { DropdownButton, MenuItem } from 'react-bootstrap';
 
@@ -7,7 +6,7 @@ export default class Page extends Component {
   render() {
     return (
       <div>
-        <h1 className={styles.background}>
+        <h1>
           HomePage
         </h1>
         <div className='text-center'>
