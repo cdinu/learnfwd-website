@@ -46,8 +46,31 @@ export default class Page extends Component {
         <li>"connect points" (make the right connections; e.g. labels to photos)</li>
         <li>"arithmetic exercises" (validate results using equations)</li>
       </ul>
-
-
+    <h3> 
+      Classroom features
+    </h3>
+    <ul>
+      <li>create classrooms and invite people to join in</li>
+      <li>join existing classrooms (regardless of your physical presence)</li>
+      <li>discover classrooms based on geographical proximity (using geolocation)</li>
+      <li>select a work group inside a classroom to share results and collaborate directly</li>
+    </ul> 
+    <h3>
+      Avatar
+    </h3>
+    <ul>
+      <li>customised help</li>
+      <li>reacts to success / progrss & failure in solving the exercises</li>
+      <li>interacts with the student</li>
+      <li>especially suited for primary and secondary education</li>
+    </ul>
+    <h3>
+      Backup and restore (experimental)
+    </h3> 
+    <ul>
+      <li>backup your data locally in a file</li>
+      <li>restore your data from a local file using another browser</li>
+    </ul>
       </div>
     );
   }
