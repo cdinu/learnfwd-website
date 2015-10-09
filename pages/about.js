@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './about.css';
 
 export default class Page extends Component {
   render() {
@@ -7,8 +8,8 @@ export default class Page extends Component {
         <h1>
           About
         </h1>
-        <p>
-          * TEAM
+        <p className={styles.background}>
+          <strong>TEAM</strong>
             - Founders
               - Cristian Dinu
               - Paul Balogh

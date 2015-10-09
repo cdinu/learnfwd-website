@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import styles from './home.css';
 
 export default class Page extends Component {
   render() {
     return (
       <div>
-        <h1>
+        <h1 className={styles.background}>
           HomePage
         </h1>
         <div className='text-center'>

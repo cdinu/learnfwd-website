@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-import styles from './products.css';
+import styles from './lfp.css';
 
 export default class Page extends Component {
   render() {
     return (
       <div>
         <h1 className={styles.background}>
-          Products
+          Learn Forward Platform (LFP)
         </h1>
-        <ul> 
-          <li>LFA</li>
-          <li>LFP</li>
-        </ul>
       </div>
     );
   }
 }
 
-Page.displayName = 'LfpProducts';
+Page.displayName = 'LfpLFP';
