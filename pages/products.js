@@ -5,7 +5,7 @@ export default class Page extends Component {
   render() {
     return (
       <div>
-        <h1 className={styles.background}>
+        <h1 className={styles.bg}>
           Products
         </h1>
       </div>
