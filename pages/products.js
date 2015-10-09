@@ -8,10 +8,6 @@ export default class Page extends Component {
         <h1 className={styles.background}>
           Products
         </h1>
-        <ul> 
-          <li>LFA</li>
-          <li>LFP</li>
-        </ul>
       </div>
     );
   }
