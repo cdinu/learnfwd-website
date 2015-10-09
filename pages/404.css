@@ -1,4 +1,9 @@
-:local(.background) {
-  back-ground-color: red;
-  color: white;
+:local(.bg) {
+  background: url('https://i.imgur.com/5NGQAnn.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: red;
+  height: 82vh;
+  text-align:  center;
+  border-top: 1px solid white
 }
