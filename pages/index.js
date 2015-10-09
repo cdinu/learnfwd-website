@@ -5,5 +5,5 @@ export contact from './contact';
 export notFound from './404';
 export demo from './demo';
 export lfa from './lfa';
-export lfa from './lfp';
-export lfa from './solutions';
+export lfp from './lfp';
+export solutions from './solutions';
