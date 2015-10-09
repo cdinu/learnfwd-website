@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-// import styles from './about.css';
+import styles from './about.css';
 
 export default class Page extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.wrap}>
         <h1>About us</h1>
         <h2>Our Team</h2>
         <div className="row">
