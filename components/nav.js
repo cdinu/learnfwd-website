@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-import styles from './nav.css';
+// import styles from './nav.css';
 
 // <Link to="/">Home</Link>
 // <Link to="/solutions">Solutions</Link>

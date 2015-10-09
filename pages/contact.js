@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './contact.css';
+
 export default class Page extends Component {
   render() {
     return (
@@ -8,13 +9,13 @@ export default class Page extends Component {
           Contact
         </h1>
         <p>
-          Email to: 
+          Email to:
           <a href="hello@learnfwd.com?Subject=Hello%20again" target="_top">hello@learnfwd.com</a>
         </p>
         <p>
           Address: c/o Saffery Champness, Lion House, Red Lion Street, London, WC1R 4GB, UK
         </p>
-        <p> 
+        <p>
           32 Naval House, 6 Victory Parade, Plumstead Road, London, SE18 6FN, UK
         </p>
         <p>
@@ -24,7 +25,6 @@ export default class Page extends Component {
           Register number: 09401061
         </p>
       </div>
-
     );
   }
 }
