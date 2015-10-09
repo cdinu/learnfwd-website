@@ -1,37 +1,45 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import { Layout, Header, Navigation, Content } from 'react-mdl';
-import { Menu, MenuItem } from 'react-mdl';
 
 import styles from './nav.css';
 
+// <Link to="/">Home</Link>
+// <Link to="/solutions">Solutions</Link>
+// <Link to="/demo">Demo</Link>
+// <Link to="/about">About us</Link>
+// <Link to="/contact">Contact</Link>
 export default class Nav extends Component {
   render() {
     return (
       <div>
-        <div className={styles.navcontainer}>
-          <Layout className={styles.layout}>
-            <Header transparent={true} title="Learn Forward" >
-              <Navigation>
-                <Link to="/">Home</Link>
-                <a href='#' name="more_vert" id="demo-menu-lower-left">Products</a>
-                <Menu target="demo-menu-lower-left">
-                  <MenuItem>
-                    <Link to="/about">Learn Forward Author</Link>
-                  </MenuItem>
-                  <MenuItem>
-                    <Link to="/about">Learn Forward Platform</Link>
-                  </MenuItem>
-                </Menu>
-                <Link to="/solutions">Solutions</Link>
-                <Link to="/demo">Demo</Link>
-                <Link to="/about">About us</Link>
-                <Link to="/contact">Contact</Link>
-              </Navigation>
-            </Header>
-            <Content />
-          </Layout>
-        </div>
+        <nav className="navbar navbar-default">
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+              <a className="navbar-brand" href="#">Brand</a>
+            </div>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul className="nav navbar-nav navbar-right">
+                <li><Link to="/contact">Contact</Link></li>
+                <li className="dropdown">
+                  <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
+                  <ul className="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" className="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
 
     );

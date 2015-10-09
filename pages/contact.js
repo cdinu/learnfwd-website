@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import styles from './contact.css';
 export default class Page extends Component {
   render() {
     return (
       <div>
-        <h1>
+        <h1 className={styles.example}>
           Contact
         </h1>
         <p>
