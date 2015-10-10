@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Image } from 'react-bootstrap';
 import styles from './home.css';
 
 export default class Page extends Component {
@@ -10,7 +9,7 @@ export default class Page extends Component {
         <div className={styles.overlay}>
           <div className={styles.container}>
             <div className={styles.callout}>
-              <h1>Making the Digital Classroom Work</h1>
+              <h1><a className={'animateUnderline'} href="#">Making the Digital Classroom Work</a></h1>
             </div>
           </div>
         </div>
