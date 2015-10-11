@@ -72,6 +72,7 @@ const meta = {
     description: 'Digital publishing tools for rich HTML5 publications',
   },
   '/lfp': {
+    title: 'LFP - Learn Forward Platform',
     description: 'Digital publishing tools for rich HTML5 publications',
   },
   '/contact': {

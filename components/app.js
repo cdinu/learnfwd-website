@@ -1,6 +1,9 @@
 import React, { Component, PropTypes } from 'react';
-import Nav from './nav';
+
+import Header from './header';
 import Footer from './footer';
+
+import styles from './app.css';
 
 document.setMeta = function docSetMeta(name, content) {
   const meta = document.querySelectorAll('meta[name="' + name + '"]');
@@ -12,14 +15,6 @@ document.setMeta = function docSetMeta(name, content) {
 };
 
 export default class App extends Component {
-  componentDidMount() {
-    this.updateMeta();
-  }
-
-  componentWillReceiveProps() {
-    this.updateMeta();
-  }
-
   updateMeta() {
     const meta = this.props.route.meta;
     const path = this.props.location.pathname;
@@ -27,23 +22,29 @@ export default class App extends Component {
     const what = meta[path] || meta['/'];
     const title = what.title || meta['/'].title;
     const description = what.description || meta['/'].description;
-    console.log('tit', title, description);
+    document.title = title;
+    document.setMeta('description', description);
   }
 
   render() {
+    this.updateMeta();
+    let path = this.props.location.pathname.substr(1);
+    path = path || 'home';
+    path = path.replace(/\//g, '-');
+
     return (
-      <div className={'lfpApp lfp-page-' + this.props.location.pathname.substr(1)}>
-        <Nav location={this.props.location} menu={this.props.route.menu}/>
+      <section className={styles[path]}>
+        <Header path={path} menu={this.props.route.menu}/>
         <main>
           {this.props.children}
         </main>
         <Footer/>
-      </div>
+      </section>
     );
   }
 }
 
-App.displayName = 'lfpApp';
+App.displayName = 'LfApp';
 App.propTypes = {
   children: PropTypes.object,
   location: PropTypes.object,
