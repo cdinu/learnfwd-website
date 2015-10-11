@@ -60,6 +60,7 @@ obj/
 *.log
 *.sqlite
 .DS_Store?
+.ds_store
 ehthumbs.db
 Icon?
 Thumbs.db

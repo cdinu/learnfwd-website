@@ -1,0 +1,40 @@
+:local(.footer) {
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 180px;
+  margin: 0;
+  color: #fff;
+  background-color: #363636;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+:local(.footer) span,
+:local(.footer) strong,
+:local(.footer) a {
+  color: #eee;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+:local(.footer) span,
+:local(.footer) strong {
+  margin: 10px 0;
+}
+
+:local(.footer) a {
+  font-weight: 100;
+ }
+
+:local(.footer) a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+:local(.ruler) {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}

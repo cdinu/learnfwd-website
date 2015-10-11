@@ -20,7 +20,7 @@ export default class Page extends Component {
           <li>Fun, right? If you liked it (or not) drop us an email at <a href="hello@learnfwd.com?Subject=Hello%20again" target="_top">hello@learnfwd.com</a></li>
         </ul>
         <div className='text-center'>
-        <button type="button" className="btn btn-danger navbar-btn"><a href="http://demo.lfwd.io" target="_blank">Open demo</a></button>
+        <button className="btn btn-danger navbar-btn" type="button"><a href="http://demo.lfwd.io" target="_blank">Open demo</a></button>
         </div>
       </div>
     );

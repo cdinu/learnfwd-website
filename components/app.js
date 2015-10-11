@@ -34,7 +34,7 @@ export default class App extends Component {
 
     return (
       <section className={styles[path]}>
-        <Header path={path} menu={this.props.route.menu}/>
+        <Header menu={this.props.route.menu} path={path} />
         <main>
           {this.props.children}
         </main>

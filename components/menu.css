@@ -1,0 +1,82 @@
+:local(.menu) {
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+:local(.menu) > li {
+  text-transform: uppercase;
+}
+
+:local(.menu) li {
+  display:inline-block;
+  float:left;
+  margin:-1px -1px 0 0;
+  position: relative;
+}
+
+:local(.menu) li span,
+:local(.menu) li a {
+  display:block;
+  text-decoration:none;
+  vertical-align: middle;
+  text-align: right;
+  margin: 0 1em;
+  font-size: 1.2em;
+}
+
+:local(.menu) li > ul {
+  background-color: #fff;
+  right: 0;
+  opacity: 0;
+  padding: 0;
+  position:absolute;
+  top: 100%;
+  display: none;
+
+  -webkit-transiton: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+:local(.menu) li > ul > li > span,
+:local(.menu) li > ul > li > a {
+  padding: 1em;
+  padding-left: 0;
+  color: #333;
+  width: 120px;
+  text-align: right;
+  font-size: 1em;
+}
+
+:local(.menu) li > ul > li:hover {
+  background-color: #555;
+}
+
+:local(.menu) li > ul > li:hover a {
+  color: #fff;
+}
+
+
+:local(.menu) a:hover {
+  color: #333;
+}
+
+
+:local(.menu) li:hover {
+  background-color: #fff;
+  opacity: 0.95;
+  -webkit-transiton: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+:local(.menu) li:hover > ul {
+  opacity: 0.97;
+  z-index: 1000;
+  display: block;
+};

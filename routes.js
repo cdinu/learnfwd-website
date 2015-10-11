@@ -56,10 +56,6 @@ const menu = [
       },
     ],
   },
-  {
-    label: 'Clickme',
-    to: '/lfa',
-  },
 ];
 
 const meta = {
@@ -82,7 +78,7 @@ const meta = {
 };
 
 export default (
-  <Route component={app} path='/' meta={meta} menu={menu}>
+  <Route component={app} menu={menu} meta={meta} path='/'>
     <IndexRoute component={pages.home} />
     <Route component={pages.products} path='products' />
     <Route component={pages.solutions} path='solutions' />
