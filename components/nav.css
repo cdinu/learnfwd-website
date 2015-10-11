@@ -1,29 +1,3 @@
-/*:local(.logoHeader) {
-  display: inline-block;
-  height: 3em;
-  width: 3em;
-}
-
-:local(.layout) {
-  background: url(http://localhost:3000/img/test.jpg) center / cover;
-}
-
-:local(.navcontainer) {
-  height: 300px;
-  position: relative;
-}
-
-:local(.title) {
-  color: white;
- }
-*/
-
-/*:local(.lfwdTitle){
-  display: block;
-  position: relative;
-  box-sizing: border-box;
-}
-*/
 :local(.lfwdLogo){
   display: inline-block;
   height: 8em;
@@ -42,10 +16,6 @@
   border: 0px;
   box-shadow: none;
 
-}
-
-.lfp-page- .navbar-default .navbar-nav>li>a {
-  color: white;
 }
 
 :local(.navbarHome){

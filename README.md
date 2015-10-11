@@ -36,3 +36,5 @@ then open http://localhost:3000
 NODE_ENV=production npm run postinstall && npm start
 ```
 
+
+:point_right: Please see routes.js for site configuration!
