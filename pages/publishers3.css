@@ -85,6 +85,35 @@
 :local(.clear) {
   clear: both;
 }
+:local(.classroomM) {
+  background-color: #f3f1f1;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.classroomMleft) {
+  display: flex;
+}
+:local(.vcenter) {
+  align-self: center;
+}
+:local(.classroomMleft) h1 {
+  font-weight: 100;
+  font-size: 250%;
+  margin:0;
+}
+:local(.classroomMleft) h2 {
+  font-weight: 100;
+  font-size: 170%;
+  line-height: 1.1;
+  color: #399695;
+  margin: 0;
+}
+:local(.classroomMright) img {
+  width: 100%;
+  max-width: 413px;
+  display: block;
+  margin: 0 auto;
+}
 :local(.kat) {
   background-color: #fff;
   border-bottom: 1px solid #979797;
@@ -118,6 +147,7 @@
 :local(.control) h1 {
   margin: 0;
   font-size: 250%;
+  font-weight: 100;
 }
 :local(.control) h2 {
   margin: 0;
@@ -125,7 +155,7 @@
   line-height: 1.1;
   color: #399695;
 }
-:local(.controlRight) h2 {
+:local(.controlRight) {
   text-align: right;
 }
 :local(.getDemo) {

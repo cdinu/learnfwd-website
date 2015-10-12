@@ -8,6 +8,9 @@ styles.frontImage = 'mdl-cell mdl-cell--6-col ' + styles.frontImage;
 styles.evolving = 'mdl-grid ' + styles.evolving;
 styles.evolvingLeft = 'mdl-cell mdl-cell--7-col ' + styles.evolvingLeft;
 styles.evolvingRight = 'mdl-cell mdl-cell--5-col ' + styles.evolvingRight;
+styles.classroomM = 'mdl-grid ' + styles.classroomM;
+styles.classroomMleft = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.classroomMleft;
+styles.classroomMright = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.classroomMright;
 styles.kat = 'mdl-grid ' + styles.kat;
 styles.katImage = 'mdl-cell mdl-cell--4-col mdl-cell--8-col-phone ' + styles.katImage;
 styles.katContent = 'mdl-cell mdl-cell--8-col ' + styles.katContent;
@@ -56,6 +59,18 @@ export default class Page extends Component {
                 <span>collaborative classroom-ready context-aware</span>
               </div>
             </div>
+          </div>
+        </div>
+        <div className={styles.classroomM}>
+          <div className={styles.classroomMleft}>
+            <div className={styles.vcenter}>
+              <h1>Classroom management</h1>
+              <h2>Embedded tools for creating and joining virtual classrooms. </h2>
+              <h2>From inside the textbook!</h2>
+            </div>
+          </div>
+          <div className={styles.classroomMright}>
+            <Image src='/img/publishers-classroom-management-image.png'/>
           </div>
         </div>
         <div className={styles.kat}>
