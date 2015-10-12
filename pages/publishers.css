@@ -4,9 +4,9 @@
 
 :local(.front) {
   background-color: #fff;
-  padding: 1em 0;
+  padding: 1em 2em 3em;
+  border-bottom: 1px solid #979797;
 }
-
 
 :local(.front) h1,
 :local(.front) h2 {
@@ -33,8 +33,9 @@
 
 :local(.evolving) {
   background-color: #363636;
-  padding: 1em 0;
-  color: #399695
+  padding: 1em 2em;
+  color: #399695;
+  border-bottom: 1px solid #979797;
 }
 
 :local(.evolvingLeft) h1 {
@@ -85,4 +86,189 @@
 
 :local(.clear) {
   clear: both;
+}
+
+:local(.fluid) {
+  background-color: #fff;
+  padding: 1em 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.fluid) h1,
+:local(.fluid) h2 {
+  display: block;
+  font-weight: 100;
+  margin: 0;
+  font-size: 270%;
+}
+:local(.fluidRight) {
+  text-align: right;
+}
+:local(.fluidLeft) img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+:local(.fluid) h2 {
+  font-size: 180%;
+  line-height: 1.2;
+  margin: 0;
+  color: #399695;
+}
+:local(.collaborative) {
+  background-color: #F1EFEF;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+
+:local(.collaborativeLeft) h1 {
+  font-size: 300%;
+  font-weight: 100;
+  color: #000;
+}
+
+:local(.collaborativeLeft) h2 {
+  font-weight: 100;
+  font-size: 192%;
+  line-height: 1;
+  color: #2D8C8B;
+  margin: 0; 
+}
+:local(.collaborativeRight) img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 450px;
+}
+
+:local(.embedded) {
+  background-color: #fff;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.assessmentImage) img{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+:local(.assessmentText) h1 {
+  text-align: right;
+  font-weight: 100;
+}
+
+:local(.assessmentText) h2 {
+  color: #399695;
+  font-weight: 100;
+  font-size: 225%;
+  opacity: 1;
+  text-align: right;
+  line-height: 1.2;
+  @media(max-width: 839px)
+  {
+    text-align: center;
+  } 
+}
+:local(.classroomM) {
+  background-color: #f3f1f1;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.classroomMleft) {
+  display: flex;
+}
+:local(.vcenter) {
+  align-self: center;
+}
+:local(.classroomMleft) h1 {
+  font-weight: 100;
+  font-size: 250%;
+  margin:0;
+}
+:local(.classroomMleft) h2 {
+  font-weight: 100;
+  font-size: 170%;
+  line-height: 1.1;
+  color: #399695;
+  margin: 0;
+}
+:local(.classroomMright) img {
+  width: 100%;
+  max-width: 413px;
+  display: block;
+  margin: 0 auto;
+}
+:local(.kat) {
+  background-color: #fff;
+  border-bottom: 1px solid #979797;
+  padding: 1em 2em;
+}
+:local(.katImage) img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
+:local(.katContent) {
+  text-align: right;
+}
+:local(.katContent) h2,
+:local(.katContent) h1 {
+  font-weight: 100;
+  margin-top: 0;
+}
+:local(.katContent) h2 {
+  color: #3da6a6;
+  font-size: 190%;
+  line-height: 1.2;
+  margin: 0;
+}
+:local(.control) {
+  background-color: #f3f1f1;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.control) h1 {
+  margin: 0;
+  font-size: 250%;
+  font-weight: 100;
+}
+:local(.control) h2 {
+  margin: 0;
+  font-size: 130%;
+  line-height: 1.1;
+  color: #399695;
+}
+:local(.controlRight) {
+  text-align: right;
+}
+:local(.getDemo) {
+  background-color: #339796;
+  padding: 1em 2em;
+  text-align: center;
+  border-bottom: 1px solid #979797;
+}
+:local(.getDemo) h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 4.5vw;
+}
+:local(.getDemo) h2 {
+  font-weight: 100;
+  font-size: 180%;
+  line-height: 1.1;
+  margin: 0;
+}
+:local(.getDemoButton) a {
+  padding: .5em 2em;
+  background: #e68f2e;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.5em;
+  line-height: 4;
+  text-decoration: none;
+  font-weight: 100;
+}
+:local(.getDemoButton) a:hover {
+  background: #ffa036;
 }
