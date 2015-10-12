@@ -9,6 +9,8 @@ styles.frontImage = 'mdl-cell mdl-cell--6-col ' + styles.frontImage;
 styles.evolving = 'mdl-grid ' + styles.evolving;
 styles.evolvingLeft = 'mdl-cell mdl-cell--7-col ' + styles.evolvingLeft;
 styles.evolvingRight = 'mdl-cell mdl-cell--5-col ' + styles.evolvingRight;
+styles.assessmentImage = 'mdl-cell mdl-cell--5-col mdl-cell--6-col-tablet ' + styles.assessmentImage;
+styles.assessmentText = 'mdl-cell mdl-cell--7-col mdl-cell--middle ' + styles.assessmentText;
 
 export default class Page extends Component {
   render() {
@@ -54,10 +56,16 @@ export default class Page extends Component {
           </div>
         </div>
         <div className={styles.front}>
-          &nbsp;
+          <div className={styles.assessmentImage}>
+            <Image src='/img/publisher-embedded-image.png'/>
+          </div>
+          <div className={styles.assessmentText}>
+            <h1>Embedded assessments</h1>
+            <h2>On average, the textbooks we digitise have 250+ exercises.</h2>
+            <br></br>
+            <h2>We think all should be digital and this is why we created 15+ types of digital assessments to cover your needs. </h2>
+          </div>
         </div>
-
-
       </div>
     );
   }
