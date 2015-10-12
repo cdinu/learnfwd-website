@@ -30,11 +30,11 @@ const menu = [
         label: 'for Educational Publishers',
       },
       {
-        to: '/s-a-t',
+        to: '/schools',
         label: 'for Schools & Teachers',
       },
       {
-        to: '/corporate-training',
+        to: '/corporate',
         label: 'for Corporate Training',
       },
     ],
