@@ -1,3 +1,104 @@
 :local(.schools) {
   background-color: #fff;
 }
+
+:local(.schools) h1 {
+  font-size: 300%;
+}
+
+:local(.schools) h2 {
+  font-size: 192%;
+}
+
+:local(.schools) h1,
+:local(.schools) h2 {
+  font-weight: 100;
+}
+
+:local(.meetKat) {
+  padding: 2em 1em;
+}
+
+:local(.meetKatImg) img {
+  height: auto;
+  width: 100%;
+}
+
+:local(.meetKatText){
+  text-align: right;
+}
+
+:local(.meetKatTextTitle) {
+  color: #000;
+}
+
+:local(.meetKatTextDescription) {
+  color: #e68f2e;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/*
+ * Get in touch
+ */
+:local(.getInTouch) {
+  padding: 3em 1em;
+  background-color: #e68f2e;
+  text-align: center;
+}
+
+:local(.getInTouch) h1 {
+  color: #fff;
+  line-height: 0.4;
+}
+
+:local(.getInTouch) h2 {
+  color: #000;
+  line-height: 1.4;
+}
+
+:local(.contactUs) a {
+  background: #e68f2e;
+  border: 3px solid #fff;
+  border-radius: 1em;
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 3;
+  padding: .2em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+:local(.contactUs) a:hover {
+  background: #fff;
+  color: #e68f2e;
+}
+
+/*
+ * One more thing
+ */
+:local(.oneMore) {
+  background: #363636;
+  padding: 3em 1em;
+  color: #fff;
+}
+
+:local(.oneMoreFigure) span {
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: block;
+  font-size: 130px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  width: 150px;
+}
+
+:local(.bottomSpacer) {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e68f2e;
+  height: 4em;
+}
