@@ -155,20 +155,26 @@
 :local(.assessmentText) h1 {
   text-align: right;
   font-weight: 100;
+  font-size: 300%;
 }
-
+@media (max-width: 839px){
+  :local(.assessmentText) h1{ text-align: center;}
+}
 :local(.assessmentText) h2 {
   color: #399695;
   font-weight: 100;
-  font-size: 225%;
+  font-size: 192%;
   opacity: 1;
   text-align: right;
-  line-height: 1.2;
-  @media(max-width: 839px)
-  {
-    text-align: center;
-  } 
+  line-height: 1.2; 
 }
+@media (max-width: 839px){
+  :local(.assessmentText) h2{ text-align: center;}
+}
+/*@media (max-width: 839px)
+  {
+    :local(.assessmentText) h2 {text-align: center;}
+  } */
 :local(.classroomM) {
   background-color: #f3f1f1;
   padding: 2em;

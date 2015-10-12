@@ -1,3 +1,96 @@
 :local(.schools) {
   background-color: #fff;
 }
+:local(.schools) h1 {
+  font-size: 300%;
+}
+
+:local(.schools) h2 {
+  font-size: 192%;
+}
+:local(.builtCR){
+  background-color: #F3F1F1;
+  box-shadow: 2px 2px 2px #979797;
+  margin-bottom: 5px;
+}
+:local(.builtCRLeft) h1{
+  font-weight: 100;
+  color: #000;
+  /*margin-left: 20px;*/
+}
+:local(.builtCRLeft) h2{
+  color: #EDA03B;
+  font-weight: 100;
+  line-height: 1.2;
+  /*margin-left: 20px;*/
+}
+:local(.builtCRRight){
+  margin: 0 auto;
+}
+:local(.builtCRRight) img{
+  width: 80%;
+  display: block;
+  margin: 2em auto;
+}
+
+
+:local(.onOff){
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #979797;
+  margin-bottom: 2.5px;
+}
+:local(.onOffRight) h1{
+  font-weight: 100;
+  color: #000;
+  text-align: right;
+  /*margin-right: 20px;*/
+}
+:local(.onOffRight) h2{
+  color: #EDA03B;
+  font-weight: 100;
+  line-height: 1.2;
+  text-align: right;
+  /*margin-right: 20px;*/
+}
+:local(.onOffLeft){
+  margin: 0 auto;
+}
+:local(.onOffLeft) img{
+  width: 90%;
+  display: block;
+  margin: 2em auto;
+}
+
+:local(.controlClass){
+  background-color: #F3F1F1;
+  box-shadow: 2px 2px 2px #979797;
+  margin-bottom: 2.5px;
+}
+:local(.controlClassLeft) h1{
+  font-weight: 100;
+  color: #000;
+  /*margin-left: 20px;*/
+}
+:local(.controlClassLeft) h2{
+  color: #EDA03B;
+  font-weight: 100;
+  line-height: 1.2;
+  /*margin-left: 20px;*/
+}
+@media (max-width: 839px){
+  :local(.builtCRLeft) h1{ text-align: center;}
+  :local(.builtCRLeft) h2 { text-align: center;}
+  :local(.onOffRight) h1 {text-align: center;}
+  :local(.onOffRight) h2 {text-align: center;}
+  :local(.controlClassLeft) h1 {text-align: center;}
+  :local(.controlClassLeft) h2 {text-align: center;}
+}
+
+:local(.controlClassRight){
+  margin: 0 auto;
+}
+:local(.controlClassRight) img{
+  width: 80%;
+  display: block;
+  margin: 2em auto;
+}
