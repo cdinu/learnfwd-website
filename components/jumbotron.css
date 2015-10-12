@@ -15,14 +15,25 @@
 
 
 :local(.jumbotron) img {
-  width: 75%;
+  width: 45%;
   height: auto;
+  margin-top: 4em;
+}
+
+@media only screen and (max-width:850px) {
+  :local(.jumbotron) img {
+    width: 75%;
+    height: auto;
+    margin-top: 4em;
+  }
+
 }
 
 :local(.jumbotron) figcaption {
-  margin: 20px 0 10px 0;
+  margin: 1em;
   color: #fff;
   font-size: 6vmin;
+  line-height: 8vmin;
   font-weight: 100;
   text-align: center;
   display: block;
