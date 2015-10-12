@@ -20,30 +20,24 @@
 
 :local(.card) a {
   border-radius: 15px;
-  /*border: 1px solid #E48E3A;*/
-  /*display: block;*/
-  /*width: 80%;*/
+  border: 1px solid #E48E3A;
   margin: 0 auto;
   display: inline-block;
   width: 74%;
   position: absolute;
   left: 13%;
   bottom: 15px;
-  text-align: center;
+  text-align:center;
   font-size: 20px;
   font-weight: 100;
   line-height: 30px;
   text-decoration: none;
-}
-:local(.card) a>span{
-  border: 1px solid #E48E3A;
-  border-radius: 15px;
-  padding: 0 1em;
   transition: background-color .3s;
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
   -moz-transition: background-color .3s;
-};
+}
+
 :local(.card) h2 {
   text-align: center;
   font-size: 230%;
@@ -85,13 +79,10 @@
 :local(.solutionCard) a {
   color: #E48E3A;
 }
+
 :local(.solutionCard) a:hover {
-  cursor: default;
-}
-:local(.solutionCard) a>span:hover {
   background-color: #E48E3A;
   color: #fff;
-  cursor: pointer;
   transition: background-color .3s;
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
@@ -117,12 +108,9 @@
 :local(.productCard) p {
   min-height: 3em;
 }
+
 :local(.productCard) a:hover {
-  cursor: default;
-}
-:local(.productCard) a>span:hover {
   background-color: #E48E3A;
-  cursor: pointer;
   transition: background-color .3s;
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
