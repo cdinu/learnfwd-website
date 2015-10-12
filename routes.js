@@ -87,9 +87,7 @@ export default (
     <Route component={pages.lfp} path='lfp' />
     <Route component={pages.products} path='products' />
     <Route component={pages.publishers} path='publishers' />
-    <Route component={pages.schools1} path='schools1' />
-    <Route component={pages.schools2} path='schools2' />
-    <Route component={pages.schools3} path='schools3' />
+    <Route component={pages.schools} path='schools' />
     <Route component={pages.solutions} path='solutions' />
     <Route component={pages.notFound} path="*" />
   </Route>

@@ -7,7 +7,5 @@ export lfp from './lfp';
 export notFound from './404';
 export products from './products';
 export publishers from './publishers';
-export schools1 from './schools1';
-export schools2 from './schools2';
-export schools3 from './schools3';
+export schools from './schools';
 export solutions from './solutions';
