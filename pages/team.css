@@ -1,7 +1,13 @@
+:local(.teamCt2),
 :local(.teamCt) {
-  padding: 0 2em;
+  padding: 2em;
   background: #f1ece6;
+  border-bottom: 1px solid rgba(0,0,0,.72);
 }
+:local(.teamCt2) {
+  background: #fff;
+}
+:local(.teamCt2) h1,
 :local(.teamCt) h1 {
   font-weight: 100;
   display: block;
@@ -34,7 +40,7 @@
   margin: .2em 0;
 }
 :local(.teamFirst) img {
-  width: 45%;
+  width: 55%;
 }
 :local(.teamCo) {
   border-radius: 6px;
@@ -66,4 +72,7 @@
   font-size: 120%;
   display: block;
   min-height: 8em;
+}
+:local(.mainh1) {
+  text-align: center;
 }
