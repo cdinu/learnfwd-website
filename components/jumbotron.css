@@ -4,10 +4,18 @@
   background-color: #BB2836;
   height: auto;
   width: 100%;
+  transition: background 2s;
+  text-align: center;
 }
 
+:local(.jumbotron):hover {
+  background-color: #CA2B3B;
+  transition: background 1s;
+}
+
+
 :local(.jumbotron) img {
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
