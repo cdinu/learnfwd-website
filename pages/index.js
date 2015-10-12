@@ -9,3 +9,4 @@ export products from './products';
 export publishers from './publishers';
 export schools from './schools';
 export solutions from './solutions';
+export team from './team';

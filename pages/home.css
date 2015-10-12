@@ -21,8 +21,6 @@
 :local(.card) a {
   border-radius: 15px;
   border: 1px solid #E48E3A;
-  display: block;
-  width: 80%;
   margin: 0 auto;
   display: inline-block;
   width: 74%;
@@ -34,6 +32,10 @@
   font-weight: 100;
   line-height: 30px;
   text-decoration: none;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
 }
 
 :local(.card) h2 {
@@ -81,6 +83,10 @@
 :local(.solutionCard) a:hover {
   background-color: #E48E3A;
   color: #fff;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
 }
 
 /*
@@ -105,6 +111,10 @@
 
 :local(.productCard) a:hover {
   background-color: #E48E3A;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
 }
 
 :local(.faded) {
@@ -121,13 +131,13 @@
   filter: gray; /* IE6-9 */
   filter: grayscale(1); /* Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  transition: 1.5s;
+  transition: .5s;
 }
 
 :local(.pilotsSection) img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  transition: 1.5s;
+  transition: .5s;
 }
 
 :local(.pilotImgContainer) {
