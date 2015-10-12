@@ -9,24 +9,21 @@ styles.fluidLeft = 'mdl-cell mdl-cell--5-col ' + styles.fluidLeft;
 styles.fluidRight = 'mdl-cell mdl-cell--7-col ' + styles.fluidRight;
 
 styles.collaborative = 'mdl-grid ' + styles.collaborative;
-styles.collaborativeLeft = 'mdl-cell mdl-cell--6-col ' + styles.collaborativeLeft;
-styles.collaborativeRight = 'mdl-cell mdl-cell--6-col ' + styles.collaborativeRight;
+styles.collaborativeLeft = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.collaborativeLeft;
+styles.collaborativeRight = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.collaborativeRight;
 
 export default class Page extends Component {
   render() {
     return (
-      <div className={styles.publishers1}>
+      <div className={styles.publishers}>
         <div className={styles.fluid}>
-          <div className={styles.fluidImageLeft}>
+          <div className={styles.fluidLeft}>
             <Image src='/img/publishers-fluid-image.png'/>
           </div>
-          <div className={styles.fluidImageLeft}>
+          <div className={styles.fluidRight}>
             <Image src='/img/publishers-fluid-layout.png'/>
-          </div>
-          <div className={styles.fluidContainer}>
             <h1>Fluid Layout</h1>
             <h2>Your content can retain 90% of the print layout.</h2>
-            <h2>We add digitisation services, real-time technology and proven expertise.</h2>
             <h2>And still adapt for all screen sizes.</h2>
           </div>
         </div>
