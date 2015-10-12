@@ -1,43 +1,36 @@
 
 :local(.fluid) {
   background-color: #fff;
-  padding: 1em 0;
+  padding: 1em 2em;
+  border-bottom: 1px solid #979797;
 }
-
-
 :local(.fluid) h1,
 :local(.fluid) h2 {
   display: block;
   font-weight: 100;
+  margin: 0;
+  font-size: 270%;
+}
+:local(.fluidRight) {
   text-align: right;
+}
+:local(.fluidLeft) img {
   width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
 }
 
 :local(.fluid) h2 {
   font-size: 180%;
   line-height: 1.2;
   margin: 0;
-  clolor: #2D8C8B;
+  color: #399695;
 }
-
-:local(.fluidImageLeft) img {
-  margin: 0 auto;
-  width: 100%;
-  padding: 1em
-}
-:local(.fluidImageRight) img {
-  width: 100%;
-  padding: 1em;
-  margin: 0 auto;
-}
-:local(.fluidRight) img {
-  display: flex;
-  align: right;
-  }
-
 :local(.collaborative) {
   background-color: #F1EFEF;
-  padding: 1em 0;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
 }
 
 :local(.collaborativeLeft) h1 {
@@ -50,10 +43,12 @@
   font-weight: 100;
   font-size: 192%;
   line-height: 1;
-  clolor: #2D8C8B; 
+  color: #2D8C8B;
+  margin: 0; 
 }
 :local(.collaborativeRight) img {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  padding: 0.5em
+  display: block;
+  max-width: 450px;
 }
