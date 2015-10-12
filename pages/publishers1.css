@@ -1,6 +1,3 @@
-/*:local(.publishers1) {
-  background-color: #fff;
-}*/
 
 :local(.fluid) {
   background-color: #fff;
@@ -28,10 +25,14 @@
   width: 100%;
   padding: 1em
 }
-
+:local(.fluidImageRight) img {
+  width: 100%;
+  padding: 1em;
+  margin: 0 auto;
+}
 :local(.fluidRight) img {
   display: flex;
-  flex-direction: row;
+  align: right;
   }
 
 :local(.collaborative) {

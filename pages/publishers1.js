@@ -20,8 +20,10 @@ export default class Page extends Component {
           <div className={styles.fluidImageLeft}>
             <Image src='/img/publishers-fluid-image.png'/>
           </div>
-          <div className={styles.fluidContainerRight}>
+          <div className={styles.fluidImageLeft}>
             <Image src='/img/publishers-fluid-layout.png'/>
+          </div>
+          <div className={styles.fluidContainer}>
             <h1>Fluid Layout</h1>
             <h2>Your content can retain 90% of the print layout.</h2>
             <h2>We add digitisation services, real-time technology and proven expertise.</h2>
