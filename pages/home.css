@@ -101,6 +101,10 @@
   color: #fff;
 }
 
+:local(.productCard) {
+  border: 1px solid #fff;
+}
+
 :local(.productCard) a {
   color: #fff;
 }
@@ -141,6 +145,11 @@
 }
 
 :local(.pilotImgContainer) {
+  display: flex;
+  align-items: center;
+}
+
+:local(.pilotImgContainer) img {
   display: flex;
   align-items: center;
 }

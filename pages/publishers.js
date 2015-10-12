@@ -33,7 +33,7 @@ export default class Page extends Component {
       <div className={styles.publishers}>
         <div className={styles.front}>
           <div className={styles.frontImage}>
-            <Image src='/img/solutions-for-educational-publishers.png'/>
+            <Image src='/img/solutions-for-educational-publishers@2x.png'/>
           </div>
           <h1>Solutions for Educational Publishers</h1>
           <h2>You have the content.</h2>
@@ -74,10 +74,10 @@ export default class Page extends Component {
         </div>
         <div className={styles.fluid}>
           <div className={styles.fluidLeft}>
-            <Image src='/img/publishers-fluid-image.png'/>
+            <Image src='/img/publishers-fluid-image@2x.png'/>
           </div>
           <div className={styles.fluidRight}>
-            <Image src='/img/publishers-fluid-layout.png'/>
+            <Image src='/img/publishers-fluid-layout@2x.png'/>
             <h1>Fluid Layout</h1>
             <h2>Your content can retain 90% of the print layout.</h2>
             <h2>And still adapt for all screen sizes.</h2>
@@ -90,7 +90,7 @@ export default class Page extends Component {
             <h2> We create textbooks that benefit from technologies, making them fit for modern classrooms where people learn together.</h2>
           </div>
           <div className={styles.collaborativeRight}>
-            <Image src='/img/publishers-collaborative.png' />
+            <Image src='/img/publishers-collaborative@2x.png' />
           </div>
         </div>
         <div className={styles.embedded}>
@@ -118,7 +118,7 @@ export default class Page extends Component {
         </div>
         <div className={styles.kat}>
           <div className={styles.katImage}>
-            <Image src='/img/publishers-meet-kat.png'/>
+            <Image src='/img/publishers-meet-kat@2x.png'/>
           </div>
           <div className={styles.katContent}>
             <h1>Meet Kat</h1>

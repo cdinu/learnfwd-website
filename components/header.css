@@ -34,7 +34,7 @@
 }
 
 :local(.sticky) {
-  opacity: 0.93;
+  opacity: 1;
   transition: transform .2s,background .3s,color .3s,opacity 0 .3s;
 }
 :local(.burger) {
