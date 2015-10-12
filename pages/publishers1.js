@@ -5,8 +5,8 @@ import Image from '../components/image';
 
 
 styles.fluid = 'mdl-grid ' + styles.fluid;
-styles.fluidLeft = 'mdl-cell mdl-cell--5-col ' + styles.fluidLeft;
-styles.fluidRight = 'mdl-cell mdl-cell--7-col ' + styles.fluidRight;
+styles.fluidLeft = 'mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet ' + styles.fluidLeft;
+styles.fluidRight = 'mdl-cell mdl-cell--7-col mdl-cell--12-col-tablet ' + styles.fluidRight;
 
 styles.collaborative = 'mdl-grid ' + styles.collaborative;
 styles.collaborativeLeft = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.collaborativeLeft;
