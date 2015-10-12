@@ -1,0 +1,88 @@
+:local(.publishers) {
+  background-color: #fff;
+}
+
+:local(.front) {
+  background-color: #fff;
+  padding: 1em 0;
+}
+
+
+:local(.front) h1,
+:local(.front) h2 {
+  display: block;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+}
+
+:local(.front) h2 {
+  font-size: 180%;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0.6;
+}
+
+:local(.frontImage) {
+  margin: 0 auto;
+}
+
+:local(.frontImage) img {
+  width: 100%;
+}
+
+:local(.evolving) {
+  background-color: #363636;
+  padding: 1em 0;
+  color: #399695
+}
+
+:local(.evolvingLeft) h1 {
+  font-size: 300%;
+  font-weight: 100;
+  color: #fff;
+}
+
+:local(.evolvingLeft) {
+  padding: 0 1em;
+}
+
+:local(.evolvingLeft) h2 {
+  font-weight: 100;
+  font-size: 192%;
+  line-height: 1;
+}
+
+:local(.evolvingRight) {
+  margin: 0 auto;
+}
+
+
+:local(.evolvingRightElementContainer) {
+  width: 100%;
+  display: flex;
+}
+
+:local(.evolvingRightElement) {
+  height: 100%;
+  align-self: flex-end;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+:local(.evolvingRightElement) img {
+  align-self: flex-end;
+  margin: 0 auto;
+}
+
+:local(.evolvingRightElementBottom) {
+  align-self: flex-start;
+  width: 33%;
+  padding: 1em;
+  text-align: center;
+}
+
+:local(.clear) {
+  clear: both;
+}

@@ -80,13 +80,16 @@ const meta = {
 export default (
   <Route component={app} menu={menu} meta={meta} path='/'>
     <IndexRoute component={pages.home} />
-    <Route component={pages.products} path='products' />
-    <Route component={pages.solutions} path='solutions' />
-    <Route component={pages.demo} path='demo' />
     <Route component={pages.about} path='about' />
+    <Route component={pages.contact} path='contact' />
+    <Route component={pages.demo} path='demo' />
     <Route component={pages.lfa} path='lfa' />
     <Route component={pages.lfp} path='lfp' />
-    <Route component={pages.contact} path='contact' />
+    <Route component={pages.products} path='products' />
+    <Route component={pages.publishers1} path='publishers1' />
+    <Route component={pages.publishers2} path='publishers2' />
+    <Route component={pages.publishers3} path='publishers3' />
+    <Route component={pages.solutions} path='solutions' />
     <Route component={pages.notFound} path="*" />
   </Route>
 );

@@ -32,10 +32,12 @@ export default class App extends Component {
     path = path || 'home';
     path = path.replace(/\//g, '-');
 
+    const mainStyle = (path === 'home') ? styles.mainHome : styles.main;
+
     return (
       <section className={styles[path]}>
         <Header menu={this.props.route.menu} path={path} />
-        <main>
+        <main className={mainStyle}>
           {this.props.children}
         </main>
         <Footer/>

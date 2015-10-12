@@ -26,3 +26,8 @@
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
 }
+
+:local(.sticky) {
+  opacity: 0.93;
+  transition: transform .2s,background .3s,color .3s,opacity 0 .3s;
+}
