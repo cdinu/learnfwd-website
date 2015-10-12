@@ -85,10 +85,13 @@
 :local(.solutionCard) a {
   color: #E48E3A;
 }
-
+:local(.solutionCard) a:hover {
+  cursor: default;
+}
 :local(.solutionCard) a>span:hover {
   background-color: #E48E3A;
   color: #fff;
+  cursor: pointer;
   transition: background-color .3s;
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
@@ -114,9 +117,16 @@
 :local(.productCard) p {
   min-height: 3em;
 }
-
+:local(.productCard) a:hover {
+  cursor: default;
+}
 :local(.productCard) a>span:hover {
   background-color: #E48E3A;
+  cursor: pointer;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
 }
 
 :local(.faded) {
