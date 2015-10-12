@@ -16,19 +16,22 @@
 }
 
 :local(.front) h2 {
-  font-size: 180%;
+  font-size: 192%;
   line-height: 1.2;
   margin: 0;
   opacity: 0.6;
 }
 
-
+:local(.front) h1 {
+  font-size: 300%;
+}
 :local(.frontImage) {
   margin: 0 auto;
 }
 
 :local(.frontImage) img {
   width: 100%;
+  margin: 0 auto;
 }
 
 :local(.digitised) {
@@ -45,7 +48,7 @@
 }
 
 :local(.digitised) h2 {
-  font-size: 180%;
+  font-size: 192%;
   line-height: 1.2;
   margin: 0;
   color: #EC9F3B;
@@ -53,6 +56,7 @@
 
 :local(.digitised) h1 {
   color: #fff;
+  font-size: 300%;
 }
 :local(.digitisedImage) img{
   width: 100%;
@@ -75,10 +79,13 @@
 }
 
 :local(.works) h2 {
-  font-size: 180%;
+  font-size: 192%;
   line-height: 1.2;
   margin: 0;
   color: #EC9F3B;
+}
+:local(.works) h1 {
+  font-size: 300%;
 }
 :local(.worksContent){
   text-align: right;
@@ -88,4 +95,5 @@
   margin: 0 auto;
   display: block;
   max-width: 450px;
+  vertical-align: middle;
 }

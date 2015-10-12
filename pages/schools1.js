@@ -3,7 +3,6 @@ import Image from '../components/image';
 import styles from './schools1.css';
 
 styles.front = 'mdl-grid ' + styles.front;
-styles.frontImage = 'mdl-cell mdl-cell--6-col ' + styles.frontImage;
 
 styles.digitised = 'mdl-grid ' + styles.digitised;
 styles.digitisedImage = 'mdl-cell mdl-cell--2-col ' + styles.digitisedImage;
