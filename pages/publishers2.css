@@ -95,14 +95,13 @@
 }
 :local(.assessmentText) h1 {
   text-align: right;
-  font-size: 56px;
   font-weight: 100;
 }
 
 :local(.assessmentText) h2 {
   color: #399695 !important;
   font-weight: 100;
-  font-size: 200%;
+  font-size: 225%;
   opacity: 1;
   text-align: right;
   line-height: 1.2;
