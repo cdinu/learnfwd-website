@@ -57,7 +57,7 @@ export default class Page extends Component {
         </div>
         <div className={styles.front}>
           <div className={styles.assessmentImage}>
-            <Image src='/img/publisher-embedded-image.png'/>
+            <Image src='/img/publisher-embedded-image@2x.png'/>
           </div>
           <div className={styles.assessmentText}>
             <h1>Embedded assessments</h1>
