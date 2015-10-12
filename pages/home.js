@@ -35,7 +35,7 @@ export default class Page extends Component {
               Our technology powersstate-of-the-art textbooks in
               ways you didn’t think possible.
             </p>
-            <Link to='/lfa'><span>See what we can do</span></Link>
+            <Link to='/publishers'><span>See what we can do</span></Link>
           </div>
           <div className={styles.solutionCard}>
             <div className={styles.imgContainer}>
@@ -49,7 +49,7 @@ export default class Page extends Component {
               <br/>
               Sign up your school for early access.
             </p>
-            <Link to='/lfp'><span>About the platform</span></Link>
+            <Link to='/schools'><span>About the platform</span></Link>
           </div>
           <div className={styles.solutionCard}>
             <Image src='/img/abacus.png' />
@@ -61,7 +61,7 @@ export default class Page extends Component {
               engaging tech.
               Sign up your school for early access.
             </p>
-            <Link to='/lfa'><span>Find out more</span></Link>
+            <Link to='/corporate'><span>Find out more</span></Link>
           </div>
         </div>
 

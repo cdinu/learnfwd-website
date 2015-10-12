@@ -25,6 +25,8 @@
 
 :local(.frontImage) {
   margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 :local(.frontImage) img {

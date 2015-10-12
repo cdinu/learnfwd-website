@@ -10,19 +10,6 @@ const menu = [
     label: 'Home',
   },
   {
-    label: 'Products',
-    items: [
-      {
-        to: '/lfa',
-        label: 'Learn Forward Author',
-      },
-      {
-        to: '/lfp',
-        label: 'Learn Forward Platform',
-      },
-    ],
-  },
-  {
     label: 'Solutions',
     items: [
       {
@@ -40,6 +27,19 @@ const menu = [
     ],
   },
   {
+    label: 'Products',
+    items: [
+      {
+        to: '/lfa',
+        label: 'Learn Forward Author',
+      },
+      {
+        to: '/lfp',
+        label: 'Learn Forward Platform',
+      },
+    ],
+  },
+  {
     to: 'http://demo.lfwd.io',
     label: 'Demo',
   },
@@ -47,8 +47,8 @@ const menu = [
     label: 'About',
     items: [
       {
-        to: '/about',
-        label: 'About Us',
+        to: '/team',
+        label: 'Team & Advisors',
       },
       {
         to: '/contact',
