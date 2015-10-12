@@ -31,6 +31,10 @@
   font-size: 1.2em;
 }
 
+:local(.menu) li span:hover {
+  color: ;
+}
+
 :local(.menu) li > ul {
   background-color: #fff;
   right: 0;
@@ -78,7 +82,7 @@
 
 :local(.menu) li:hover {
   background-color: #E68F2E;
-  opacity: 0.95;
+  opacity: 1;
   -webkit-transiton: opacity 0.3s;
   -moz-transition: opacity 0.3s;
   -ms-transition: opacity 0.3s;
@@ -87,7 +91,7 @@
 }
 
 :local(.menu) li:hover > ul {
-  opacity: 0.97;
+  opacity: 1;
   z-index: 1000;
   display: block;
 };
