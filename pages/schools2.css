@@ -1,7 +1,13 @@
 :local(.schools) {
   background-color: #fff;
 }
+:local(.schools) h1 {
+  font-size: 300%;
+}
 
+:local(.schools) h2 {
+  font-size: 192%;
+}
 :local(.builtCR){
   background-color: #F3F1F1;
   box-shadow: 2px 2px 2px #979797;
@@ -9,14 +15,12 @@
 }
 :local(.builtCRLeft) h1{
   font-weight: 100;
-  font-size: 300%;
   color: #000;
   /*margin-left: 20px;*/
 }
 :local(.builtCRLeft) h2{
   color: #EDA03B;
   font-weight: 100;
-  font-size: 192%;
   line-height: 1.2;
   /*margin-left: 20px;*/
 }
@@ -37,7 +41,6 @@
 }
 :local(.onOffRight) h1{
   font-weight: 100;
-  font-size: 300%;
   color: #000;
   text-align: right;
   /*margin-right: 20px;*/
@@ -45,7 +48,6 @@
 :local(.onOffRight) h2{
   color: #EDA03B;
   font-weight: 100;
-  font-size: 192%;
   line-height: 1.2;
   text-align: right;
   /*margin-right: 20px;*/
@@ -66,14 +68,12 @@
 }
 :local(.controlClassLeft) h1{
   font-weight: 100;
-  font-size: 300%;
   color: #000;
   /*margin-left: 20px;*/
 }
 :local(.controlClassLeft) h2{
   color: #EDA03B;
   font-weight: 100;
-  font-size: 192%;
   line-height: 1.2;
   /*margin-left: 20px;*/
 }
