@@ -77,6 +77,15 @@
   line-height: 1.2;
   /*margin-left: 20px;*/
 }
+@media (max-width: 839px){
+  :local(.builtCRLeft) h1{ text-align: center;}
+  :local(.builtCRLeft) h2 { text-align: center;}
+  :local(.onOffRight) h1 {text-align: center;}
+  :local(.onOffRight) h2 {text-align: center;}
+  :local(.controlClassLeft) h1 {text-align: center;}
+  :local(.controlClassLeft) h2 {text-align: center;}
+}
+
 :local(.controlClassRight){
   margin: 0 auto;
 }
