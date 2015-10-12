@@ -17,6 +17,8 @@
   margin: 0 auto; 
   display: block;
   padding: 0;  
+  display: flex;
+  align-items: flex-start;
 }
 :local(.teamFirst) {
   border-radius: 6px;
@@ -53,26 +55,17 @@
   box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
   background: #fff;
   display: inline-block;
+  align-self: stretch;
 }
 :local(.teamCo) img {
   width: 45%;
 }
-
 :local(.teamCo) h1 {
   font-size: 230%;
   font-weight: 100;
   margin: .2em 0;
 }
-
-
-:local(.card) p {
-  padding: 0 1em 1em 1em;
-  text-align: center;
-  font-weight: 100;
-  font-size: 120%;
-  display: block;
-  min-height: 8em;
-}
 :local(.mainh1) {
   text-align: center;
+  font-weight: 100;
 }

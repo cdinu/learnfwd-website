@@ -11,8 +11,8 @@ export default class Page extends Component {
     return (
       <div>
         <div className={styles.teamCt}>
+        <h1 className={styles.mainh1}>Team</h1>
           <div className={styles.teamMax}>
-            <h1 className={styles.mainh1}>Team</h1>
             <div className={styles.teamCo}>
               <Image src='/img/team/Paul.png'/>
               <h1>Paul Balogh</h1>
@@ -48,8 +48,8 @@ export default class Page extends Component {
           </div>
         </div>
         <div className={styles.teamCt2}>
+          <h1 className={styles.mainh1}>Advisors</h1>
           <div className={styles.teamMax}>
-            <h1 className={styles.mainh1}>Advisors</h1>
             <div className={styles.teamCo}>
               <Image src='/img/team/Barrie.png'/>
               <h1>Barrie Heptonstall</h1>
@@ -79,8 +79,8 @@ export default class Page extends Component {
           </div>
         </div>
         <div className={styles.teamCt}>
+          <h1 className={styles.mainh1}>Past team members</h1>
           <div className={styles.teamMax}>
-            <h1 className={styles.mainh1}>Past team members</h1>
             <div className={styles.teamCo}>
               <Image src='/img/team/marius.png'/>
               <h1>Marius Petcu</h1>
