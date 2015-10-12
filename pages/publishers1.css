@@ -23,14 +23,15 @@
   clolor: #2D8C8B;
 }
 
-:local(.fluidImageLeft) {
+:local(.fluidImageLeft) img {
   margin: 0 auto;
   width: 100%;
   padding: 1em
 }
 
 :local(.fluidRight) img {
-  float: left;
+  display: flex;
+  flex-direction: row;
   }
 
 :local(.collaborative) {
