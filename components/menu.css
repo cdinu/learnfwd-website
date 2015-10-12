@@ -1,3 +1,6 @@
+:local(.mdl-grid) {
+  padding: 0;
+}
 :local(.menu) {
   list-style: none;
   padding: 0;
@@ -6,13 +9,16 @@
 
 :local(.menu) > li {
   text-transform: uppercase;
+  height: 5em;
 }
 
 :local(.menu) li {
   display:inline-block;
   float:left;
-  margin:-1px -1px 0 0;
+  margin:0;
   position: relative;
+  height: 5em;
+  line-height: 4;
 }
 
 :local(.menu) li span,
@@ -43,12 +49,13 @@
 
 :local(.menu) li > ul > li > span,
 :local(.menu) li > ul > li > a {
-  padding: 1em;
+  padding: 0;
   padding-left: 0;
   color: #333;
-  width: 120px;
+  width: 220px;
   text-align: right;
   font-size: 1em;
+  line-height: 5;
 }
 
 :local(.menu) li > ul > li:hover {
@@ -61,12 +68,17 @@
 
 
 :local(.menu) a:hover {
-  color: #333;
+  color: #fff;
+  -webkit-transiton: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
 }
 
 
 :local(.menu) li:hover {
-  background-color: #fff;
+  background-color: #000;
   opacity: 0.95;
   -webkit-transiton: opacity 0.3s;
   -moz-transition: opacity 0.3s;

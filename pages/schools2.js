@@ -34,7 +34,6 @@ export default class Page extends Component {
           <div className={styles.onOffRight}>
             <h1>Online & Offline</h1>
             <h2>What if the internet fails?</h2>
-            <br></br>
             <h2>You can keep teaching your lesson: the lessons and all solved exercises are automatically saved in everyone’s browser.</h2>
           </div>
         </div>
