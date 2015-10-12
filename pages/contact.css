@@ -1,3 +1,47 @@
-:local(.example) {
-  color: orange;
+:local(.contact){
+  background-color: #F3F1F1;
+  padding-top: 2em;
+
+}
+@media (min-width: 531px) and (max-width: 839px){
+  :local(.contact){
+    padding-top: 5em;
+  }
+}
+:local(.contactTitle){
+  color: white;
+  background-color: orange;
+  /*width: 100%;*/
+  padding: 0 .5em;
+  padding-top: .5em;
+  margin-top: 0em;
+}
+:local(.contactContent){
+  background-color: #fff;
+  /*padding-left: 2em;*/
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+
+}
+:local(.contactContent) p{
+  font-weight: 100;
+  font-size: 120%;
+  letter-spacing: 0;
+  padding: 0 2em;
+}
+:local(.contactContent) strong{
+  font-weight: 500;
+}
+@media (max-width: 839px){
+  :local(.contactContent) {text-align: center;}
+}
+:local(.contactImage) img{
+  width: 190px;
+  float: right;
+}
+@media (max-width: 839px){
+  :local(.contactImage) {display: none;}
 }
