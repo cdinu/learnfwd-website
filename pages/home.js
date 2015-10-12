@@ -49,7 +49,7 @@ export default class Page extends Component {
               <br/>
               Sign up your school for early access.
             </p>
-            <Link to='/lfp'>About the platform</Link>
+            <Link to='/lfp'><span>About the platform</span></Link>
           </div>
           <div className={styles.solutionCard}>
             <Image src='/img/abacus.png' />
@@ -61,7 +61,7 @@ export default class Page extends Component {
               engaging tech.
               Sign up your school for early access.
             </p>
-            <Link to='/lfa'>Find out more</Link>
+            <Link to='/lfa'><span>Find out more</span></Link>
           </div>
         </div>
 
@@ -72,14 +72,14 @@ export default class Page extends Component {
               <span className={styles.faded}>&lt;</span>Author<span className={styles.faded}>/&gt;</span>
             </h2>
             <p>Professional Authoring Tool for state-of-the-art digital textbooks.</p>
-            <Link to='/lfa'>Features and services</Link>
+            <Link to='/lfa'><span>Features and services</span></Link>
           </div>
           <div className={styles.productCard}>
             <h2>
               <span className={styles.faded}>◉</span> Platform
             </h2>
             <p>Digital lesson planning &amp; delivery tool.  With a twist.</p>
-            <Link to='/lfp'>Details and signup</Link>
+            <Link to='/lfp'><span>Details and signup</span></Link>
           </div>
         </div>
 
