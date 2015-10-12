@@ -20,22 +20,30 @@
 
 :local(.card) a {
   border-radius: 15px;
-  border: 1px solid #E48E3A;
-  display: block;
-  width: 80%;
+  /*border: 1px solid #E48E3A;*/
+  /*display: block;*/
+  /*width: 80%;*/
   margin: 0 auto;
   display: inline-block;
   width: 74%;
   position: absolute;
   left: 13%;
   bottom: 15px;
-  text-align:center;
+  text-align: center;
   font-size: 20px;
   font-weight: 100;
   line-height: 30px;
   text-decoration: none;
 }
-
+:local(.card) a>span{
+  border: 1px solid #E48E3A;
+  border-radius: 15px;
+  padding: 0 1em;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+};
 :local(.card) h2 {
   text-align: center;
   font-size: 230%;
@@ -78,9 +86,13 @@
   color: #E48E3A;
 }
 
-:local(.solutionCard) a:hover {
+:local(.solutionCard) a>span:hover {
   background-color: #E48E3A;
   color: #fff;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
 }
 
 /*
@@ -103,7 +115,7 @@
   min-height: 3em;
 }
 
-:local(.productCard) a:hover {
+:local(.productCard) a>span:hover {
   background-color: #E48E3A;
 }
 
@@ -121,13 +133,13 @@
   filter: gray; /* IE6-9 */
   filter: grayscale(1); /* Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  transition: 1.5s;
+  transition: .5s;
 }
 
 :local(.pilotsSection) img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  transition: 1.5s;
+  transition: .5s;
 }
 
 :local(.pilotImgContainer) {
