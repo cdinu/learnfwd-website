@@ -39,7 +39,6 @@
   position:absolute;
   top: 100%;
   display: none;
-
   -webkit-transiton: opacity 0.3s;
   -moz-transition: opacity 0.3s;
   -ms-transition: opacity 0.3s;
@@ -78,7 +77,7 @@
 
 
 :local(.menu) li:hover {
-  background-color: #000;
+  background-color: #E68F2E;
   opacity: 0.95;
   -webkit-transiton: opacity 0.3s;
   -moz-transition: opacity 0.3s;

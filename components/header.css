@@ -38,26 +38,28 @@
   transition: transform .2s,background .3s,color .3s,opacity 0 .3s;
 }
 :local(.burger) {
-  width: 3em;
-  height: 3em;
-  position: relative;  
+  width: 2.5em;
+  height: 3em; 
   display: none;
   background: linear-gradient(
     to bottom, 
-    rgba(0,0,0,0), rgba(0,0,0,0) 14%, 
-    white 14%, white 28%, 
-    rgba(0,0,0,0) 28%, rgba(0,0,0,0) 42%, 
-    white 42%, white 56%, 
-    rgba(0,0,0,0) 56%, rgba(0,0,0,0) 70%,
-    white 70%, white 84%, 
-    rgba(0,0,0,0) 84%, rgba(0,0,0,0) 100%
+    rgba(0,0,0,0), rgba(0,0,0,0) 20%, 
+    white 20%, white 27.5%, 
+    rgba(0,0,0,0) 27.5%, rgba(0,0,0,0) 45%, 
+    white 45%, white 52.5%, 
+    rgba(0,0,0,0) 52.5%, rgba(0,0,0,0) 72.5%,
+    white 72.5%, white 80%, 
+    rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%
   );
 }
 
 
 @media only screen and (max-width:850px) {
 :local(.logo) {
-  display: none;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
   }
 :local(.nav) {
   justify-content:center;
@@ -69,11 +71,14 @@
   }
   :local(.logo) {
   display: inline-block;
+  margin: 0;
+  text-align: left;
+  padding-left: 1em;
   }
   :local(.burger) {
-    display: inline-block;
-    position: relative;
-    right: 0;
+    display: block;
+    position: absolute;
+    right: 1em;
   }
 }
 :local(.burger:hover) :local(.burgerContent) {
@@ -82,7 +87,8 @@
 :local(.burgerContent) {
   display: none;
   margin-top: 4.5em;
-  width:14em;
+  width:16em;
+  padding: 0;
   background:#fafafa;
   list-style: none;
   float: right;
@@ -93,7 +99,11 @@
   font-size: 1em;
   line-height: 2;
 }
-:local(.burgerContent) a:hover {
-  color: #3498db;
+:local(.burgerContent) li {
+  padding-left: 2em;
 }
-
+:local(.burgerContent) li:hover a,
+:local(.burgerContent) li:hover {
+  background: #333;
+  color:  #E68F2E;
+}
