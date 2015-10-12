@@ -6,14 +6,14 @@ import Image from '../components/image';
 styles.front = 'mdl-grid ' + styles.front;
 styles.frontImage = 'mdl-cell mdl-cell--6-col ' + styles.frontImage;
 styles.evolving = 'mdl-grid ' + styles.evolving;
-styles.evolvingLeft = 'mdl-cell mdl-cell--7-col ' + styles.evolvingLeft;
-styles.evolvingRight = 'mdl-cell mdl-cell--5-col ' + styles.evolvingRight;
+styles.evolvingLeft = 'mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet ' + styles.evolvingLeft;
+styles.evolvingRight = 'mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet ' + styles.evolvingRight;
 styles.fluid = 'mdl-grid ' + styles.fluid;
-styles.fluidLeft = 'mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet ' + styles.fluidLeft;
-styles.fluidRight = 'mdl-cell mdl-cell--7-col mdl-cell--12-col-tablet ' + styles.fluidRight;
+styles.fluidLeft = 'mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet ' + styles.fluidLeft;
+styles.fluidRight = 'mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--middle ' + styles.fluidRight;
 styles.collaborative = 'mdl-grid ' + styles.collaborative;
-styles.collaborativeLeft = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.collaborativeLeft;
-styles.collaborativeRight = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.collaborativeRight;
+styles.collaborativeLeft = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--middle ' + styles.collaborativeLeft;
+styles.collaborativeRight = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--middle ' + styles.collaborativeRight;
 styles.embedded = 'mdl-grid ' + styles.embedded;
 styles.assessmentImage = 'mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet ' + styles.assessmentImage;
 styles.assessmentText = 'mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--middle ' + styles.assessmentText;
@@ -21,11 +21,11 @@ styles.classroomM = 'mdl-grid ' + styles.classroomM;
 styles.classroomMleft = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.classroomMleft;
 styles.classroomMright = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.classroomMright;
 styles.kat = 'mdl-grid ' + styles.kat;
-styles.katImage = 'mdl-cell mdl-cell--4-col mdl-cell--8-col-phone ' + styles.katImage;
+styles.katImage = 'mdl-cell mdl-cell--4-col mdl-cell--8-col-phone mdl-cell--middle ' + styles.katImage;
 styles.katContent = 'mdl-cell mdl-cell--8-col ' + styles.katContent;
 styles.control = 'mdl-grid ' + styles.control;
-styles.controlLeft = 'mdl-cell mdl-cell--6-col ' + styles.controlLeft;
-styles.controlRight = 'mdl-cell mdl-cell--6-col ' + styles.controlRight;
+styles.controlLeft = 'mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet ' + styles.controlLeft;
+styles.controlRight = 'mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet ' + styles.controlRight;
 
 export default class Page extends Component {
   render() {
@@ -48,10 +48,12 @@ export default class Page extends Component {
           <div className={styles.evolvingRight}>
             <div className={styles.evolvingRightElementContainer}>
               <div className={styles.evolvingRightElement}>
-                <Image src='/img/pdf-icon.png' />
+                <Image src='/img/pdf-icon.png'/>
+                <Image src='/img/tricky-arrow.png'/>
               </div>
-              <div className={styles.evolvingRightElement}>
+              <div className={styles.evolvingRightElement} id='second-arrow'>
                 <Image src='/img/epub-icon.png' />
+                <Image src='/img/tricky-arrow.png'/>
               </div>
               <div className={styles.evolvingRightElement}>
                 <Image src='/img/lfa-icon.png' />
@@ -111,7 +113,7 @@ export default class Page extends Component {
             </div>
           </div>
           <div className={styles.classroomMright}>
-            <Image src='/img/publishers-classroom-management-image.png'/>
+            <Image src='/img/publishers-classroom-management-image@2x.png'/>
           </div>
         </div>
         <div className={styles.kat}>
