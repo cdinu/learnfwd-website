@@ -11,3 +11,4 @@ export schools1 from './schools1';
 export schools2 from './schools2';
 export schools3 from './schools3';
 export solutions from './solutions';
+export team from './team';

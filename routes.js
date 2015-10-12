@@ -91,6 +91,7 @@ export default (
     <Route component={pages.schools2} path='schools2' />
     <Route component={pages.schools3} path='schools3' />
     <Route component={pages.solutions} path='solutions' />
+    <Route component={pages.team} path='team' />
     <Route component={pages.notFound} path="*" />
   </Route>
 );
