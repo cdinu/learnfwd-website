@@ -6,8 +6,8 @@ styles.front = 'mdl-grid ' + styles.front;
 styles.frontImage = 'mdl-cell mdl-cell--6-col ' + styles.frontImage;
 
 styles.digitised = 'mdl-grid ' + styles.digitised;
-styles.digitisedImage = 'mdl-grid mdl-cell--2-col ' + styles.digitisedImage;
-styles.digitisedContent = 'mdl-grid mdl-cell--10-col ' + styles.digitisedContent;
+styles.digitisedImage = 'mdl-cell mdl-cell--2-col ' + styles.digitisedImage;
+styles.digitisedContent = 'mdl-cell mdl-cell--8-col ' + styles.digitisedContent;
 
 styles.works = 'mdl-grid ' + styles.works;
 styles.worksImage = 'mdl-cell mdl-cell--6-col ' + styles.worksImage;
@@ -28,7 +28,7 @@ export default class Page extends Component {
           <div className={styles.digitisedImage}>
             <Image src='/img/number-one.png'/>
           </div>
-          <div className={styles.digitisedImage}>
+          <div className={styles.digitisedContent}>
             <h1>Have your content digitised</h1>
             <h2>Designing lessons is part of a teacher’s best work.</h2>
             <h2>Why not having it digitised and used instead of buying expensive paper textbooks? </h2>

@@ -55,8 +55,12 @@
   color: #fff;
 }
 :local(.digitisedImage) img{
-  align-self: flex-start;
-  margin: 0 auto;
+  width: 100%;
+  display: block;
+  max-width: 450px;
+}
+:local(.digitisedContent){
+  text-align: left;
 }
 :local(.works) {
   background-color: #fff;
