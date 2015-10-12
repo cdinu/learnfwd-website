@@ -1,0 +1,69 @@
+:local(.teamCt) {
+  padding: 0 2em;
+  background: #f1ece6;
+}
+:local(.teamCt) h1 {
+  font-weight: 100;
+  display: block;
+}
+:local(.teamMax) {
+  max-width: 1100px;
+  margin: 0 auto; 
+  display: block;
+  padding: 0;  
+}
+:local(.teamFirst) {
+  border-radius: 6px;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  background: #fff;
+  display: block;
+  max-width: 1084px;
+  padding: 2em 0 1em;
+  margin: 2em auto;
+}
+:local(.teamFirst) div {
+  display: inline-block;
+}
+:local(.teamFirst) div h1 {
+  font-size: 230%;
+  margin: .2em 0;
+}
+:local(.teamFirst) img {
+  width: 45%;
+}
+:local(.teamCo) {
+  border-radius: 6px;
+  padding: 2em;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  background: #fff;
+  display: inline-block;
+}
+:local(.teamCo) img {
+  width: 45%;
+}
+
+:local(.teamCo) h1 {
+  font-size: 230%;
+  font-weight: 100;
+  margin: .2em 0;
+}
+
+
+:local(.card) p {
+  padding: 0 1em 1em 1em;
+  text-align: center;
+  font-weight: 100;
+  font-size: 120%;
+  display: block;
+  min-height: 8em;
+}

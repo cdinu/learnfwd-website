@@ -33,9 +33,9 @@ export default class Header extends Component {
                 <li><Link to='/publishers'> &nbsp;&nbsp;- For Educational Publishers</Link></li>
                 <li><Link to='/s-a-t'> &nbsp;&nbsp;- For Schools and Teachers</Link></li>
                 <li><Link to='/corporate-training'> &nbsp;&nbsp;- For Corporate Training</Link></li>
-                <li><Link to='/about'>About Us</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
                 <li><Link to='/demo'>Get Demo</Link></li>
+                <li><Link to='/team'>Team</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>
               </ul>
             </div>
           </div>
@@ -50,4 +50,3 @@ Header.propTypes = {
   menu: PropTypes.array,
   path: PropTypes.string,
 };
-
