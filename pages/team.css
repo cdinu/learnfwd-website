@@ -67,5 +67,18 @@
 }
 :local(.mainh1) {
   text-align: center;
-  font-weight: 100;
+}
+:local(.socialM) {
+  display: block;
+  margin: 0 auto;
+  width: 10em;
+  height: 2em;
+  padding-bottom: 1em;
+}
+:local(.socialM) a {
+  width: 33%;
+  display: inline-block;
+}
+:local(.socialM) img {
+  width: 2em;
 }
