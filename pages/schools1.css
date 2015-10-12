@@ -55,10 +55,8 @@
   color: #fff;
 }
 :local(.digitisedImage) img{
+  align-self: flex-start;
   margin: 0 auto;
-  display: block;
-  width: 6em;
-  height: 6em;
 }
 :local(.works) {
   background-color: #fff;

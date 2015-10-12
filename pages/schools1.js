@@ -6,8 +6,8 @@ styles.front = 'mdl-grid ' + styles.front;
 styles.frontImage = 'mdl-cell mdl-cell--6-col ' + styles.frontImage;
 
 styles.digitised = 'mdl-grid ' + styles.digitised;
-styles.digitisedImage = 'mdl-grid mdl-cell--4-col ' + styles.digitisedImage;
-styles.digitisedContent = 'mdl-grid mdl-cell--8-col ' + styles.digitisedContent;
+styles.digitisedImage = 'mdl-grid mdl-cell--2-col ' + styles.digitisedImage;
+styles.digitisedContent = 'mdl-grid mdl-cell--10-col ' + styles.digitisedContent;
 
 styles.works = 'mdl-grid ' + styles.works;
 styles.worksImage = 'mdl-cell mdl-cell--6-col ' + styles.worksImage;
