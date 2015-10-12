@@ -9,13 +9,16 @@
 }
 :local(.builtCRLeft) h1{
   font-weight: 100;
+  font-size: 300%;
   color: #000;
+  /*margin-left: 20px;*/
 }
 :local(.builtCRLeft) h2{
   color: #EDA03B;
   font-weight: 100;
-  font-size: 225%;
+  font-size: 192%;
   line-height: 1.2;
+  /*margin-left: 20px;*/
 }
 :local(.builtCRRight){
   margin: 0 auto;
@@ -34,15 +37,18 @@
 }
 :local(.onOffRight) h1{
   font-weight: 100;
+  font-size: 300%;
   color: #000;
   text-align: right;
+  /*margin-right: 20px;*/
 }
 :local(.onOffRight) h2{
   color: #EDA03B;
   font-weight: 100;
-  font-size: 225%;
+  font-size: 192%;
   line-height: 1.2;
   text-align: right;
+  /*margin-right: 20px;*/
 }
 :local(.onOffLeft){
   margin: 0 auto;
@@ -60,13 +66,16 @@
 }
 :local(.controlClassLeft) h1{
   font-weight: 100;
+  font-size: 300%;
   color: #000;
+  /*margin-left: 20px;*/
 }
 :local(.controlClassLeft) h2{
   color: #EDA03B;
   font-weight: 100;
-  font-size: 225%;
+  font-size: 192%;
   line-height: 1.2;
+  /*margin-left: 20px;*/
 }
 :local(.controlClassRight){
   margin: 0 auto;
