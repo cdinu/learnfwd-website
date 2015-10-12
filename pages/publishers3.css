@@ -7,7 +7,6 @@
   padding: 1em 0;
 }
 
-
 :local(.front) h1,
 :local(.front) h2 {
   display: block;
@@ -34,7 +33,7 @@
 :local(.evolving) {
   background-color: #363636;
   padding: 1em 0;
-  color: #399695
+  color: #399695;
 }
 
 :local(.evolvingLeft) h1 {
@@ -85,4 +84,77 @@
 
 :local(.clear) {
   clear: both;
+}
+:local(.kat) {
+  background-color: #fff;
+  border-bottom: 1px solid #979797;
+  padding: 1em 2em;
+}
+:local(.katImage) img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
+:local(.katContent) {
+  text-align: right;
+}
+:local(.katContent) h2,
+:local(.katContent) h1 {
+  font-weight: 100;
+  margin-top: 0;
+}
+:local(.katContent) h2 {
+  color: #3da6a6;
+  font-size: 190%;
+  line-height: 1.2;
+  margin: 0;
+}
+:local(.control) {
+  background-color: #f3f1f1;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.control) h1 {
+  margin: 0;
+  font-size: 250%;
+}
+:local(.control) h2 {
+  margin: 0;
+  font-size: 130%;
+  line-height: 1.1;
+  color: #399695;
+}
+:local(.controlRight) h2 {
+  text-align: right;
+}
+:local(.getDemo) {
+  background-color: #339796;
+  padding: 1em 2em;
+  text-align: center;
+  border-bottom: 1px solid #979797;
+}
+:local(.getDemo) h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 4.5vw;
+}
+:local(.getDemo) h2 {
+  font-weight: 100;
+  font-size: 180%;
+  line-height: 1.1;
+  margin: 0;
+}
+:local(.getDemoButton) a {
+  padding: .5em 2em;
+  background: #e68f2e;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.5em;
+  line-height: 4;
+  text-decoration: none;
+  font-weight: 100;
+}
+:local(.getDemoButton) a:hover {
+  background: #ffa036;
 }
