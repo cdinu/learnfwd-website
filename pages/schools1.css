@@ -1,3 +1,50 @@
 :local(.schools) {
   background-color: #fff;
 }
+
+:local(.front) {
+  background-color: #fff;
+  padding: 1em 0;
+}
+
+:local(.front) h1,
+:local(.front) h2 {
+  display: block;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+}
+
+:local(.front) h2 {
+  font-size: 180%;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0.6;
+}
+
+
+:local(.frontImage) {
+  margin: 0 auto;
+}
+
+:local(.frontImage) img {
+  width: 100%;
+}
+
+:local(.digitised) {
+  background-color: #363636;
+}
+
+:local(.digitised) h1,
+:local(.digitised) h2 {
+  display: block;
+  font-weight: 100;
+  width: 100%;
+}
+
+:local(.digitised) h2 {
+  font-size: 180%;
+  line-height: 1.2;
+  margin: 0;
+  color: #EC9F3B;
+}
