@@ -1,22 +1,33 @@
 import React, { Component } from 'react';
 import styles from './lfp.css';
+import { Link } from 'react-router';
 
 export default class Page extends Component {
   render() {
+    const style = {
+      background: 'url(' + '/img/platform-background.png' + ')',
+    };
     return (
       <div>
-        <h1 className={styles.background}>
-          Learn Forward Platform (LFP)
-        </h1>
-        <h3>Hosted platform for universities that provide on-line, real-time courses</h3>
-        <p>Built upon LearnFwd Classroom but featuring a hosted online platform that allows professors to create and customise learning materials using WYSIWYG editors. Add centralised management of students, classes and learning materials and you’ve got yourself a very useful real-time software for higher education.</p>
-        <ul>
-          <li>Hosted platform (no local server required)</li>
-          <li>Simple WYSIWYG editor for educational materials</li>
-          <li>Centrally managed accounts for professors & students</li>
-          <li>Central catalogues of courses that students can join</li>
-          <li>Real-time collaboration among any remote points of access</li>
-        </ul>
+        <div className={styles.lfpFirst} style={style}>
+          <h1>
+            <span className={styles.faded}>◉</span>Platform
+          </h1>
+          <h2>Digital lesson planning & </h2>
+          <h2>delivery tool.</h2>
+          <h2>With a twist.</h2>
+        </div>
+        <div className={styles.lfaSecond}>
+          <div className={styles.maxW}>
+            <p>We are currently working on a platform that allows teachers to create, adapt and deliver lessons in a very straightforward manner.</p>
+          </div>
+        </div>
+        <div className={styles.lfaSeventh}>
+          <p>Sign up your school for an early invite.</p>
+          <span className={styles.getDemoButton}>
+            <Link to='/contact'>SIGN UP</Link>
+          </span>
+        </div>
       </div>
     );
   }

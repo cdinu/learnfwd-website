@@ -1,3 +1,68 @@
-:local(.background) {
-  color: red;
+:local(.faded) {
+  opacity: 0.2;
+}
+:local(.lfpFirst) {
+  width: 100%;
+  height: 0;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 45%;
+  border-bottom: 2px solid #979797;
+}
+:local(.lfpFirst) h1 {
+  font-weight: 100;
+  font-size: 7vw;
+  color: white;
+}
+
+:local(.lfpFirst) h2 {
+  font-weight: 100;
+  color: #cb3a41;
+  font-size: 4.5vw;
+  max-width: 70%;
+  margin: 0 auto;
+  line-height: 1;
+}
+:local(.lfaSecond) {
+  background: #fff;
+  text-align: left;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.lfaSecond) p {
+  font-size: 3em;
+  line-height: 1;
+  font-weight: 100;
+}
+:local(.maxW) {
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+:local(.lfaSeventh) {
+  background: #bd2532;
+  text-align: center;
+  padding: 6em 2em;
+}
+:local(.lfaSeventh) p {
+  font-size: 3.5em;
+  line-height: 1.5;
+  font-weight: 100;
+  color: white;
+}
+:local(.getDemoButton) a {
+  padding: .5em 2em;
+  background: #e68f2e;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.5em;
+  line-height: 4;
+  text-decoration: none;
+  font-weight: 100;
+}
+:local(.getDemoButton) a:hover {
+  background: #ffa036;
 }
