@@ -9,6 +9,7 @@ export default class Page extends Component {
   render() {
     const style = {
       background: 'url(' + '/img/author-background.png' + ')',
+      backgroundSize: 'cover',
     };
     return (
       <div>
