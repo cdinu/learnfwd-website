@@ -1,3 +1,78 @@
-:local(.example) {
-  color: orange;
+:local(.demoPage){
+  font-weight: 100;
+  color:white;
+  margin:0;
+  padding: 0;
+  background-color: #F3F1F1;
+}
+:local(.demoTitle) {
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  color: #339796;
+}
+:local(.demoContent){
+  background-color:#339796;
+  width: 100%;
+  margin:0;
+  padding: 2em;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+:local(.features) h3{
+  color:white;
+  font-weight: 100;
+}
+:local(.features) ul{
+  font-size: 120%;
+  color:white;
+  font-weight: 100; 
+}
+:local(.features) ul a{
+  color:white; 
+}
+:local(.demoButtons) {
+  font-weight: 100;
+  text-align: center;
+  margin: 0 auto;
+}
+:local(.demoButtons) p
+{
+  margin:1em auto;
+  font-size: 120%;
+  color:white;
+  font-weight: 100;
+}
+:local(.demoButtons) button{
+  font-weight: 100;
+  text-align: center;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 1em;
+  border: 2px solid white;
+  cursor: pointer;
+  width: 60%;
+  padding: .5em 1em;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+}
+:local(.demoButtons) button:hover{
+  background-color: orange;
+  border: 2px solid orange;
+  transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+}
+:local(.demoButtons) button:hover a{
+  color: white;
+}
+:local(.demoButtons) button>a{
+  text-decoration: none;
+  font-size: 150%;
+  font-weight: 100;
+  color:white;
 }
