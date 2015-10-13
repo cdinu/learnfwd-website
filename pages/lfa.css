@@ -34,6 +34,7 @@
 :local(.lfaSecond) p {
   font-size: 3em;
   line-height: 1;
+  font-weight: 100;
 }
 :local(.maxW) {
   display: block;
@@ -51,6 +52,11 @@
   text-align: left;
   padding: 2em;
   border-bottom: 1px solid #979797;
+}
+:local(.lfaThird) a {
+  color: black;
+  text-decoration: underline;
+  font-weight: 400;
 }
 :local(.lfaForth) {
   background: #e68f2e;
@@ -83,4 +89,34 @@
 }
 :local(.getDemoButton) a:hover {
   background: #ffa036;
+}
+:local(.lfaRight),
+:local(.lfaLeft) {
+  display: inline-block;
+}
+:local(.lfaRight) ul {
+  padding-left: 0;
+}
+:local(.largeText) {
+  font-size: 3.2em;
+  max-width: 5em;
+  line-height: 1;
+  font-weight: 100;
+}
+:local(.smallText2),
+:local(.smallText) {
+  font-size: 1.4em;
+  line-height: 1;
+  color: #000;
+}
+:local(.smallText2) {
+  color: rgba(255,255,255,.7);
+}
+@media screen and (max-width: 839px) {
+  :local(.lfaLeft) {
+    text-align: center;
+  }
+  :local(.largeText) {
+    max-width: 100%;
+  }
 }
