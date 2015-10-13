@@ -1,0 +1,81 @@
+:local(.firstView) {
+  text-align: center;
+  background-color: white;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.firstView) h1 {
+  font-weight: 100;
+  margin-top: 1.5em;
+}
+:local(.firstView) h4 {
+  font-weight: 100;
+  opacity: .8;
+}
+:local(.firstView) img {
+  padding-top: 1.5em;
+}
+:local(.contactUsButton) a {
+  padding: .5em 2em;
+  background: #e68f2e;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.5em;
+  line-height: 4;
+  text-decoration: none;
+  font-weight: 100;
+}
+:local(.contactUsButton) a:hover {
+  background: #ffa036;
+}
+:local(.corporateFifth),
+:local(.corporateForth),
+:local(.corporateThird),
+:local(.corporateSecond),
+:local(.corporateFirst) {
+  background: #257dec;
+  color: #fff;
+  text-align: left;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.corporateForth),
+:local(.corporateSecond) {
+  background: #f1ece6;
+  text-align: right;
+  color: black;
+}
+:local(.maxW) {
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+:local(.corporateForth) h3,
+:local(.corporateSecond) h3 {
+  color: #257dec;
+}
+
+:local(.maxW) p {
+  font-size: 180%;
+}
+:local(.lfaRight),
+:local(.lfaLeft) {
+  display: inline-block;
+}
+:local(.centerT) {
+  text-align: center;
+}
+:local(.maxW) .lfaRight img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+:local(.lfaRight) div {
+  align-self: center;
+}
+@media (max-width: 839px){
+  :local(div) {text-align: center;}
+}
