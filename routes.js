@@ -88,6 +88,10 @@ export default (
     <Route component={pages.team} path='team' />
     <Route component={pages.contact} path='contact' />
     <Route component={pages.demo} path='demo' />
+    <Route component={pages.request} path='request' />
+    <Route component={pages.requestResp} path='requestResp' />
+    <Route component={pages.signUp} path='signUp' />
+    <Route component={pages.signUpResp} path='signUpResp' />
     <Route component={pages.notFound} path="*" />
   </Route>
 );

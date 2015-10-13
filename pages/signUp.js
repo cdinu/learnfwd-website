@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './demo.css';
+import styles from './signUp.css';
 import Image from '../components/image';
 
 styles.requestBox = 'mdl-grid ' + styles.requestBox;
@@ -12,7 +12,7 @@ export default class Page extends Component {
     return (
       <div className={styles.requestPage}>
         <div className={styles.requestBox}>
-          <h1 className={styles.requestTitle}> Request a Demo</h1>
+          <h1 className={styles.requestTitle}> Sign Up <br></br>for early access</h1>
           <div className={styles.requestImage}>
             <Image src='/img/hand-pointing-down.png' />
           </div>
@@ -23,15 +23,17 @@ export default class Page extends Component {
               </div>
               <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Email" />
               <br></br>
+              <div className={styles.mailImage}>
+                <Image src="/img/school.png" />
+              </div>
+              <input type="text" name="school" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="School(optional)" />
+              <br></br>
               <input type="submit" value="OK" />
             </form>
           </div>
-        </div>
-        <div className={styles.requestBottomLine}>
-          <h2>Or you can try it yourself at <a href="https://demo.lfwd.io" target="_blank" >demo.lfwd.io</a></h2>
         </div>
       </div>
     );
   }
 }
-Page.displayName = 'LfpDemo';
+Page.displayName = 'LfpSignUp';

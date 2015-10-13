@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './demo.css';
+import styles from './request.css';
 import Image from '../components/image';
 
 styles.requestBox = 'mdl-grid ' + styles.requestBox;
@@ -34,4 +34,4 @@ export default class Page extends Component {
     );
   }
 }
-Page.displayName = 'LfpDemo';
+Page.displayName = 'LfpRequest';
