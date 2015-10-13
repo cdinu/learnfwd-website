@@ -67,8 +67,8 @@
 :local(.maxW) p {
   font-size: 180%;
 }
-:local(.maxW) {;
-  display: inline-flex;
+:local(.maxW) {
+  display: flex;
   flex-direction: row;
 }
 :local(.lfaRight),
@@ -80,9 +80,7 @@
 }
 :local(.maxW) .lfaRight img {
   width: 100%;
-  max-width: 300px;
-  display: block;
-  margin: 0 auto;
+  max-width: 300px;  
 }
 :local(p,h1,h3,h4) {
   font-weight: 100;
