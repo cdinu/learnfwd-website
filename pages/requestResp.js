@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './demo.css';
+import styles from './requestResp.css';
 import Image from '../components/image';
 
 styles.requestBox = 'mdl-grid ' + styles.requestBox;
@@ -16,22 +16,14 @@ export default class Page extends Component {
           <div className={styles.requestImage}>
             <Image src='/img/hand-pointing-down.png' />
           </div>
-          <div className={styles.requestForm}>
-            <form className={styles.formBox}>
-              <div className={styles.mailImage}>
-                <Image src="/img/mail.png" />
-              </div>
-              <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Email" />
-              <br></br>
-              <input type="submit" value="OK" />
-            </form>
+          <h2>Request sent for</h2>
+          <h2>john.fowles@gmail.com</h2>
+          <div className={styles.tickImage}>
+            <Image src='/img/tick.png' />
           </div>
-        </div>
-        <div className={styles.requestBottomLine}>
-          <h2>Or you can try it yourself at <a href="https://demo.lfwd.io" target="_blank" >demo.lfwd.io</a></h2>
         </div>
       </div>
     );
   }
 }
-Page.displayName = 'LfpDemo';
+Page.displayName = 'LfpRequest';
