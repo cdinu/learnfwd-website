@@ -1,133 +1,71 @@
-:local(.demoPage){
-  font-weight: 100;
-  margin:0;
-  padding: 0;
-  background-color: #F3F1F1;
-}
-:local(.demoTitle) {
-  font-weight: 100;
+:local(.requestBox){
   text-align: center;
-  width: 100%;
-  padding: 1em 0;
-  color: #339796;
-}
-@media (min-width: 531px) and (max-width: 839px){
-  :local(.demoTitle) {
-    padding: 2em 0 1em 0;
-  }
-}
-:local(.demoContent){
-  background-color:#339796;
-  color:white;
-  width: 100%;
-  margin:0;
-  padding: 2em;
+  /*width: 100%;*/
+  border-radius: 15px;
+  margin:1em;
+  padding: 0;
+  overflow: hidden;
+  border:4px solid #696A5D;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
 }
-:local(.features) h3{
-  color:white;
-  font-weight: 100;
-}
-:local(.features) ul{
-  font-size: 120%;
-  color:white;
-  font-weight: 100; 
-}
-:local(.features) ul a{
-  color:white; 
-}
-:local(.demoButtons) {
-  font-weight: 100;
+:local(.requestTitle){
   text-align: center;
-  margin: 0 auto;
-}
-:local(.demoButtons) p
-{
-  margin:1em auto;
-  font-size: 120%;
+  background-color: #E68F2E;
   color:white;
-  font-weight: 100;
-}
-:local(.demoButtons) button{
-  font-weight: 100;
-  text-align: center;
-  margin: 0 auto;
-  background-color: transparent;
-  border-radius: 1em;
-  border: 2px solid white;
-  cursor: pointer;
-  width: 60%;
-  padding: .5em 1em;
-  transition: background-color .3s;
-  -ms-transition: background-color .3s;
-  -o-transition: background-color .3s;
-  -moz-transition: background-color .3s;
-}
-:local(.demoButtons) a:focus {
-    outline:none;
-}
-:local(.demoButtons) button:focus {
-    outline:none;
-}
-:local(.demoButtons) button:hover{
-  background-color: orange;
-  border: 2px solid orange;
-  transition: background-color .3s;
-  -ms-transition: background-color .3s;
-  -o-transition: background-color .3s;
-  -moz-transition: background-color .3s;
-}
-:local(.demoButtons) button:hover a{
-  color: white;
-}
-:local(.demoButtons) a>button{
-  text-decoration: none;
-  font-size: 150%;
-  font-weight: 100;
-  color:white;
-}
-#requestForm{
-  height:0;
   width: 100%;
-  text-align: center;
+  font-weight: 100;
+  margin:0;
+  padding:2em 0;
 }
-#requestForm input[type="text"]{
-  margin:0 1em;
-  height:1.5em;
-  width: 300px;
+:local(.requestImage){
+  margin:0 auto;
+  padding:5em 0;
 }
-#requestForm input[type="text"]:focus{
-  outline-color:#339796;
+:local(.requestImage) img{
+  width: 15%;
 }
-#requestForm input[type="submit"]{
-  box-shadow: none;
-  color:#339796;
-  border-radius: 10px;
-  padding: .2em 1em;
-  border: 1px solid #339796;
-  background-color: transparent;
-  cursor: pointer;
-  font-size: 120%;
+:local(.mailImage){
+  display: inline-block;
 }
-@media (max-width: 570px){
-  #requestForm input[type="submit"]{
-    margin-top:1em;
+@media (max-width: 578px){
+  :local(.mailImage){display: none;}  
+}
+
+:local(.formBox) input[type="email"]{
+  height:2em;
+  width: 20em;
+  margin: 0 auto;
+  padding:.5em;
+  border-radius:0 5px 5px 0;
+  border: 1px solid black;
+}
+@media (max-width: 578px){
+  :local(.formBox) input[type="email"]{
+    border-radius:5px;
+    width: 85%;
   }
 }
-#requestForm input[type="submit"]:hover{
+:local(.formBox) input[type="email"]:focus{
+  outline: none;
+  border-color:#E68F2E;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+:local(.formBox) input[type="submit"]{
+  width: 70px;
+  height:70px;
+  background-color: #E68F2E;
+  border-radius:50%;
   color:white;
-  border: 1px solid #339796;
-  background-color: #339796;
+  border: none;
+  font-weight: 100;
+  font-size: 150%;
+  margin:3em;
   cursor: pointer;
 }
-#requestForm p{
-  font-weight: 400;
-  font-size: 150%;
-}
-#requestForm span{
-  font-size: 120%;
-  /*padding: 1em;*/
-}
-#requestForm:target{height:auto;padding:3em;transition:.5s;}
+:local(.formBox) input[type="submit"]:focus{
+  outline: none;
+  }

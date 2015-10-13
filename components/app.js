@@ -5,14 +5,17 @@ import Footer from './footer';
 
 import styles from './app.css';
 
-document.setMeta = function docSetMeta(name, content) {
-  const meta = document.querySelectorAll('meta[name="' + name + '"]');
-  if (!meta.length) {
-    return;
-  }
+/* global SERVER:true */
+if (!SERVER) {
+  document.setMeta = function docSetMeta(name, content) {
+    const meta = document.querySelectorAll('meta[name="' + name + '"]');
+    if (!meta.length) {
+      return;
+    }
+    meta[meta.length - 1].setAttribute('content', content);
+  };
+}
 
-  meta[meta.length - 1].setAttribute('content', content);
-};
 
 export default class App extends Component {
   updateMeta() {
@@ -22,8 +25,10 @@ export default class App extends Component {
     const what = meta[path] || meta['/'];
     const title = what.title || meta['/'].title;
     const description = what.description || meta['/'].description;
-    document.title = title;
-    document.setMeta('description', description);
+    if (!SERVER) {
+      document.title = title;
+      document.setMeta('description', description);
+    }
   }
 
   render() {
