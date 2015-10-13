@@ -1,42 +1,28 @@
 import React, { Component } from 'react';
 import styles from './demo.css';
+import Image from '../components/image';
 
-styles.demoPage = 'mdl-grid ' + styles.demoPage;
-styles.demoTitle = 'mdl-cell mdl-cell--12-col mdl-cell--middle ' + styles.demoTitle;
-styles.demoContent = 'mdl-grid mdl-cell mdl-cell--12-col ' + styles.demoContent;
-styles.demoButtons = 'mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--middle ' + styles.demoButtons;
-styles.features = 'mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--middle ' + styles.features;
+styles.requestBox = 'mdl-grid ' + styles.requestBox;
+styles.requestTitle = 'mdl-cell mdl-cell--12-col mdl-cell--middle ' + styles.requestTitle;
+styles.requestImage = 'mdl-cell mdl-cell--12-col mdl-cell--middle ' + styles.requestImage;
+styles.requestForm = 'mdl-cell mdl-cell--12-col mdl-cell--middle ' + styles.requestForm;
+
 export default class Page extends Component {
   render() {
     return (
-      <div className={styles.demoPage}>
-        <h1 className={styles.demoTitle}>Demo</h1>
-        <div className={styles.demoContent}>
-          <div className={styles.features}>
-            <h3>Features not to miss in the demo:</h3>
-            <ul>
-              <li>Change your automatically assigned name to your real name</li>
-              <li>Check out all the great exercises (try to solve them, they are real exercises)</li>
-              <li>Create a classroom (you became a teachet this way)</li>
-              <li>Get another computer to access the same <a href="http://demo.lfwd.io" target="_blank">demo.lfwd.io</a> and join the classroom you created before (you become a student)</li>
-              <li>If you feel adventurous get another tablet or smartphone and connect to the same classroom (another student)</li>
-              <li>Select a group from both students (A, let&apos;s say) and solve exercises together</li>
-              <li>Fun, right? If you liked it (or not) drop us an email at <a href="hello@learnfwd.com?Subject=Hello%20again" target="_top">hello@learnfwd.com</a></li>
-            </ul>
-          </div>
-          <div className={styles.demoButtons}>
-            <a href="http://demo.lfwd.io" target="_blank"><button className="btn btn-danger navbar-btn" type="button">Open demo</button></a>
-            <br></br>
-            <p> or </p>
-            <a href="#requestForm"><button className="btn btn-danger navbar-btn" type="button">Request a Demo</button></a>
-          </div>
+      <div className={styles.requestBox}>
+        <h1 className={styles.requestTitle}> Request a Demo</h1>
+        <div className={styles.requestImage}>
+          <Image src='/img/hand-pointing-down.png' />
         </div>
-        <div id="requestForm">
-          <form>
-            <p>Want to see your work as a digital textbook? Fill in the form below and we'll create a custom demo tailored to your needs:</p>
-            <span>Email: </span>
-            <input type="text" name="email" />
-            <input type="submit" value="Submit" />
+        <div className={styles.requestForm}>
+          <form className={styles.formBox}>
+            <div className={styles.mailImage}>
+              <Image src="/img/pdf-icon.png" />
+            </div>
+            <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="email" />
+            <br></br>
+            <input type="submit" value="OK" />
           </form>
         </div>
       </div>
