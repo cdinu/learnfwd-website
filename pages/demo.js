@@ -33,7 +33,7 @@ export default class Page extends Component {
         </div>
         <div id="requestForm">
           <form>
-            <p> Some text to go here about the form (!!)</p>
+            <p>Want to see your work as a digital textbook? Fill in the form below and we'll create a custom demo tailored to your needs:</p>
             <span>Email: </span>
             <input type="text" name="email" />
             <input type="submit" value="Submit" />

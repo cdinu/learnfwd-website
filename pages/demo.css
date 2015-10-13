@@ -64,12 +64,11 @@
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
   -moz-transition: background-color .3s;
-
 }
 :local(.demoButtons) a:focus {
     outline:none;
 }
-:local(.demoButtons) a:active {
+:local(.demoButtons) button:focus {
     outline:none;
 }
 :local(.demoButtons) button:hover{
@@ -110,6 +109,11 @@
   background-color: transparent;
   cursor: pointer;
   font-size: 120%;
+}
+@media (max-width: 437px){
+  #requestForm input[type="submit"]{
+    margin-top:1em;
+  }
 }
 #requestForm input[type="submit"]:hover{
   color:white;
