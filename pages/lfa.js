@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import styles from './lfa.css';
 import { Link } from 'react-router';
-styles.lfaThird = 'mdl-grid ' + styles.lfaThird;
+styles.maxW = 'mdl-grid ' + styles.maxW;
+styles.lfaLeft = 'mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet ' + styles.lfaLeft;
+styles.lfaRight = 'mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet ' + styles.lfaRight;
 
 export default class Page extends Component {
   render() {
@@ -25,8 +27,8 @@ export default class Page extends Component {
         <div className={styles.lfaThird}>
           <div className={styles.maxW}>
             <div className={styles.lfaLeft}>
-              <p>Core features</p>
-              <p>try them on <Link>Github</Link></p>
+              <p className={styles.largeText}>Core features</p>
+              <p className={styles.smallText}>try them on <Link>Github</Link></p>
             </div>
             <div className={styles.lfaRight}>
               <ul>
@@ -42,8 +44,8 @@ export default class Page extends Component {
         <div className={styles.lfaForth}>
           <div className={styles.maxW}>
             <div className={styles.lfaLeft}>
-              <p>Assessment tools</p>
-              <p>10+ types of exercises</p>
+              <p className={styles.largeText}>Assessment tools</p>
+              <p className={styles.smallText}>10+ types of exercises</p>
             </div>
             <div className={styles.lfaRight}>
               <p>Built upon LearnFwd Author but featuring advanced plugins for automatic backup of user’s progress, creating and using complex self-validating exercises and real-time collaborative features tailored for in-Built upon LearnFwd Author but featuring advanced plugins for automatic backup of user’s progress, creating and using complex self-validating exercises and real-time collaborative features tailored for inclassroom use (create / join classrooms, work in groups, share results etc.). Collaborative features require internet connection.
@@ -54,8 +56,8 @@ export default class Page extends Component {
         <div className={styles.lfaFifth}>
           <div className={styles.maxW}>
             <div className={styles.lfaLeft}>
-              <p>Classroom management</p>
-              <p>embedded in the textbook</p>
+              <p className={styles.largeText}>Classroom management</p>
+              <p className={styles.smallText}>embedded in the textbook</p>
             </div>
             <div className={styles.lfaRight}>
               <ul>
@@ -70,8 +72,8 @@ export default class Page extends Component {
         <div className={styles.lfaSixth}>
           <div className={styles.maxW}>
             <div className={styles.lfaLeft}>
-              <p>Teaching assistant</p>
-              <p>built in and ready to help</p>
+              <p className={styles.largeText}>Teaching assistant</p>
+              <p className={styles.smallText2}>built in and ready to help</p>
             </div>
             <div className={styles.lfaRight}>
               <ul>
