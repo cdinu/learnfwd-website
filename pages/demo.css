@@ -64,9 +64,11 @@
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
   -moz-transition: background-color .3s;
-
 }
 :local(.demoButtons) a:focus {
+    outline:none;
+}
+:local(.demoButtons) button:focus {
     outline:none;
 }
 :local(.demoButtons) button:hover{
@@ -94,6 +96,7 @@
 #requestForm input[type="text"]{
   margin:0 1em;
   height:1.5em;
+  width: 300px;
 }
 #requestForm input[type="text"]:focus{
   outline-color:#339796;
@@ -107,6 +110,11 @@
   background-color: transparent;
   cursor: pointer;
   font-size: 120%;
+}
+@media (max-width: 570px){
+  #requestForm input[type="submit"]{
+    margin-top:1em;
+  }
 }
 #requestForm input[type="submit"]:hover{
   color:white;
