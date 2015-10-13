@@ -11,7 +11,7 @@ const app = express();
 const template = fs.readFileSync('./server-dist/index.html').toString();
 const history = createMemoryHistory();
 
-app.use(express.static('./dist', {index: false }));
+app.use(express.static('./public', {index: false }));
 
 app.get('*', (req, res) => {
   const location = history.createLocation(req.url);
