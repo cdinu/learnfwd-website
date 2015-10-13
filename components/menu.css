@@ -11,6 +11,20 @@
   text-transform: uppercase;
   height: 5em;
 }
+:local(.menu) li:nth-child(5) {
+  background: #e68f2e;
+  height: 2.5em;
+  margin-top: 1.25em;
+  border-radius: 1.25em;
+}
+:local(.menu) li:nth-child(5):hover {
+  background: #ffa036;
+}
+:local(.menu) li:nth-child(5) a {
+  color: white;
+  margin-top: -1em;
+  font-weight: 100;
+}
 
 :local(.menu) li {
   display:inline-block;
@@ -31,7 +45,6 @@
   font-size: 1.2em;
   font-weight: 500;
 }
-
 :local(.menu) li span:hover {
   color: #fff;
   -webkit-transiton: color 0.2s;

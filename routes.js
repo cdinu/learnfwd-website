@@ -40,10 +40,6 @@ const menu = [
     ],
   },
   {
-    to: 'http://demo.lfwd.io',
-    label: 'Demo',
-  },
-  {
     label: 'About',
     items: [
       {
@@ -55,6 +51,10 @@ const menu = [
         label: 'Contact',
       },
     ],
+  },
+  {
+    to: '/demo',
+    label: 'get a demo',
   },
 ];
 
@@ -82,7 +82,6 @@ export default (
     <IndexRoute component={pages.home} />
     <Route component={pages.about} path='about' />
     <Route component={pages.contact} path='contact' />
-    <Route component={pages.demo} path='demo' />
     <Route component={pages.lfa} path='lfa' />
     <Route component={pages.lfp} path='lfp' />
     <Route component={pages.products} path='products' />
@@ -90,6 +89,7 @@ export default (
     <Route component={pages.schools} path='schools' />
     <Route component={pages.solutions} path='solutions' />
     <Route component={pages.team} path='team' />
+    <Route component={pages.demo} path='demo' />
     <Route component={pages.notFound} path="*" />
   </Route>
 );
