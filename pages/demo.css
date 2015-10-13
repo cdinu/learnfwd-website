@@ -1,6 +1,5 @@
 :local(.demoPage){
   font-weight: 100;
-  color:white;
   margin:0;
   padding: 0;
   background-color: #F3F1F1;
@@ -12,8 +11,14 @@
   padding: 1em 0;
   color: #339796;
 }
+@media (min-width: 531px) and (max-width: 839px){
+  :local(.demoTitle) {
+    padding: 2em 0 1em 0;
+  }
+}
 :local(.demoContent){
   background-color:#339796;
+  color:white;
   width: 100%;
   margin:0;
   padding: 2em;
@@ -59,6 +64,10 @@
   -ms-transition: background-color .3s;
   -o-transition: background-color .3s;
   -moz-transition: background-color .3s;
+
+}
+:local(.demoButtons) a:focus {
+    outline:none;
 }
 :local(.demoButtons) button:hover{
   background-color: orange;
@@ -71,9 +80,46 @@
 :local(.demoButtons) button:hover a{
   color: white;
 }
-:local(.demoButtons) button>a{
+:local(.demoButtons) a>button{
   text-decoration: none;
   font-size: 150%;
   font-weight: 100;
   color:white;
 }
+#requestForm{
+  height:0;
+  width: 100%;
+  text-align: center;
+}
+#requestForm input[type="text"]{
+  margin:0 1em;
+  height:1.5em;
+}
+#requestForm input[type="text"]:focus{
+  outline-color:#339796;
+}
+#requestForm input[type="submit"]{
+  box-shadow: none;
+  color:#339796;
+  border-radius: 10px;
+  padding: .2em 1em;
+  border: 1px solid #339796;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 120%;
+}
+#requestForm input[type="submit"]:hover{
+  color:white;
+  border: 1px solid #339796;
+  background-color: #339796;
+  cursor: pointer;
+}
+#requestForm p{
+  font-weight: 400;
+  font-size: 150%;
+}
+#requestForm span{
+  font-size: 120%;
+  /*padding: 1em;*/
+}
+#requestForm:target{height:auto;padding:3em;transition:.5s;}

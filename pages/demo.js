@@ -25,11 +25,19 @@ export default class Page extends Component {
             </ul>
           </div>  
           <div className={styles.demoButtons}>
-            <button className="btn btn-danger navbar-btn" type="button"><a href="http://demo.lfwd.io" target="_blank">Open demo</a></button>
+            <a href="http://demo.lfwd.io" target="_blank"><button className="btn btn-danger navbar-btn" type="button">Open demo</button></a>
             <br></br>
             <p> or </p>
-            <button className="btn btn-danger navbar-btn" type="button"><a href="http://demo.lfwd.io" target="_blank">Request a Demo</a></button>
+            <a href="#requestForm"><button className="btn btn-danger navbar-btn" type="button">Request a Demo</button></a>
           </div>
+        </div>
+        <div id="requestForm">
+          <form>
+            <p> Some text to go here about the form (!!)</p>
+            <span>Email: </span>
+            <input type="text" name="email" />
+            <input type="submit" value="Submit" />
+          </form>
         </div>
       </div>
     );
