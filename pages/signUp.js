@@ -21,12 +21,12 @@ export default class Page extends Component {
               <div className={styles.mailImage}>
                 <Image src="/img/mail.png" />
               </div>
-              <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Email" />
+              <input name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Email" type="email" />
               <br></br>
               <div className={styles.mailImage}>
                 <Image src="/img/school.png" />
               </div>
-              <input type="text" name="school" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="School(optional)" />
+              <input name="school" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="School(optional)" type="text"/>
               <br></br>
               <input type="submit" value="OK" />
             </form>
