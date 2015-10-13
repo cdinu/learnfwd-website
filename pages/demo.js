@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './demo.css';
 
 styles.demoPage = 'mdl-grid ' + styles.demoPage;
-styles.demoTitle = 'mdl-cell mdl-cell--12-col ' + styles.demoTitle;
+styles.demoTitle = 'mdl-cell mdl-cell--12-col mdl-cell--middle ' + styles.demoTitle;
 styles.demoContent = 'mdl-grid mdl-cell mdl-cell--12-col ' + styles.demoContent;
 styles.features = 'mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--middle ' + styles.features;
 styles.demoButtons = 'mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--middle ' + styles.demoButtons;
