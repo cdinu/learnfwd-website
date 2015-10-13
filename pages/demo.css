@@ -69,6 +69,9 @@
 :local(.demoButtons) a:focus {
     outline:none;
 }
+:local(.demoButtons) a:active {
+    outline:none;
+}
 :local(.demoButtons) button:hover{
   background-color: orange;
   border: 2px solid orange;
