@@ -1,3 +1,86 @@
-:local(.background) {
-  color: red;
+:local(.faded) {
+  opacity: 0.2;
+}
+:local(.lfaFirst) {
+  width: 100%;
+  height: 0;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 45%;
+  border-bottom: 2px solid #979797;
+}
+:local(.lfaFirst) h1 {
+  font-weight: 100;
+  font-size: 7vw;
+}
+
+:local(.lfaFirst) h2 {
+  font-weight: 100;
+  color: #cb3a41;
+  font-size: 4.5vw;
+  max-width: 70%;
+  margin: 0 auto;
+  line-height: 1;
+}
+
+:local(.lfaSecond) {
+  background: #fff;
+  text-align: left;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.lfaSecond) p {
+  font-size: 3em;
+  line-height: 1;
+}
+:local(.maxW) {
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+:local(.lfaForth),
+:local(.lfaFifth),
+:local(.lfaSixth),
+:local(.lfaSeventh),
+:local(.lfaThird) {
+  background: #339796;
+  color: #fff;
+  text-align: left;
+  padding: 2em;
+  border-bottom: 1px solid #979797;
+}
+:local(.lfaForth) {
+  background: #e68f2e;
+}
+:local(.lfaFifth) {
+  background: #696a5d;
+}
+:local(.lfaSixth) {
+  background: #363636;
+}
+:local(.lfaSeventh) {
+  background: #bd2532;
+  text-align: center;
+  padding: 6em 2em;
+}
+:local(.lfaSeventh) p {
+  font-size: 3.5em;
+  line-height: 1.5;
+  font-weight: 100;
+}
+:local(.getDemoButton) a {
+  padding: .5em 2em;
+  background: #e68f2e;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.5em;
+  line-height: 4;
+  text-decoration: none;
+  font-weight: 100;
+}
+:local(.getDemoButton) a:hover {
+  background: #ffa036;
 }
