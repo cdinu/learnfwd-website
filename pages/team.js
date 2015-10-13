@@ -18,9 +18,9 @@ export default class Page extends Component {
               <h1>Paul Balogh</h1>
               <p>Co-founder & CEO</p>
               <div className={styles.socialM}>
-                <Link to='https://www.linkedin.com/in/paulbalogh'><Image src='/img/team/linkedin.png'/></Link>
-                <Link to='https://twitter.com/paulbalogh'><Image src='/img/team/twitter.png'/></Link>
-                <Link to='https://www.facebook.com/daseinpaul'><Image src='/img/team/facebook.png'/></Link>
+                <a href='https://www.linkedin.com/in/paulbalogh'><Image src='/img/team/linkedin.png'/></a>
+                <a href='https://twitter.com/paulbalogh'><Image src='/img/team/twitter.png'/></a>
+                <a href='https://www.facebook.com/daseinpaul'><Image src='/img/team/facebook.png'/></a>
               </div>
               <p>He&apos;s a cross-breed between humanities and technology. He graduated from the Faculty of Philosophy but worked as system administrator, web programmer and web designer. He tried to combine these two in several ways: founded Zeta Books in 2006 (academic publisher); business developer (LibHumanitas, 2009 and Humanitas Digital 2011). Now he is back to entrepreneurship with Learn Forward.
               </p>
@@ -30,9 +30,9 @@ export default class Page extends Component {
               <h1>Cristian Dinu</h1>
               <p>Co-founder & CTO</p>
               <div className={styles.socialM}>
-                <Link to='https://www.linkedin.com/in/cdinu'><Image src='/img/team/linkedin.png'/></Link>
-                <Link to='https://twitter.com/cdinu'><Image src='/img/team/twitter.png'/></Link>
-                <Link to='https://www.facebook.com/cristian.dinu.infoideea'><Image src='/img/team/facebook.png'/></Link>
+                <a href='https://www.linkedin.com/in/cdinu'><Image src='/img/team/linkedin.png'/></a>
+                <a href='https://twitter.com/cdinu'><Image src='/img/team/twitter.png'/></a>
+                <a href='https://www.facebook.com/cristian.dinu.infoideea'><Image src='/img/team/facebook.png'/></a>
               </div>
               <p>When he felt his corporate days (IBM, Vodafone) had been over, Dinu took up entrepreneurship and never looked back. He founded InfoIdeea in 2006 (ecommerce systems) and became certified project manager. Should that not be enough, he is also recently interested in humanities, particularly history and literature.
               </p>

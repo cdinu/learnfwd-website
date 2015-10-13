@@ -33,7 +33,7 @@ styles.meetKatImg = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--m
 styles.meetKatText = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--middle ' + styles.meetKatText;
 
 styles.oneMore = 'mdl-grid ' + styles.oneMore;
-styles.oneMoreFigure = 'mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--12-col-phone mdl-cell--middle ' + styles.oneMoreFigure;
+styles.oneMoreFigure = 'mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--12-col-phone ' + styles.oneMoreFigure;
 styles.oneMoreText = 'mdl-cell mdl-cell--9-col mdl-cell--9-col-tablet mdl-cell--12-col-phone ' + styles.oneMoreText;
 
 export default class Page extends Component {
