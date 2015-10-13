@@ -1,7 +1,8 @@
 :local(.contact){
-  background-color: #F3F1F1;
-  padding-top: 2em;
-
+  /*background-color: #F3F1F1;*/
+  padding: 2em 0;
+  text-align: center;
+  position: relative;
 }
 @media (min-width: 531px) and (max-width: 839px){
   :local(.contact){
@@ -9,8 +10,7 @@
   }
 }
 :local(.contactTitle){
-  color: white;
-  background-color: orange;
+  /*background-color: orange;*/
   /*width: 100%;*/
   font-weight: 100;
   padding: 0 .5em;
@@ -18,14 +18,15 @@
   margin-top: 0em;
 }
 :local(.contactContent){
-  background-color: #fff;
+  text-align: left;
   /*padding-left: 2em;*/
-  border-radius: 15px;
-  overflow: hidden;
-  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+  /*border-radius: 15px;*/
+  margin: 0 auto;
+  /*padding-top: 2em;*/
+ /* -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
-
+*/
 }
 :local(.contactContent) p{
   font-weight: 100;
@@ -40,9 +41,17 @@
   :local(.contactContent) {text-align: center;}
 }
 :local(.contactImage) img{
-  width: 190px;
-  float: right;
+  width: 25%;
 }
 @media (max-width: 839px){
   :local(.contactImage) {display: none;}
+}
+
+/*:local(.paintingImage){
+  position: relative;
+  top: -70px;
+  left: -45px;
+}*/ 
+:local(.paintingImage) img{
+  width: 50%;
 }
