@@ -8,6 +8,21 @@ styles.requestImage = 'mdl-cell mdl-cell--12-col mdl-cell--middle ' + styles.req
 styles.requestForm = 'mdl-cell mdl-cell--12-col mdl-cell--middle ' + styles.requestForm;
 
 export default class Page extends Component {
+  _send(evt) {
+    evt.preventDefault();
+    const email = this.refs.email.value.trim();
+    console.log('email is: ', email);
+
+    /* global SERVER:true */
+    if (!SERVER) {
+      const xhttp = new XMLHttpRequest();
+      xhttp.open('POST', 'http://lfwd.io:3725/', true);
+      xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+      xhttp.send('email=' + email);
+    }
+    this.history.pushState(null, '/requestResp');
+  }
+
   render() {
     return (
       <div className={styles.requestPage}>
@@ -17,13 +32,13 @@ export default class Page extends Component {
             <Image src='/img/hand-pointing-down.png' />
           </div>
           <div className={styles.requestForm}>
-            <form className={styles.formBox}>
+            <form className={styles.formBox} method='POST' onSubmit={(evt)=> this._send(evt)}>
               <div className={styles.mailImage}>
                 <Image src="/img/mail.png" />
               </div>
-              <input name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Email" type="email"/>
+              <input name='email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$' placeholder='Email' ref='email' type='email'/>
               <br></br>
-              <input type="submit" value="OK" />
+              <input type='submit' value='OK' />
             </form>
           </div>
         </div>
