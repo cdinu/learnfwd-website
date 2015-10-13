@@ -96,6 +96,7 @@
 #requestForm input[type="text"]{
   margin:0 1em;
   height:1.5em;
+  width: 300px;
 }
 #requestForm input[type="text"]:focus{
   outline-color:#339796;
@@ -110,7 +111,7 @@
   cursor: pointer;
   font-size: 120%;
 }
-@media (max-width: 437px){
+@media (max-width: 570px){
   #requestForm input[type="submit"]{
     margin-top:1em;
   }
