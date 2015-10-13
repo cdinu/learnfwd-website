@@ -14,8 +14,8 @@ export default class Page extends Component {
           <h1>Solutions for Corporate Training</h1>
           <h4>Training can be fun, engaging and not expensive.<br/>Good technology is the key.</h4>
           <span className={styles.contactUsButton}>
-              <Link to='/contact'>CONTACT US</Link>
-            </span>
+            <Link to='/contact'>CONTACT US</Link>
+          </span>
         </div>
         <div className={styles.corporateFirst}>
           <div className={styles.maxW}>
@@ -72,6 +72,12 @@ export default class Page extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className={styles.corporateBottom}>
+          <h1>Get in touch with us<br/>for a demo</h1>
+          <span className={styles.contactUsButton}>
+            <Link to='/demo'>GET A DEMO</Link>
+          </span>
         </div>
       </div>
     );

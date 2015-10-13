@@ -28,6 +28,7 @@
 :local(.contactUsButton) a:hover {
   background: #ffa036;
 }
+:local(.corporateBottom),
 :local(.corporateFifth),
 :local(.corporateForth),
 :local(.corporateThird),
@@ -44,6 +45,14 @@
   background: #f1ece6;
   text-align: right;
   color: black;
+}
+:local(.corporateBottom) {
+  background:  #f1ece6;
+  text-align: center;
+}
+:local(.corporateBottom) h1 {
+  color: #257dec;
+  font-weight: 100;
 }
 :local(.maxW) {
   display: block;
@@ -75,6 +84,20 @@
 }
 :local(.lfaRight) div {
   align-self: center;
+}
+:local(p,h1,h3,h4) {
+  font-weight: 100;
+}
+:local(.corporateBottom) .maxW,
+:local(.corporateFifth) .maxW,
+:local(.corporateForth) .maxW,
+:local(.corporateThird) .maxW,
+:local(.corporateSecond) .maxW,
+:local(.corporateFirst) .maxW {
+  font-weight: 100;
+}
+:local(h3),:local(p) {
+  font-weight: 100;
 }
 @media (max-width: 839px){
   :local(div) {text-align: center;}
