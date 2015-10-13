@@ -66,10 +66,8 @@ export default class Page extends Component {
               <Image src='/img/corporate-travel.png' />
             </div>
             <div className={styles.lfaRight}>
-              <div>
               <h3>Cutting travelling costs?</h3>
               <p>In case of emergency (or cost reduction) you can even deliver courses remotely.<br/>And still have a good control of your classroom.</p>
-              </div>
             </div>
           </div>
         </div>

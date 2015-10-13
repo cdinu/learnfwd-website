@@ -64,13 +64,16 @@
 :local(.corporateSecond) h3 {
   color: #257dec;
 }
-
 :local(.maxW) p {
   font-size: 180%;
 }
+:local(.maxW) {;
+  display: inline-flex;
+  flex-direction: row;
+}
 :local(.lfaRight),
-:local(.lfaLeft) {
-  display: inline-block;
+:local(.lfaLeft) {  
+  align-self: stretch;
 }
 :local(.centerT) {
   text-align: center;
@@ -80,10 +83,6 @@
   max-width: 300px;
   display: block;
   margin: 0 auto;
-  vertical-align: middle;
-}
-:local(.lfaRight) div {
-  align-self: center;
 }
 :local(p,h1,h3,h4) {
   font-weight: 100;
@@ -101,4 +100,8 @@
 }
 @media (max-width: 839px){
   :local(div) {text-align: center;}
+  :local(.lfaLeft) {
+    display: block;
+    margin: 0 auto;
+  }
 }
