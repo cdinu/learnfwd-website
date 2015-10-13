@@ -77,6 +77,7 @@ lo:local(.schools) {
   padding: 1em 2em;
   display: flex;
   align-items: center;
+  border-bottom: 2px solid #979797;
 }
 
 :local(.works) h1,
