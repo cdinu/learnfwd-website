@@ -11,7 +11,6 @@ export default class Page extends Component {
   _send(evt) {
     evt.preventDefault();
     const email = this.refs.email.value.trim();
-    console.log('email is: ', email);
 
     /* global SERVER:true */
     if (!SERVER) {
@@ -20,7 +19,7 @@ export default class Page extends Component {
       xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
       xhttp.send('email=' + email);
     }
-    this.history.pushState(null, '/requestResp');
+    this.props.history.pushState(null, '/requestResp');
   }
 
   render() {
