@@ -14,7 +14,7 @@ export default class Page extends Component {
         <h1 className={styles.mainh1}>Team</h1>
           <div className={styles.teamMax}>
             <div className={styles.teamCo}>
-              <Image src='/img/team/Paul.png'/>
+              <Image src='/img/team/paul.png'/>
               <h1>Paul Balogh</h1>
               <p>Co-founder & CEO</p>
               <div className={styles.socialM}>
@@ -26,7 +26,7 @@ export default class Page extends Component {
               </p>
             </div>
             <div className={styles.teamCo}>
-              <Image src='/img/team/Dinu.png'/>
+              <Image src='/img/team/dinu.png'/>
               <h1>Cristian Dinu</h1>
               <p>Co-founder & CTO</p>
               <div className={styles.socialM}>
@@ -61,19 +61,19 @@ export default class Page extends Component {
           <h1 className={styles.mainh1}>Advisors</h1>
           <div className={styles.teamMax}>
             <div className={styles.teamCo}>
-              <Image src='/img/team/Barrie.png'/>
+              <Image src='/img/team/barrie.png'/>
               <h1>Barrie Heptonstall</h1>
               <p>Barrie has spent 25 years working in senior management roles for a giant US-based technology company, and is an expert on enterprise software sales. He angel invests in startups in the UK and California (including Learn Forward).
               </p>
             </div>
             <div className={styles.teamCo}>
-              <Image src='/img/team/Charles.png'/>
+              <Image src='/img/team/charles.png'/>
               <h1>Charles Cormack</h1>
               <p>Experienced International Business Development professional, and Chairman of CCG a specialist consultancy working between the UK , Latvia, Lithuania, Russia and Romania.
               </p>
             </div>
             <div className={styles.teamCo}>
-              <Image src='/img/team/Angela.png'/>
+              <Image src='/img/team/angela.png'/>
               <h1>Angela McFarlane</h1>
               <p>Angela McFarlane is an international author and practitioner in engagement and learning, an experienced and inspiring leader, respected researcher and thoughtsmith. She is currently Chief Executive and Registrar at The College of Teachers. Here’s her latest book: Authentic Learning for the Digital Generation: Realising the potential of technology in the classroom
               </p>
