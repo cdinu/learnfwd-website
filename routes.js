@@ -53,7 +53,7 @@ const menu = [
     ],
   },
   {
-    to: '/demo',
+    to: '/request',
     label: 'get a demo',
   },
 ];
