@@ -23,7 +23,9 @@
   width: 100%;
   font-weight: 100;
   margin:0;
-  padding:2em 0;
+  padding:1em 0;
+  font-size: 300%;
+  border-bottom:1px solid #696A5D;
 }
 @media (max-width: 800px){
   :local(.requestTitle){
@@ -32,10 +34,10 @@
 }
 :local(.requestImage){
   margin:0 auto;
-  padding:5em 0;
+  padding:4em 0 3em;
 }
 :local(.requestImage) img{
-  width: 15%;
+  width: 85px;
 }
 @media (max-width: 578px){
   :local(.requestImage) img{width:30%;}  
@@ -51,5 +53,46 @@
   }
 :local(.tickImage){
   margin:0 auto;
-  padding:5em 0;
+  padding:3em 0 4em;
+}
+
+
+:local(.requestBox) {
+  max-width: 550px;
+  border:1px solid #696A5D;
+}
+
+:local(.requestPage) {
+  border-top: 1px solid rgba(0,0,0,0);
+
+}
+@media (max-width: 839px){
+  :local(.requestBox) {
+    margin-top: 6em;
+  }
+}
+@media (max-width: 530px){
+  :local(.requestBox) {
+    margin-top: 2em;
+  }
+  :local(.requestTitle) {
+    padding: .5em 0;
+    font-size: 200%;
+  }
+  :local(.requestImage) {
+    padding: 2em 0;
+  }
+  :local(.requestImage) img {
+  width: 65px;
+  }
+  :local(.formBox) input[type="submit"] {
+    margin: 1em;
+  }
+  :local(.requestBox) h2 {
+    line-height: 1.1;
+  }
+  :local(.tickImage){
+    margin:0 auto;
+    padding:2em 0;
+  }
 }
