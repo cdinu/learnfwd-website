@@ -177,7 +177,7 @@ export default class Page extends Component {
             </h2>
             <div className={styles.oneMoreTextCtA}>
               <span className={styles.contactUs}>
-                <Link to='/contact'>Sign Up</Link>
+                <Link to='/signUp'>Sign Up</Link>
               </span>
               <h2> as a teacher or a school for early&nbsp;access.</h2>
             </div>

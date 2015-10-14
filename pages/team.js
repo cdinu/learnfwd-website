@@ -102,7 +102,7 @@ export default class Page extends Component {
               <Image src='/img/team/theo.png'/>
               <h1>Theo Vararu</h1>
               <p>Full-stack software engineer</p>
-              <p>When he felt his corporate days (IBM, Vodafone) had been over, Dinu took up entrepreneurship and never looked back. He founded InfoIdeea in 2006 (ecommerce systems) and became certified project manager. Should that not be enough, he is also recently interested in humanities, particularly history and literature.
+              <p>Do not get fooled by his borderline-hipster-boyishgeekish look. Or by his young age. He is a powerhouse when it comes to modern web development technologies, software development principles, efficient interface programming and the likes. He is strongly opinionated (we regard it as a feature, not a bug) and he has a keen sense of design.<br/>Rare stuff when it comes to programmers.
               </p>
             </div>
           </div>

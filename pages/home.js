@@ -33,7 +33,7 @@ export default class Page extends Component {
               <h2>Publishers</h2>
               <p>
                 Upgrading your textbooks or thinking to start fresh?
-                Our technology powersstate-of-the-art textbooks in
+                Our technology powers state-of-the-art textbooks in
                 ways you didn’t think possible.
               </p>
               <div className={'styles.linkContainer'}>
@@ -64,7 +64,6 @@ export default class Page extends Component {
                 docs and powerpoint. Power-up your
                 training capacities with exciting and
                 engaging tech.
-                Sign up your school for early access.
               </p>
               <div className={'styles.linkContainer'}>
                 <Link to='/corporate'><span>Find out more</span></Link>

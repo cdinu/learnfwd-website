@@ -211,11 +211,13 @@ lo:local(.schools) {
 
 :local(.meetKat) {
   padding: 2em 1em;
+  text-align: center;
 }
 
 :local(.meetKatImg) img {
   height: auto;
   width: 100%;
+  max-width: 300px;
 }
 
 :local(.meetKatText){

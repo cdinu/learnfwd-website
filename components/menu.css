@@ -41,17 +41,13 @@
   text-decoration:none;
   vertical-align: middle;
   text-align: right;
-  margin: 0 1em;
+  padding: 0 1em;
   font-size: 1.2em;
   font-weight: 500;
 }
+
 :local(.menu) li span:hover {
   color: #fff;
-  -webkit-transiton: color 0.2s;
-  -moz-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  transition: color 0.2s;
   cursor: pointer;
   font-weight: 500;
 }
@@ -86,6 +82,7 @@
   text-align: right;
   font-size: 1em;
   line-height: 5;
+  padding-right: 1em;
 }
 
 :local(.menu) li > ul > li:hover {
@@ -97,16 +94,9 @@
   color: #fff;
 }
 
-
 :local(.menu) a:hover {
   color: #fff;
-  -webkit-transiton: color 0.2s;
-  -moz-transition: color 0.2s;
-  -ms-transition: color 0.2s;
-  -o-transition: color 0.2s;
-  transition: color 0.2s;
 }
-
 
 :local(.menu) li:hover {
   background-color: #E68F2E;
