@@ -20,7 +20,10 @@ lo:local(.schools) {
   padding: 3em 0;
   text-align: center;
 }
-
+:local(.front) h2 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 :local(.front) h1,
 :local(.front) h2 {
   width: 80%;
@@ -77,6 +80,7 @@ lo:local(.schools) {
   padding: 1em 2em;
   display: flex;
   align-items: center;
+  border-bottom: 2px solid #979797;
 }
 
 :local(.works) h1,
@@ -298,3 +302,7 @@ lo:local(.schools) {
   height: 4em;
 }
 
+:local(.maxwidth) {
+  width: 100%;
+  max-width: 1100px;
+}

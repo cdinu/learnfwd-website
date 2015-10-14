@@ -9,6 +9,7 @@ export default class Page extends Component {
   render() {
     const style = {
       background: 'url(' + '/img/author-background.png' + ')',
+      backgroundSize: 'cover',
     };
     return (
       <div>
@@ -28,7 +29,7 @@ export default class Page extends Component {
           <div className={styles.maxW}>
             <div className={styles.lfaLeft}>
               <p className={styles.largeText}>Core features</p>
-              <p className={styles.smallText}>try them on <Link>Github</Link></p>
+              <p className={styles.smallText}>try them on <a href='https://github.com/learnfwd/lfa'>Github</a></p>
             </div>
             <div className={styles.lfaRight}>
               <ul>

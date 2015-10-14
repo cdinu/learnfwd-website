@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import styles from './publishers.css';
 import Image from '../components/image';
-
+styles.maxwidth = 'mdl-grid ' + styles.maxwidth;
 styles.front = 'mdl-grid ' + styles.front;
 styles.frontImage = 'mdl-cell mdl-cell--6-col ' + styles.frontImage;
-styles.evolving = 'mdl-grid ' + styles.evolving;
+// styles.evolving = 'mdl-grid ' + styles.evolving;
 styles.evolvingLeft = 'mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet ' + styles.evolvingLeft;
 styles.evolvingRight = 'mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet ' + styles.evolvingRight;
-styles.fluid = 'mdl-grid ' + styles.fluid;
+// styles.fluid = 'mdl-grid ' + styles.fluid;
 styles.fluidLeft = 'mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet ' + styles.fluidLeft;
 styles.fluidRight = 'mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--middle ' + styles.fluidRight;
 styles.collaborative = 'mdl-grid ' + styles.collaborative;
 styles.collaborativeLeft = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--middle ' + styles.collaborativeLeft;
 styles.collaborativeRight = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--middle ' + styles.collaborativeRight;
-styles.embedded = 'mdl-grid ' + styles.embedded;
+// styles.embedded = 'mdl-grid ' + styles.embedded;
 styles.assessmentImage = 'mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet ' + styles.assessmentImage;
 styles.assessmentText = 'mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--middle ' + styles.assessmentText;
 styles.classroomM = 'mdl-grid ' + styles.classroomM;
@@ -41,6 +41,7 @@ export default class Page extends Component {
           <h2>Together we create the best digital textbooks.</h2>
         </div>
         <div className={styles.evolving}>
+          <div className={styles.maxwidth}>
           <div className={styles.evolvingLeft}>
             <h1>Textbooks are evolving.</h1>
             <h2>PDFs & ePubs are not genuine digital textbooks and your customers know that.</h2>
@@ -71,8 +72,10 @@ export default class Page extends Component {
               </div>
             </div>
           </div>
+          </div>
         </div>
         <div className={styles.fluid}>
+          <div className={styles.maxwidth}>
           <div className={styles.fluidLeft}>
             <Image src='/img/publishers-fluid-image@2x.png'/>
           </div>
@@ -82,8 +85,10 @@ export default class Page extends Component {
             <h2>Your content can retain 90% of the print layout.</h2>
             <h2>And still adapt for all screen sizes.</h2>
           </div>
+          </div>
         </div>
         <div className={styles.collaborative}>
+          <div className={styles.maxwidth}>
           <div className={styles.collaborativeLeft}>
             <h1>Collaborative</h1>
             <h2>Education is a social process.</h2>
@@ -92,8 +97,10 @@ export default class Page extends Component {
           <div className={styles.collaborativeRight}>
             <Image src='/img/publishers-collaborative@2x.png' />
           </div>
+          </div>
         </div>
         <div className={styles.embedded}>
+          <div className={styles.maxwidth}>
           <div className={styles.assessmentImage}>
             <Image src='/img/publisher-embedded-image@2x.png'/>
           </div>
@@ -103,8 +110,10 @@ export default class Page extends Component {
             <br></br>
             <h2>We think all should be digital and this is why we created 15+ types of digital assessments to cover your needs. </h2>
           </div>
+          </div>
         </div>
         <div className={styles.classroomM}>
+          <div className={styles.maxwidth}>
           <div className={styles.classroomMleft}>
             <div className={styles.vcenter}>
               <h1>Classroom management</h1>
@@ -115,8 +124,10 @@ export default class Page extends Component {
           <div className={styles.classroomMright}>
             <Image src='/img/publishers-classroom-management-image@2x.png'/>
           </div>
+          </div>
         </div>
         <div className={styles.kat}>
+          <div className={styles.maxwidth}>
           <div className={styles.katImage}>
             <Image src='/img/publishers-meet-kat@2x.png'/>
           </div>
@@ -127,8 +138,10 @@ export default class Page extends Component {
             <br/>
             <h2>Careful, though, she also gets mad! </h2>
           </div>
+          </div>
         </div>
         <div className={styles.control}>
+          <div className={styles.maxwidth}>
           <div className={styles.controlLeft}>
             <h1>Stay in control</h1>
             <h2>Most solution-providers tie you in to their proprietary software. We use open-source standards and give you the largest possible degree of freedom. </h2>
@@ -136,6 +149,7 @@ export default class Page extends Component {
           <div className={styles.controlRight}>
             <h1>Custom developments</h1>
             <h2>We are open to making integration with your LMS (i.e. for account management) or any other custom developements. </h2>
+          </div>
           </div>
         </div>
         <div className={styles.getDemo}>

@@ -16,8 +16,8 @@ export default class Page extends Component {
           <div className={styles.requestImage}>
             <Image src='/img/hand-pointing-down.png' />
           </div>
-          <h2>Request sent for</h2>
-          <h2>john.fowles@gmail.com</h2>
+          <h2>Request sent</h2>
+          <h2>successfully</h2>
           <div className={styles.tickImage}>
             <Image src='/img/tick.png' />
           </div>

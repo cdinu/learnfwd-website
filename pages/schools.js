@@ -4,15 +4,15 @@ import { Link } from 'react-router';
 import Image from '../components/image';
 import styles from './schools.css';
 
+styles.maxwidth = 'mdl-grid ' + styles.maxwidth;
 styles.front = 'mdl-grid ' + styles.front;
-
 styles.digitised = 'mdl-grid ' + styles.digitised;
 styles.digitisedImage = 'mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--12-col-phone ' + styles.digitisedImage;
 styles.digitisedContent = 'mdl-cell mdl-cell--9-col mdl-cell--9-col-tablet mdl-cell--12-col-phone ' + styles.digitisedContent;
 
 styles.works = 'mdl-grid ' + styles.works;
-styles.worksImage = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--12-col-phone ' + styles.worksImage;
-styles.worksContent = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--12-col-phone ' + styles.worksContent;
+styles.worksImage = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--middle ' + styles.worksImage;
+styles.worksContent = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--middle ' + styles.worksContent;
 
 
 styles.onOff = 'mdl-grid ' + styles.onOff;
@@ -29,8 +29,8 @@ styles.controlClassLeft = 'mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-c
 styles.controlClassRight = 'mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--middle ' + styles.controlClassRight;
 
 styles.meetKat = 'mdl-grid ' + styles.meetKat;
-styles.meetKatImg = 'mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone ' + styles.meetKatImg;
-styles.meetKatText = 'mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--12-col-phone ' + styles.meetKatText;
+styles.meetKatImg = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--middle ' + styles.meetKatImg;
+styles.meetKatText = 'mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--middle ' + styles.meetKatText;
 
 styles.oneMore = 'mdl-grid ' + styles.oneMore;
 styles.oneMoreFigure = 'mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--12-col-phone ' + styles.oneMoreFigure;
@@ -53,6 +53,7 @@ export default class Page extends Component {
           </h2>
         </div>
         <div className={styles.digitised}>
+          <div className={styles.maxwidth}>
           <div className={styles.oneMoreFigure}>
             <span className={styles.circledTwo}>1</span>
           </div>
@@ -64,8 +65,10 @@ export default class Page extends Component {
               paper textbooks?
             </h2>
           </div>
+          </div>
         </div>
         <div className={styles.works}>
+          <div className={styles.maxwidth}>
           <div className={styles.worksImage}>
             <Image src='/img/schools-responsive.png'/>
           </div>
@@ -75,8 +78,10 @@ export default class Page extends Component {
             <h2>Laptop, tablet, smartphone, we’ve got you covered.</h2>
             <h2>No need for installations or maintenance. </h2>
           </div>
+          </div>
         </div>
         <div className={styles.builtCR}>
+          <div className={styles.maxwidth}>
           <div className={styles.builtCRLeft}>
             <h1>Built for classroom</h1>
             <h2>
@@ -87,8 +92,10 @@ export default class Page extends Component {
           <div className={styles.builtCRRight}>
             <Image src='/img/schools-collaborative.png'/>
           </div>
+          </div>
         </div>
         <div className={styles.onOff}>
+          <div className={styles.maxwidth}>
           <div className={styles.onOffLeft}>
             <Image src='/img/schools-wireless.png'/>
           </div>
@@ -100,8 +107,10 @@ export default class Page extends Component {
               exercises are automatically saved in everyone’s browser.
             </h2>
           </div>
+          </div>
         </div>
         <div className={styles.controlClass}>
+          <div className={styles.maxwidth}>
           <div className={styles.controlClassLeft}>
             <h1>Control your class</h1>
             <h2>
@@ -114,8 +123,10 @@ export default class Page extends Component {
           <div className={styles.controlClassRight}>
             <Image src='/img/schools-control-your-class.png'/>
           </div>
+          </div>
         </div>
         <div className={styles.meetKat}>
+          <div className={styles.maxwidth}>
           <div className={styles.meetKatImg}>
             <Image src='/img/schools-kat.png'/>
           </div>
@@ -129,6 +140,7 @@ export default class Page extends Component {
               celebrates their accomplishments
               and encourages them to go further.
             </h2>
+          </div>
           </div>
         </div>
         <div className={styles.getInTouch}>
@@ -144,6 +156,7 @@ export default class Page extends Component {
           </span>
         </div>
         <div className={styles.oneMore}>
+          <div className={styles.maxwidth}>
           <div className={styles.oneMoreFigure}>
             <span className={styles.circledTwo}>2</span>
           </div>
@@ -168,6 +181,7 @@ export default class Page extends Component {
               </span>
               <h2> as a teacher or a school for early&nbsp;access.</h2>
             </div>
+          </div>
           </div>
         </div>
         <div className={styles.bottomSpacer} />
