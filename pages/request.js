@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import styles from './request.css';
 import Image from '../components/image';
 
@@ -49,3 +49,6 @@ export default class Page extends Component {
   }
 }
 Page.displayName = 'LfpRequest';
+Page.propTypes = {
+  history: PropTypes.object,
+};
