@@ -36,9 +36,10 @@ export default class Page extends Component {
                 Our technology powers state-of-the-art textbooks in
                 ways you didn’t think possible.
               </p>
-              <div className={'styles.linkContainer'}>
+              <div className={styles.linkContainer}>
                 <Link to='/publishers'><span>See what we can do</span></Link>
               </div>
+              <div className={styles.spacerCard}></div>
             </div>
             <div className={styles.solutionCard}>
               <div className={styles.imgContainer}>
@@ -52,7 +53,8 @@ export default class Page extends Component {
                 <br/>
                 Sign up your school for early access.
               </p>
-              <div className={'styles.linkContainer'}>
+              <div className={styles.spacerCard}></div>
+              <div className={styles.linkContainer}>
                 <Link to='/schools'><span>About the platform</span></Link>
               </div>
             </div>
@@ -65,7 +67,8 @@ export default class Page extends Component {
                 training capacities with exciting and
                 engaging tech.
               </p>
-              <div className={'styles.linkContainer'}>
+              <div className={styles.spacerCard}></div>
+              <div className={styles.linkContainer}>
                 <Link to='/corporate'><span>Find out more</span></Link>
               </div>
             </div>
