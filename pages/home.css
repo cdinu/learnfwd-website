@@ -21,6 +21,7 @@
   display: block;
   position: absolute;
   bottom: 2em;
+  left: 0;
 }
 
 :local(.card) a {
@@ -77,7 +78,7 @@
   background-color: #fff;
   display: flex;
   flex-direction:column;
-  align-self: center;
+  align-self: stretch;
 }
 :local(.solutionCard) h2 {
   font-size: 180%;
@@ -127,6 +128,15 @@
     background-size: auto 7%;
   }
 }
+@media (max-width: 580px) {
+  :local(.linkContainer) span {
+    font-size: 90%;
+  }
+  :local(.linkContainer) a {
+    padding: 0 .8em;
+  }
+}
+
 
 :local(.productCardContainer){
   max-width: 60em;

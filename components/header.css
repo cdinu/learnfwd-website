@@ -108,3 +108,8 @@
   background: #333;
   color:  #E68F2E;
 }
+@media (max-width: 839px) and (min-width: 480px) {
+  :local(.nav) {
+    width: 100% !important;
+  }
+}
