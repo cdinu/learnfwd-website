@@ -36,7 +36,7 @@ export default class Page extends Component {
           <br></br>
           <p>
             <strong>Email to: </strong>
-            <a href="hello@learnfwd.com?Subject=Hello%20again" target="_top">hello@learnfwd.com</a>
+            <a href="mailto:hello@learnfwd.com" target="_top">hello@learnfwd.com</a>
           </p>
         </div>
       </div>
