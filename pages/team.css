@@ -2,7 +2,7 @@
 :local(.teamCt) {
   padding: 2em;
   background: #f1ece6;
-  border-bottom: 1px solid rgba(0,0,0,.72);
+  border-bottom: 1px solid #979797;
 }
 :local(.teamCt2) {
   background: #fff;
@@ -56,6 +56,10 @@
   background: #fff;
   display: inline-block;
   align-self: stretch;
+}
+:local(.teamCo) a {
+  color: #428bca;
+  text-decoration: none;
 }
 :local(.teamCo) img {
   width: 45%;

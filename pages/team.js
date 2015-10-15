@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './team.css';
 import Image from '../components/image';
-import { Link } from 'react-router';
 styles.teamMax = 'mdl-grid ' + styles.teamMax;
 styles.teamFirst = 'mdl-grid ' + styles.teamFirst;
 styles.teamCo = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet ' + styles.teamCo;
@@ -36,7 +35,7 @@ export default class Page extends Component {
               </div>
               <p>When he felt his corporate days (IBM, Vodafone) had been over, Dinu took up entrepreneurship and never looked back. He founded InfoIdeea in 2006 (ecommerce systems) and became certified project manager. Should that not be enough, he is also recently interested in humanities, particularly history and literature.
               </p>
-              <p>Check out his <Link to='http://cristiandinu.info/'>personal webpage</Link> (in Romanian)</p>
+              <p>Check out his <a href='http://cristiandinu.info/'>personal webpage</a> (in Romanian)</p>
             </div>
           </div>
           <div className={styles.teamFirst}>
