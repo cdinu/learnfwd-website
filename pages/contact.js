@@ -3,9 +3,9 @@ import Image from '../components/image';
 import styles from './contact.css';
 
 styles.contact = 'mdl-grid ' + styles.contact;
-styles.contactContent = 'mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--bottom ' + styles.contactContent;
+styles.contactContent = 'mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet ' + styles.contactContent;
 // styles.contactImage = 'mdl-cell mdl-cell--2-col mdl-cell--4-col-tablet mdl-cell--2-col-phone mdl-cell--bottom ' + styles.contactImage;
-styles.contactHeader = 'mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--top ' + styles.contactHeader;
+styles.contactHeader = 'mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet ' + styles.contactHeader;
 
 export default class Page extends Component {
   render() {
