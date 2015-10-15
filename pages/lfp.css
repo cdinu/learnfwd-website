@@ -67,3 +67,27 @@
 :local(.getDemoButton) a:hover {
   background: #ffa036;
 }
+
+@media screen and (max-width: 839px) {
+  :local(.lfaSecond) p {
+    font-size: 2em;
+  }
+  :local(.lfaSeventh) p {
+    font-size: 2.5em;
+  }
+  :local(.lfaSeventh) {
+    padding: 4.5em 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  :local(.lfaSecond) p {
+    font-size: 1.5em;
+  }
+  :local(.lfaSeventh) p {
+    font-size: 1.8em;
+  }
+  :local(.lfaSeventh) {
+    padding: 3em 1em;
+  }
+}

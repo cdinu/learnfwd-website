@@ -36,6 +36,12 @@
   line-height: 1;
   font-weight: 100;
 }
+@media screen and (max-width: 480px) {
+  :local(.lfaSecond) p {font-size: 1.6em;}
+}
+@media screen and (max-width: 839px) {
+  :local(.lfaSecond) p {font-size: 2em;}
+}
 :local(.maxW) {
   display: block;
   width: 100%;
@@ -119,4 +125,15 @@
   :local(.largeText) {
     max-width: 100%;
   }
+  :local(.lfaRight) {text-align: left;}
+}
+@media screen and (max-width: 480px) {
+  :local(.lfaFirst) h1 {
+
+  }
+  :local(.lfaFirst) h1 { font-size: 2.5em; }
+
+:local(.lfaFirst) h2 {
+  font-size: 5vw;
+  max-width: 90%;}
 }
