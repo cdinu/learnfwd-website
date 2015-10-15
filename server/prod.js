@@ -25,7 +25,7 @@ app.get('*', (req, res) => {
       res.send(404, 'Not found');
     } else {
       const content = React.renderToString(<RoutingContext {...renderProps}/>);
-      res.send(template.replace('Please wait...', content));
+      res.send(template.replace('Petting cats...', content));
     }
   });
 });
