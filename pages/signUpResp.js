@@ -12,7 +12,7 @@ export default class Page extends Component {
     return (
       <div className={styles.requestPage}>
         <div className={styles.requestBox}>
-          <h1 className={styles.requestTitle}>Sign up <br></br> for early access</h1>
+          <h1 className={styles.requestTitle}>Sign Up <br></br> for early access</h1>
           <div className={styles.requestImage}>
             <Image src='/img/hand-pointing-down.png' />
           </div>

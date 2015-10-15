@@ -23,7 +23,8 @@ export default class Page extends Component {
               </div>
               <input name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Email" type="email" />
               <br></br>
-              <div className={styles.mailImage}>
+              <br></br>
+              <div className={styles.schoolImage}>
                 <Image src="/img/school.png" />
               </div>
               <input name="school" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="School(optional)" type="text"/>

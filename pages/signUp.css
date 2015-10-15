@@ -44,22 +44,34 @@
   :local(.requestImage) img{width:30%;}  
 }
 :local(.mailImage){
-  display: inline-block;
-  padding:.65em;
+  display: inline-flex;
+  vertical-align: top;
+  /*padding:.65em;*/
+  height:40px;
+  width: auto;
+  padding:0 5px;
   border: solid black;
   border-width: 1px 0 1px 1px;
   border-radius: 5px 0 0 5px;
   background-color: #EEEEEE;
+}
+:local(.mailImage) img{
+  height:1em;
+  width: auto;
+  padding:0 5px;
+  margin:0 auto;
+  display: flex;
+  align-self:center;
 }
 @media (max-width: 578px){
   :local(.mailImage){display: none;}  
 }
 
 :local(.formBox) input[type="email"]{
-  height:2em;
+  height:40px;
   width: 20em;
   margin: 0 auto;
-  padding:.5em;
+  padding:0 5px;
   border-radius:0 5px 5px 0;
   border: 1px solid black;
 }
@@ -76,11 +88,34 @@
   -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
 }
+:local(.schoolImage){
+  display: inline-flex;
+  vertical-align: top;
+  /*padding:.65em;*/
+  height:40px;
+  width: auto;
+  padding:0 5px;
+  border: solid black;
+  border-width: 1px 0 1px 1px;
+  border-radius: 5px 0 0 5px;
+  background-color: #EEEEEE;
+}
+:local(.schoolImage) img{
+  height:calc(1em + 4px);
+  width: auto;
+  padding:0 3px;
+  margin:0 auto;
+  display: flex;
+  align-self:center;
+}
+@media (max-width: 578px){
+  :local(.schoolImage){display: none;}  
+}
 :local(.formBox) input[type="text"]{
-  height:2em;
+  height:40px;
   width: 20em;
-  margin: 1em auto 0 auto;
-  padding:.5em;
+  margin: 0 auto;
+  padding:0 5px;
   border-radius:0 5px 5px 0;
   border: 1px solid black;
 }
