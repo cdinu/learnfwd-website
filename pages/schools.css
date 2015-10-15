@@ -43,7 +43,7 @@ lo:local(.schools) {
 }
 
 :local(.frontImage) img {
-  width: 100%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -216,7 +216,7 @@ lo:local(.schools) {
 
 :local(.meetKatImg) img {
   height: auto;
-  width: 100%;
+  width: 65%;
   max-width: 300px;
 }
 
@@ -245,7 +245,7 @@ lo:local(.schools) {
 
 :local(.getInTouch) h1 {
   color: #fff;
-  line-height: 0.4;
+  line-height: 1;
 }
 
 :local(.getInTouch) h2 {

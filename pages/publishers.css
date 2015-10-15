@@ -79,7 +79,7 @@
 :local(.evolvingRightElement) {
   height: 100%;
   align-self: flex-end;
-  width: calc(100%/3);
+  width: 33.33%;
   /*float: left;*/
   text-align: center;
   position: relative;
@@ -89,6 +89,9 @@
   align-self: flex-end;
   /*margin: 0 auto;*/
   margin: 0 5%;
+}
+:local(.evolvingRightElement) img {
+  margin: 0;
 }
 :local(.evolvingRightElement) img[src='/img/tricky-arrow.png'] {
   position: absolute;
@@ -118,6 +121,7 @@
   padding: 1em 0;
   box-shadow: 2px 2px 2px #979797;
   margin-bottom: 2.5px;
+  max-width: 100%;
 }
 :local(.fluid) h1,
 :local(.fluid) h2 {
@@ -125,6 +129,12 @@
   font-weight: 100;
   margin: 0;
   font-size: 270%;
+}
+:local(.evolvingRight),
+:local(.evolvingLeft),
+:local(.fluidRight),
+:local(.fluidLeft) {
+  margin: 0;
 }
 @media (max-width: 839px){
   :local(.fluidRight) h1{ text-align: center;}
@@ -142,6 +152,12 @@
 :local(.fluidLeft) img {
   width: 100%;
   max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+:local(.fluidRight) img {
+  width: 65%;
+  max-width: 300px;
   display: block;
   margin: 0 auto;
 }
