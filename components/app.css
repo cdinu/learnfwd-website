@@ -7,4 +7,8 @@ body {
 :local(.main) {
   margin-top: 70px;
 }
-
+@media only screen and (max-width:580px) {
+  :local(.main) {
+  margin-top: 63px;
+}
+}

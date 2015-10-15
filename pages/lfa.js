@@ -49,7 +49,7 @@ export default class Page extends Component {
               <p className={styles.smallText}>10+ types of exercises</p>
             </div>
             <div className={styles.lfaRight}>
-              <p>Built upon LearnFwd Author but featuring advanced plugins for automatic backup of user’s progress, creating and using complex self-validating exercises and real-time collaborative features tailored for in-Built upon LearnFwd Author but featuring advanced plugins for automatic backup of user’s progress, creating and using complex self-validating exercises and real-time collaborative features tailored for inclassroom use (create / join classrooms, work in groups, share results etc.). Collaborative features require internet connection.
+              <p>Built upon LearnFwd Author but featuring advanced plugins for automatic backup of user’s progress, creating and using complex self-validating exercises and real-time collaborative features tailored to be used in classroom (create / join classrooms, work in groups, share results etc.).<br/>Collaborative features require internet connection.
               </p>
             </div>
           </div>

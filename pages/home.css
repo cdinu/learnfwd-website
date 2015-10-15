@@ -112,10 +112,22 @@
   color: #fff;
 }
 
+@media (max-width: 839px) {
+  :local(.productSection) {
+    background-size: auto 12%;
+    background-position: 100% 5%;
+  }
+}
+@media (max-width: 480px) {
+  :local(.productSection) {
+    background-position: 100% 12%;
+    background-size: auto 7%;
+  }
+}
+
 :local(.productCardContainer){
   max-width: 60em;
 }
-
 
 :local(.productCard) {
   border: 1px solid #fff;

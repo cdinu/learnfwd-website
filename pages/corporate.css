@@ -73,7 +73,7 @@
 }
 :local(.lfaRight),
 :local(.lfaLeft) {  
-  align-self: stretch;
+  align-self: center;
 }
 :local(.centerT) {
   text-align: center;
