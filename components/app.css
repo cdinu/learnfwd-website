@@ -9,6 +9,5 @@ body {
 }
 
 @media only screen and (max-width:580px) {
-  :local(.main) {
-  padding-top: 63px;
+  :local(.main) {padding-top: 63px;}
 }
