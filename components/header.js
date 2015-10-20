@@ -24,6 +24,7 @@ export default class Header extends Component {
             <Link className={'mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet ' + styles.logo} to='/'>Learn Forward</Link>
             <Menu className={'mdl-cell mdl-cell--9-col mdl-cell--9-col-tablet ' + styles.nav} items={this.props.menu}/>
             <div className={styles.burger}>
+              <div className={styles.burgericon}></div>
               <ul className={styles.burgerContent}>
                 <li><Link to='/'>Home</Link></li>
                 <li>Products:</li>
