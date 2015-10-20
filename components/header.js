@@ -32,8 +32,8 @@ export default class Header extends Component {
                 <li><Link to='/lfp'> &nbsp;&nbsp;- Learn Forward Platform</Link></li>
                 <li>Solutions:</li>
                 <li><Link to='/publishers'> &nbsp;&nbsp;- For Educational Publishers</Link></li>
-                <li><Link to='/s-a-t'> &nbsp;&nbsp;- For Schools and Teachers</Link></li>
-                <li><Link to='/corporate-training'> &nbsp;&nbsp;- For Corporate Training</Link></li>
+                <li><Link to='/schools'> &nbsp;&nbsp;- For Schools and Teachers</Link></li>
+                <li><Link to='/corporate'> &nbsp;&nbsp;- For Corporate Training</Link></li>
                 <li><Link to='/team'>Team</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
                 <li><Link to='/demo'>Demo</Link></li>
