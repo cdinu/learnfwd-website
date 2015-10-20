@@ -62,19 +62,19 @@ export default class Page extends Component {
             <div className={styles.teamCo}>
               <Image src='/img/team/barrie.png'/>
               <h1>Barrie Heptonstall</h1>
-              <p>Barrie has spent 25 years working in senior management roles for a giant US-based technology company, and is an expert on enterprise software sales. He angel invests in startups in the UK and California (including Learn Forward).
+              <p>Barrie has spent 25 years working in senior management roles for a giant US-based technology company, and is an expert on enterprise software sales. He <a href="http://angel.co" target="_blank">angel invests</a> in startups in the UK and California (including Learn Forward).
               </p>
             </div>
             <div className={styles.teamCo}>
               <Image src='/img/team/charles.png'/>
               <h1>Charles Cormack</h1>
-              <p>Experienced International Business Development professional, and Chairman of CCG a specialist consultancy working between the UK , Latvia, Lithuania, Russia and Romania.
+              <p>Experienced International Business Development professional, and Chairman of <a href="https://www.ccbaltic.eu" target="_blank">CCG a specialist consultancy</a> working between the UK , Latvia, Lithuania, Russia and Romania.
               </p>
             </div>
             <div className={styles.teamCo}>
               <Image src='/img/team/angela.png'/>
               <h1>Angela McFarlane</h1>
-              <p>Angela McFarlane is an international author and practitioner in engagement and learning, an experienced and inspiring leader, respected researcher and thoughtsmith. She is currently Chief Executive and Registrar at The College of Teachers. Here’s her latest book: Authentic Learning for the Digital Generation: Realising the potential of technology in the classroom
+              <p>Angela McFarlane is an international author and practitioner in engagement and learning, an experienced and inspiring leader, respected researcher and thoughtsmith. Her latest book: <a href="#" target="_blank">Authentic Learning for the Digital Generation: Realising the potential of technology in the classroom</a> is a fundamental work for EdTech companies looking to build teacher-proof solutions.
               </p>
             </div>
             <div className={styles.teamCo}>
@@ -82,7 +82,7 @@ export default class Page extends Component {
               <h1>Owen White</h1>
               <p>Owen has a tremendous 20-year experience in EdTech, 11 with Pearson in several roles including Digital Strategy Director.
               </p>
-              <p> He is currently advising and investing in early stage startups through Emerge Education with a special focus on making sure there’s a clear product-market fit.
+              <p> He is currently advising and investing in early stage startups through Emerge Education with a special focus on making sure there’s a clear product-market fit, customer-based product development and tested user-experience.
               </p>
             </div>
           </div>
