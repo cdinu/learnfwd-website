@@ -18,8 +18,8 @@ export default class Page extends Component {
               <p>Co-founder & CEO</p>
               <div className={styles.socialM}>
                 <a href='https://www.linkedin.com/in/paulbalogh'><Image src='/img/team/linkedin.png'/></a>
-                <a href='https://twitter.com/paulbalogh'><Image src='/img/team/twitter.png'/></a>
-                <a href='https://www.facebook.com/daseinpaul'><Image src='/img/team/facebook.png'/></a>
+                <a href='https://twitter.com/paulbalogh'><Image src='/img/team/twitter@2x.png'/></a>
+                <a href='https://www.facebook.com/daseinpaul'><Image src='/img/team/facebook@2x.png'/></a>
               </div>
               <p>He&apos;s a cross-breed between humanities and technology. He graduated from the Faculty of Philosophy but worked as system administrator, web programmer and web designer. He tried to combine these two in several ways: founded Zeta Books in 2006 (academic publisher); business developer (LibHumanitas, 2009 and Humanitas Digital 2011). Now he is back to entrepreneurship with Learn Forward.
               </p>
@@ -62,24 +62,45 @@ export default class Page extends Component {
             <div className={styles.teamCo}>
               <Image src='/img/team/barrie.png'/>
               <h1>Barrie Heptonstall</h1>
+              <div className={styles.socialM}>
+                <a href='https://www.linkedin.com/in/barrieheptonstall'><Image src='/img/team/linkedin.png'/></a>
+                <a href='https://twitter.com/barrieheptonstall'><Image src='/img/team/twitter@2x.png'/></a>
+                <a href='https://angel.com/barrieheptonstall'><Image src='/img/team/twitter@2x.png'/></a>
+              </div>
+
               <p>Barrie has spent 25 years working in senior management roles for a giant US-based technology company, and is an expert on enterprise software sales. He <a href="http://angel.co" target="_blank">angel invests</a> in startups in the UK and California (including Learn Forward).
               </p>
             </div>
             <div className={styles.teamCo}>
               <Image src='/img/team/charles.png'/>
               <h1>Charles Cormack</h1>
+              <div className={styles.socialM}>
+                <a href='https://www.linkedin.com/in/charlescormack'><Image src='/img/team/linkedin.png'/></a>
+                <a href='https://twitter.com/charlescormack'><Image src='/img/team/twitter@2x.png'/></a>
+              </div>
+
               <p>Experienced International Business Development professional, and Chairman of <a href="https://www.ccbaltic.eu" target="_blank">CCG a specialist consultancy</a> working between the UK , Latvia, Lithuania, Russia and Romania.
               </p>
             </div>
             <div className={styles.teamCo}>
               <Image src='/img/team/angela.png'/>
               <h1>Angela McFarlane</h1>
+              <div className={styles.socialM}>
+                <a href='https://www.linkedin.com/in/angelamcfarlane'><Image src='/img/team/linkedin.png'/></a>
+                <a href='https://twitter.com/angelamcfarlane'><Image src='/img/team/twitter@2x.png'/></a>
+              </div>
+
               <p>Angela McFarlane is an international author and practitioner in engagement and learning, an experienced and inspiring leader, respected researcher and thoughtsmith. Her latest book: <a href="#" target="_blank">Authentic Learning for the Digital Generation: Realising the potential of technology in the classroom</a> is a fundamental work for EdTech companies looking to build teacher-proof solutions.
               </p>
             </div>
             <div className={styles.teamCo}>
               <Image src='/img/team/owen.png'/>
               <h1>Owen White</h1>
+              <div className={styles.socialM}>
+                <a href='https://www.linkedin.com/in/owenwhite'><Image src='/img/team/linkedin.png'/></a>
+                <a href='https://twitter.com/owenwhite'><Image src='/img/team/twitter@2x.png'/></a>
+              </div>
+
               <p>Owen has a tremendous 20-year experience in EdTech, 11 with Pearson in several roles including Digital Strategy Director.
               </p>
               <p> He is currently advising and investing in early stage startups through Emerge Education with a special focus on making sure there’s a clear product-market fit, customer-based product development and tested user-experience.
