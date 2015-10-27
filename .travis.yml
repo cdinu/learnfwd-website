@@ -8,3 +8,6 @@ script:
   - npm install
   - npm run eslint
 
+after_success:
+  - sudo apt-get -y -qq install sshpass
+  - $DEPLOYCMD
