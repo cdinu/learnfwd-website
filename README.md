@@ -38,3 +38,6 @@ NODE_ENV=production npm run postinstall && npm start
 
 
 :point_right: Please see routes.js for site configuration!
+
+
+[![Build Status](https://travis-ci.org/learnfwd/learnfwd-website.svg)](https://travis-ci.org/learnfwd/learnfwd-website)

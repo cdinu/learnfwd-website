@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "4.1"
+env:
+  - NODE_ENV=production
+
+script:
+  - npm install
+  - npm run postinstall
+  - npm run eslint
+

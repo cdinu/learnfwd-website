@@ -167,4 +167,3 @@ export default class Page extends Component {
 
 Page.displayName = 'LfPublishers';
 
-
