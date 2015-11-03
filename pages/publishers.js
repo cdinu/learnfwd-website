@@ -157,7 +157,7 @@ export default class Page extends Component {
           <h2>If you like what you see don’t hesitate to contact us.</h2>
           <h2>We’ll discuss your needs and our services, plus we can do a proper demo for you. </h2>
           <span className={styles.getDemoButton}>
-            <Link to='/demo'>GET A DEMO</Link>
+            <Link to='/request'>GET A DEMO</Link>
           </span>
         </div>
       </div>
