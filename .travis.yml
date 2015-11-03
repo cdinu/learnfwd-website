@@ -1,4 +1,6 @@
 language: node_js
+sudo: false
+
 node_js:
   - "4.1"
 env:
@@ -8,3 +10,9 @@ script:
   - npm install
   - npm run eslint
 
+addons:
+  ssh_known_hosts: learnfwd.com
+
+after_success:
+  - sudo apt-get -y -qq install sshpass
+  - eval $DEPLOYCMD
