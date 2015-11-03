@@ -30,11 +30,11 @@ const menu = [
     label: 'Products',
     items: [
       {
-        to: '/lfa',
+        to: '/authoring-tool',
         label: 'Learn Forward Author',
       },
       {
-        to: '/lfp',
+        to: '/platform',
         label: 'Learn Forward Platform',
       },
     ],
@@ -84,7 +84,9 @@ export default (
     <Route component={pages.schools} path='schools' />
     <Route component={pages.corporate} path='corporate' />
     <Route component={pages.lfa} path='lfa' />
+    <Route component={pages.lfa} path='authoring-tool' />
     <Route component={pages.lfp} path='lfp' />
+    <Route component={pages.lfp} path='platform' />
     <Route component={pages.team} path='team' />
     <Route component={pages.contact} path='contact' />
     <Route component={pages.demo} path='demo' />

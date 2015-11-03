@@ -28,8 +28,8 @@ export default class Header extends Component {
               <ul className={styles.burgerContent}>
                 <li><Link to='/'>Home</Link></li>
                 <li>Products:</li>
-                <li><Link to='/lfa'> &nbsp;&nbsp;- Learn Forward Author</Link></li>
-                <li><Link to='/lfp'> &nbsp;&nbsp;- Learn Forward Platform</Link></li>
+                <li><Link to='/authoring-tool'> &nbsp;&nbsp;- Learn Forward Author</Link></li>
+                <li><Link to='/platform'> &nbsp;&nbsp;- Learn Forward Platform</Link></li>
                 <li>Solutions:</li>
                 <li><Link to='/publishers'> &nbsp;&nbsp;- For Educational Publishers</Link></li>
                 <li><Link to='/schools'> &nbsp;&nbsp;- For Schools and Teachers</Link></li>

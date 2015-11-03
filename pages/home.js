@@ -84,7 +84,7 @@ export default class Page extends Component {
               </h2>
               <p>Professional Authoring Tool for state-of-the-art digital textbooks.</p>
               <div className={'styles.linkContainer'}>
-                <Link to='/lfa'><span>Features and services</span></Link>
+                <Link to='/authoring-tool'><span>Features and services</span></Link>
               </div>
             </div>
             <div className={styles.productCard}>
@@ -93,7 +93,7 @@ export default class Page extends Component {
               </h2>
               <p>Digital lesson planning &amp; delivery tool.  With a twist.</p>
               <div className={'styles.linkContainer'}>
-                <Link to='/lfp'><span>Details and signup</span></Link>
+                <Link to='/platform'><span>Details and signup</span></Link>
               </div>
             </div>
           </div>
