@@ -144,11 +144,11 @@ export default class Page extends Component {
           <div className={styles.maxwidth}>
           <div className={styles.controlLeft}>
             <h1>Stay in control</h1>
-            <h2>Most solution-providers tie you in to their proprietary software. We use open-source standards and give you the largest possible degree of freedom. </h2>
+            <h2>Most solution-providers tie you into their proprietary software. We use open-source standards and give you the largest possible degree of freedom. </h2>
           </div>
           <div className={styles.controlRight}>
             <h1>Custom developments</h1>
-            <h2>We are open to making integration with your LMS (i.e. for account management) or any other custom developements. </h2>
+            <h2>We are open to making the integration with your LMS (i.e. for account management) or any other custom developements. </h2>
           </div>
           </div>
         </div>
