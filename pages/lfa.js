@@ -79,7 +79,7 @@ export default class Page extends Component {
             <div className={styles.lfaRight}>
               <ul>
                 <li>customised help</li>
-                <li>reacts to success / progrss & failure in solving the exercises</li>
+                <li>reacts to success / progress & failure in solving the exercises</li>
                 <li>interacts with the student</li>
                 <li>especially suited for primary and secondary education</li>
               </ul>
@@ -89,7 +89,7 @@ export default class Page extends Component {
         <div className={styles.lfaSeventh}>
           <p>Find more by requesting a demo.</p>
           <span className={styles.getDemoButton}>
-            <Link to='/demo'>GET A DEMO</Link>
+            <Link to='/request'>GET A DEMO</Link>
           </span>
         </div>
       </div>

@@ -74,7 +74,7 @@ export default class Page extends Component {
         <div className={styles.corporateBottom}>
           <h1>Get in touch with us<br/>for a demo</h1>
           <span className={styles.contactUsButton}>
-            <Link to='/demo'>GET A DEMO</Link>
+            <Link to='/request'>GET A DEMO</Link>
           </span>
         </div>
       </div>

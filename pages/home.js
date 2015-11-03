@@ -16,8 +16,8 @@ styles.productCard = [
 ].join(' ');
 
 styles.h1 = 'mdl-cell mdl-cell--12-col ' + styles.h1;
-styles.pilotImgContainer = 'mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-grid ' + styles.pilotImgContainer;
-styles.pilotImg = 'mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--2-col-phone';
+styles.pilotImgContainer = 'mdl-cell mdl-cell--4-col mdl-cell--6-tablet mdl-cell--12-col-phone mdl-grid ' + styles.pilotImgContainer;
+styles.pilotImg = 'mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--3-col-phone';
 
 export default class Page extends Component {
   render() {
@@ -84,7 +84,7 @@ export default class Page extends Component {
               </h2>
               <p>Professional Authoring Tool for state-of-the-art digital textbooks.</p>
               <div className={'styles.linkContainer'}>
-                <Link to='/lfa'><span>Features and services</span></Link>
+                <Link to='/authoring-tool'><span>Features and services</span></Link>
               </div>
             </div>
             <div className={styles.productCard}>
@@ -93,7 +93,7 @@ export default class Page extends Component {
               </h2>
               <p>Digital lesson planning &amp; delivery tool.  With a twist.</p>
               <div className={'styles.linkContainer'}>
-                <Link to='/lfp'><span>Details and signup</span></Link>
+                <Link to='/platform'><span>Details and signup</span></Link>
               </div>
             </div>
           </div>
@@ -103,10 +103,13 @@ export default class Page extends Component {
             <div className={styles.pilotImg}><Image src='/img/logo-eton.png' /></div>
             <div className={styles.pilotImg}><Image src='/img/logo-oxford.png' /></div>
             <div className={styles.pilotImg}><Image src='/img/logo-hodder.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-harper.png' /></div>
           </div>
           <div className={styles.pilotImgContainer}>
-            <div className={styles.pilotImg}><Image src='/img/logo-tlse.png' style={{width: '45%'}} /><Image src='/img/logo-art.png' style={{width: '45%', float: 'right'}} /></div>
+            <div className={styles.pilotImg}><Image src='/img/logo-harper.png' /></div>
+            <div className={styles.pilotImg}><Image src='/img/logo-tlse.png' /></div>
+            <div className={styles.pilotImg}><Image src='/img/logo-art.png' /></div>
+          </div>
+          <div className={styles.pilotImgContainer}>
             <div className={styles.pilotImg}><Image src='/img/logo-samsung.png' /></div>
             <div className={styles.pilotImg}><Image src='/img/logo-jar.png' /></div>
             <div className={styles.pilotImg}><Image src='/img/logo-humanitas.png' /></div>

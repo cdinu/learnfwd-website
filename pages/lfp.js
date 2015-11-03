@@ -26,7 +26,7 @@ export default class Page extends Component {
         <div className={styles.lfaSeventh}>
           <p>Sign up your school for an early invite.</p>
           <span className={styles.getDemoButton}>
-            <Link to='/contact'>SIGN UP</Link>
+            <Link to='/signup'>SIGN UP</Link>
           </span>
         </div>
       </div>

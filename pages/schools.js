@@ -61,7 +61,7 @@ export default class Page extends Component {
             <h1>Have your content digitised</h1>
             <h2>Designing lessons is part of a teacher’s best work.</h2>
             <h2>
-              Why not having it digitised and used instead of buying expensive
+              Why not having your own content digitised and used instead of buying expensive
               paper textbooks?
             </h2>
           </div>

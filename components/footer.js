@@ -10,8 +10,8 @@ export default class Footer extends Component {
       <footer className={'mdl-grid ' + styles.footer} style={{backgroundImage: 'url(/img/ruler.png);', backgroundColor: '#363636', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom left', backgroundSize: '100px', margin: 0, color: '#fff', paddingBottom: 40}}>
         <div className={sectionStyle}>
           <strong className='sectionTitle'>Products &amp; services</strong>
-          <Link className={styles.sectionLink} to='/lfa'>Learn Forward Author</Link>
-          <Link className={styles.sectionLink} to='/lfp'>Learn Forward Platform</Link>
+          <Link className={styles.sectionLink} to='/authoring-tool'>Learn Forward Author</Link>
+          <Link className={styles.sectionLink} to='/platform'>Learn Forward Platform</Link>
         </div>
         <div className={sectionStyle}>
           <strong className='sectionTitle'>Solutions</strong>
