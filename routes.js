@@ -63,11 +63,11 @@ const meta = {
     title: 'Learn Forward - Making the Digital Classroom Work',
     description: 'We help publishers create collaborative digital textbooks and we help teachers design & deliver lessons in a digital format.',
   },
-  '/lfa': {
+  '/authoring-tool': {
     title: 'LFA - Learn Forward Author',
     description: 'Digital publishing tools for rich HTML5 publications',
   },
-  '/lfp': {
+  '/platform': {
     title: 'LFP - Learn Forward Platform',
     description: 'Digital publishing tools for rich HTML5 publications',
   },
