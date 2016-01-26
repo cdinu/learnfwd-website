@@ -7,7 +7,7 @@ export default class Footer extends Component {
   render() {
     const sectionStyle = 'mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--12-col-phone';
     return (
-      <footer className={'mdl-grid ' + styles.footer} style={{backgroundImage: 'url(/img/ruler.png);', backgroundColor: '#363636', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom left', backgroundSize: '100px', margin: 0, color: '#fff', paddingBottom: 40}}>
+      <footer className={'mdl-grid ' + styles.footer} style={{backgroundImage: 'url(/img/ruler.png)', backgroundColor: '#363636', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom left', backgroundSize: '100px', margin: 0, color: '#fff', paddingBottom: 40}}>
         <div className={sectionStyle}>
           <strong className='sectionTitle'>Products &amp; services</strong>
           <Link className={styles.sectionLink} to='/authoring-tool'>Learn Forward Author</Link>
