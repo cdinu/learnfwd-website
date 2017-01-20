@@ -40,21 +40,16 @@ export default class Page extends Component {
               </p>
             </div>
           </div>
-          <div className={styles.teamFirst}>
-            <div className='mdl-cell mdl-cell--4-col'>
+          <div className={styles.teamMax}>
+            <div className={styles.teamCo}>
               <Image src='/img/team/leo.png'/>
               <h1>Leo Budrincă</h1>
               <p>Content Manager</p>
             </div>
-            <div className='mdl-cell mdl-cell--4-col'>
+            <div className={styles.teamCo}>
               <Image src='/img/team/iulian.png'/>
-              <h1>Iulian Savin</h1>
-              <p>Junior Web Developer</p>
-            </div>
-            <div className='mdl-cell mdl-cell--4-col'>
-              <Image src='/img/team/mara.png'/>
-              <h1>Mara Predescu</h1>
-              <p>Junior Frontend Developer</p>
+               <h1>Iulian Savin</h1>
+               <p>Junior Web Developer</p>
             </div>
           </div>
         </div>
