@@ -122,3 +122,9 @@
     width: 100% !important;
   }
 }
+
+:local(.burgerContent) li img {
+  height: 3em;
+  margin-left: -2em;
+  width: calc(100% + 2em);
+}

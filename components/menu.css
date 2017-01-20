@@ -12,15 +12,25 @@
   height: 5em;
 }
 :local(.menu) li:nth-child(5) {
-  background: #e68f2e;
+  background: #e1e614;
   height: 2.5em;
   margin-top: 1.25em;
   border-radius: 1.25em;
   margin-left: 1em;
+  color: #00a5e6;
 }
+
+:local(.menu) li:nth-child(5) span {
+  line-height: 2.2;
+  text-transform: none;
+}
+
 :local(.menu) li:nth-child(5):hover {
   background: #ffa036;
 }
+
+
+
 :local(.menu) li:nth-child(5) a {
   color: white;
   margin-top: -1em;

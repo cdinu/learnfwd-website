@@ -34,8 +34,8 @@ const menu = [
         label: 'Learn Forward Author',
       },
       {
-        to: '/platform',
-        label: 'Learn Forward Platform',
+        to: '/hypersay',
+        label: 'Hypersay',
       },
     ],
   },
@@ -53,8 +53,8 @@ const menu = [
     ],
   },
   {
-    to: '/request',
-    label: 'get a demo',
+    // to: '/request',
+    label: 'Hypersay', // -deleted here
   },
 ];
 
@@ -67,9 +67,9 @@ const meta = {
     title: 'LFA - Learn Forward Author',
     description: 'Digital publishing tools for rich HTML5 publications',
   },
-  '/platform': {
-    title: 'LFP - Learn Forward Platform',
-    description: 'Digital publishing tools for rich HTML5 publications',
+  '/hypersay': {
+    title: 'Hypersay',
+    description: 'to do',
   },
   '/contact': {
     title: 'LFA - Learn Forward Author',
@@ -86,7 +86,7 @@ export default (
     <Route component={pages.lfa} path='lfa' />
     <Route component={pages.lfa} path='authoring-tool' />
     <Route component={pages.lfp} path='lfp' />
-    <Route component={pages.lfp} path='platform' />
+    <Route component={pages.lfp} path='hypersay' />
     <Route component={pages.team} path='team' />
     <Route component={pages.contact} path='contact' />
     <Route component={pages.demo} path='demo' />

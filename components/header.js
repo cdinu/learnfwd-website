@@ -29,14 +29,14 @@ export default class Header extends Component {
                 <li><Link to='/'>Home</Link></li>
                 <li>Products:</li>
                 <li><Link to='/authoring-tool'> &nbsp;&nbsp;- Learn Forward Author</Link></li>
-                <li><Link to='/platform'> &nbsp;&nbsp;- Learn Forward Platform</Link></li>
+                <li><Link to='/hypersay'> &nbsp;&nbsp;- Hypersay</Link></li>
                 <li>Solutions:</li>
                 <li><Link to='/publishers'> &nbsp;&nbsp;- For Educational Publishers</Link></li>
                 <li><Link to='/schools'> &nbsp;&nbsp;- For Schools and Teachers</Link></li>
                 <li><Link to='/corporate'> &nbsp;&nbsp;- For Corporate Training</Link></li>
                 <li><Link to='/team'>Team</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
-                <li><Link to='/demo'>Demo</Link></li>
+                <li><a href="https://hypersay.com/" target="_blank"><img alt="Hypersay" src="bg-yellow-full.svg"></img></a></li>
               </ul>
             </div>
           </div>
