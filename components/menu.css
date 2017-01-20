@@ -17,24 +17,16 @@
   margin-top: 1.25em;
   border-radius: 1.25em;
   margin-left: 1em;
-  color: #00a5e6;
 }
 
-:local(.menu) li:nth-child(5) span {
-  line-height: 2.2;
+:local(.menu) li:nth-child(5) a {
   text-transform: none;
+  color: #00a5e6;
+  margin-top: -1em;
 }
 
 :local(.menu) li:nth-child(5):hover {
-  background: #ffa036;
-}
-
-
-
-:local(.menu) li:nth-child(5) a {
-  color: white;
-  margin-top: -1em;
-  font-weight: 100;
+  background: #eaed31;
 }
 
 :local(.menu) li {

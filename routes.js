@@ -53,7 +53,7 @@ const menu = [
     ],
   },
   {
-    // to: '/request',
+    to: '/hypersay',
     label: 'Hypersay', // -deleted here
   },
 ];
