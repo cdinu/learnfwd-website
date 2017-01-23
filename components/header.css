@@ -7,7 +7,8 @@
 
 
 :local(.bar) a {
-  color: #898989;
+  /*color: #898989;*/
+  color: #fff;
   text-decoration: none;
 }
 
@@ -98,24 +99,32 @@
   margin-top: 4.5em;
   width:16em;
   padding: 0;
-  background:#fafafa;
+  /*background:#fafafa;*/
+  background:#191919;
   list-style: none;
   float: right;
   text-align: left;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  border-right: 1px solid #E0E0E0;
+  /*border-right: 1px solid #E0E0E0;*/
 }
 :local(.burgerContent) li {
   font-size: 1em;
   line-height: 2;
-}
-:local(.burgerContent) li {
   padding-left: 2em;
+  color: white;
+  font-weight: 500;
 }
+
+:local(.burgerContent) li a {
+  color: #898989;
+}
+
 :local(.burgerContent) li:hover a,
-:local(.burgerContent) li:hover {
+:local(.burgerContent) li:hover,
+:local(.burgerContent) li a:hover {
   background: #333;
-  color:  #E68F2E;
+  /*color:  #E68F2E !important;*/
+  color: #45B398 !important;
 }
 @media (max-width: 839px) and (min-width: 480px) {
   :local(.nav) {
@@ -123,8 +132,24 @@
   }
 }
 
-:local(.burgerContent) li img {
+/*:local(.burgerContent) li img {
   height: 3em;
   margin-left: -2em;
   width: calc(100% + 2em);
+}*/
+
+
+:local(.burgerContent) li:nth-child(1) a,
+:local(.burgerContent) li:nth-child(9) a,
+:local(.burgerContent) li:nth-child(10) a {
+  color: white;
+}
+
+
+:local(.burgerContent) .hyper {
+  color: white;
+}
+
+:local(.burgerContent) .say {
+  color: #00a5e6;
 }
