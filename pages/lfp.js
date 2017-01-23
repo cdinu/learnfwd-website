@@ -12,9 +12,9 @@ export default class Page extends Component {
       <div>
         <div className={styles.lfpFirst} style={style}>
           <h1>
-            <span className={styles.faded}></span>Hypersay
+            <span className={styles.faded}>◉</span>Hypersay
           </h1>
-          <h2>Create beautiful and responsive presentations engaging the audience in real time</h2>
+          <h2>Create beautiful and responsive presentations engaging the audience in real-time</h2>
         </div>
         <div className={styles.lfaSecond}>
           <div className={styles.maxW}>
