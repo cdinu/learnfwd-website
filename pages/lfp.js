@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styles from './lfp.css';
-import { Link } from 'react-router';
 
 export default class Page extends Component {
   render() {
@@ -33,7 +32,7 @@ export default class Page extends Component {
         <div className={styles.lfaSeventh}>
           <p>Distract the Distracted!</p>
           <span className={styles.getDemoButton}>
-            <Link className={styles.sectionLink} to='/hypersay'>GET STARTED</Link>
+            <a href="https://www.hypersay.com">GET STARTED</a>
           </span>
         </div>
       </div>
