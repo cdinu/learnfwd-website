@@ -163,6 +163,11 @@
   margin-top: 1em;
 }
 
+:local(.productCard) img {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 :local(.productCard) a:hover {
   background-color: #E48E3A;
   transition: background-color .3s;

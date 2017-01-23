@@ -54,7 +54,7 @@ export default class Page extends Component {
               </p>
               <div className={styles.spacerCard}></div>
               <div className={styles.linkContainer}>
-                <Link to='/schools'><span>About Hypersay</span></Link>
+                <Link to='/schools'><span>Discover more</span></Link>
               </div>
             </div>
             <div className={styles.solutionCard}>
@@ -85,10 +85,8 @@ export default class Page extends Component {
               </div>
             </div>
             <div className={styles.productCard}>
-              <h2>
-                <span className={styles.faded}>◉</span> Hypersay
-              </h2>
-              <p>Beautiful and responsive presentations engaging the audience in real time.</p>
+              <img alt="Hypersay" src="bg-dark-1024.png" />
+              <p>All your decks on one platform, ready to be presented to anyone, anywhere, with no app to download – just a simple web URL.</p>
               <div className={'styles.linkContainer'}>
                 <Link to='/hypersay'><span>GET STARTED</span></Link>
               </div>
