@@ -162,15 +162,10 @@ export default class Page extends Component {
           </div>
           <div className={styles.oneMoreText}>
             <h1 className={styles.oneMoreTextTitle}>
-              One more thing… the platform!
+              Hypersay - the platform
             </h1>
             <h2 className={styles.oneMoreTextDescription}>
-              The tools we use to create lessons for you are
-              complex and require coding knowledge.
-              <br />
-              But we want to bring this power in the hands of
-              teachers so we are creating an online platform to
-              allow teachers to do digital lesson-planning.
+              Say goodbye to traditional PowerPoint presentations and make them truly interactive.
             </h2>
             <h2 className={styles.oneMoreTextDescription}>
               With a twist.
