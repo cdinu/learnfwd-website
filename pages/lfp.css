@@ -20,7 +20,7 @@
 
 :local(.lfpFirst) h2 {
   font-weight: 100;
-  color: #cb3a41;
+  color: #FFC107;
   font-size: 4.5vw;
   max-width: 70%;
   margin: 0 auto;
@@ -36,6 +36,10 @@
   font-size: 3em;
   line-height: 1;
   font-weight: 100;
+}
+:local(.lfaSecond) ul {
+  font-size: 1.7em;
+  line-height: 1;
 }
 :local(.maxW) {
   display: block;

@@ -12,26 +12,28 @@ export default class Page extends Component {
       <div>
         <div className={styles.lfpFirst} style={style}>
           <h1>
-            <span className={styles.faded}>◉</span>Hypersay
+            <span className={styles.faded}></span>Hypersay
           </h1>
           <h2>Create beautiful and responsive presentations engaging the audience in real time</h2>
-          <h2> </h2>
         </div>
         <div className={styles.lfaSecond}>
           <div className={styles.maxW}>
-            <p><strong>Simply.</strong> Drag & drop your powerpoint presentation @ www.hypersay.com. </p>
-            <p><strong>Quick.</strong> Add interactions: quize, text question, text section (markdown support), YouTube videos.</p>
-            <p><strong>Responsive. </strong>Connect to your presentation on any browser on any device.</p>
-            <p><strong>Secure. </strong>All media that you upload is available in your personal media library.</p>
-            <p><strong>Real-time. </strong>Get instant feedback from your audience.</p>
-            <p><strong>Polls. </strong>Create beautiful interactive polls in the browser.</p>
-            <p><strong>Votes. </strong>Vote casting likes with an awesome like counter.</p>
+            <h3>Features:</h3>
+            <ul>
+              <li><strong>Easy.</strong> Drag & drop your powerpoint presentation.</li>
+              <li><strong>Quick.</strong> Add interactions: quize, text question, text section (markdown support), YouTube videos.</li>
+              <li><strong>Responsive. </strong>Connect to your presentation on any browser on any device.</li>
+              <li><strong>Secure. </strong>All media that you upload is available in your personal media library.</li>
+              <li><strong>Real-time. </strong>Get instant feedback from your audience.</li>
+              <li><strong>Polls. </strong>Create beautiful interactive polls in the browser.</li>
+              <li><strong>Votes. </strong>Vote casting likes with an awesome like counter.</li>
+            </ul>
           </div>
         </div>
         <div className={styles.lfaSeventh}>
-          <p>Sign up your school for an early invite.</p>
+          <p>Distract the Distracted!</p>
           <span className={styles.getDemoButton}>
-            <Link to='/signup'>SIGN UP</Link>
+            <Link className={styles.sectionLink} to='/hypersay'>GET STARTED</Link>
           </span>
         </div>
       </div>
