@@ -52,10 +52,37 @@ export default class Page extends Component {
             We help you keep students engaged and save time in two ways.
           </h2>
         </div>
-        <div className={styles.digitised}>
+        <div className={styles.oneMore}>
           <div className={styles.maxwidth}>
           <div className={styles.oneMoreFigure}>
             <span className={styles.circledTwo}>1</span>
+          </div>
+          <div className={styles.meetKatImg}>
+            <img alt="Hypersay" src="bg-dark-1024.png" />
+          </div>
+          <div>
+            <h2 className={styles.oneMoreTextDescription}>
+              Say goodbye to traditional PowerPoint presentations and make them truly interactive.
+            </h2>
+            <h2 className={styles.oneMoreTextDescription}>
+              <strong>Hypersay</strong> takes regular PowerPoint and pushes them out live, connects the presenter and presentation with the audience through their own smartphones, tablets or laptops with no app to download – just a simple web URL.
+            </h2>
+            <h2 className={styles.oneMoreTextDescription}>
+              Attendees can write personal notes, or participate in polls, live Q&A, upvote content, or feedback questionnaires.
+            </h2>
+            <div className={styles.oneMoreTextCtA}>
+              <span className={styles.contactUs}>
+                <a href="https://www.hypersay.com/">TRY NOW</a>
+              </span>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div className={styles.bottomSpacer} />
+        <div className={styles.digitised}>
+          <div className={styles.maxwidth}>
+          <div className={styles.oneMoreFigure}>
+            <span className={styles.circledTwo}>2</span>
           </div>
           <div className={styles.digitisedContent}>
             <h1>Have your content digitised</h1>
@@ -154,29 +181,6 @@ export default class Page extends Component {
           <span className={styles.contactUs}>
             <Link to='/contact'>Contact Us</Link>
           </span>
-        </div>
-        <div className={styles.oneMore}>
-          <div className={styles.maxwidth}>
-          <div className={styles.oneMoreFigure}>
-            <span className={styles.circledTwo}>2</span>
-          </div>
-          <div className={styles.oneMoreText}>
-            <h1 className={styles.oneMoreTextTitle}>
-              Hypersay - the platform
-            </h1>
-            <h2 className={styles.oneMoreTextDescription}>
-              Say goodbye to traditional PowerPoint presentations and make them truly interactive.
-            </h2>
-            <h2 className={styles.oneMoreTextDescription}>
-              Plan and deliver lessons engaging your students with interactive polls, solicit questions or comment your slides, and collect feedback, all in one place.
-            </h2>
-            <div className={styles.oneMoreTextCtA}>
-              <span className={styles.contactUs}>
-                <a href="https://www.hypersay.com/">TRY NOW</a>
-              </span>
-            </div>
-          </div>
-          </div>
         </div>
         <div className={styles.bottomSpacer} />
       </div>
