@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './corporate.css';
 import Image from '../components/image';
-import { Link } from 'react-router';
 styles.maxW = 'mdl-grid ' + styles.maxW;
 styles.lfaLeft = 'mdl-cell mdl-cell--4-col ' + styles.lfaLeft;
 styles.lfaRight = 'mdl-cell mdl-cell--8-col ' + styles.lfaRight;
@@ -23,7 +22,8 @@ export default class Page extends Component {
               <Image src='/img/corporate-cloud.png' />
             </div>
             <div className={styles.lfaRight}>
-              <h3>Training materials digitised and accesible through your browser, in the cloud?</h3>
+              <h3>All your decks on one platform, ready to be presented to anyone, anywhere, with no app to download – just a simple web URL.
+              </h3>
             </div>
           </div>
         </div>
