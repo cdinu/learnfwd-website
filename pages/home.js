@@ -79,7 +79,7 @@ export default class Page extends Component {
                 <span className={styles.faded}>&lt;</span>Author<span className={styles.faded}>/&gt;</span>
               </h2>
               <p>Professional Authoring Tool for state-of-the-art digital textbooks.</p>
-              <div className={'styles.linkContainer'}>
+              <div className={'styles.linkContainer customPositioning'}>
                 <br></br>
                 <Link to='/authoring-tool'><span>Features and services</span></Link>
               </div>

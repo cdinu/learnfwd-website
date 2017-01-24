@@ -211,3 +211,10 @@
 :local(.spacerCard) {
   height: 1em;
 }
+
+.customPositioning {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  margin-left: -117px;
+}
