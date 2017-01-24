@@ -12,7 +12,6 @@
   height: 5em;
 }
 :local(.menu) li:nth-child(5) {
-  /*background: #e1e614;*/
   background: #00a5e6;
   height: 2.5em;
   margin-top: 1.25em;
@@ -53,7 +52,7 @@
 
 :local(.menu) li:nth-child(5) a {
   text-transform: none;
-  color: #e1e614;
+  color: white;
   margin-top: -1em;
 }
 

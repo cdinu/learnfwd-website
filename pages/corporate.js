@@ -22,7 +22,7 @@ export default class Page extends Component {
               <Image src='/img/corporate-cloud.png' />
             </div>
             <div className={styles.lfaRight}>
-              <h3>All your decks on one platform, ready to be presented to anyone, anywhere, with no app to download – just a simple web URL.
+              <h3>All your presentations on one platform (<a href="https://hypersay.com">hypersay.com</a>), ready to be presented to anyone, anywhere, with no app to download – just a simple web URL.
               </h3>
             </div>
           </div>

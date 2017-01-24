@@ -164,7 +164,7 @@
 }
 
 :local(.productCard) img {
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -217,4 +217,18 @@
   bottom: 2em;
   left: 50%;
   margin-left: -117px;
+}
+
+.custom-ct-img {
+  align-self: center;
+  width: 14%;
+  display: inline-block;
+  padding-left: .14%;
+  padding-right: .14%;
+}
+
+@media (max-width: 700px) {
+  .custom-ct-img {
+    width: 24.7%;
+  }
 }

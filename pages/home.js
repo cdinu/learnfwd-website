@@ -17,7 +17,7 @@ styles.productCard = [
 
 styles.h1 = 'mdl-cell mdl-cell--12-col ' + styles.h1;
 styles.pilotImgContainer = 'mdl-cell mdl-cell--4-col mdl-cell--6-tablet mdl-cell--12-col-phone mdl-grid ' + styles.pilotImgContainer;
-styles.pilotImg = 'mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--3-col-phone';
+styles.pilotImg = 'custom-ct-img';
 
 export default class Page extends Component {
   render() {
@@ -94,21 +94,13 @@ export default class Page extends Component {
           </div>
         </div>
         <div className={'mdl-grid ' + styles.pilotsSection}>
-          <div className={styles.pilotImgContainer}>
-            <div className={styles.pilotImg}><Image src='/img/logo-eton.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-oxford.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-hodder.png' /></div>
-          </div>
-          <div className={styles.pilotImgContainer}>
-            <div className={styles.pilotImg}><Image src='/img/logo-harper.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-tlse.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-art.png' /></div>
-          </div>
-          <div className={styles.pilotImgContainer}>
-            <div className={styles.pilotImg}><Image src='/img/logo-samsung.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-jar.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-humanitas.png' /></div>
-          </div>
+          <div className={styles.pilotImg}><Image src='/img/logo-eton.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-samsung.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/klett-logo.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/raabe-logo.jpg' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-art.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-jar.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-humanitas.png' /></div>
         </div>
       </div>
     );

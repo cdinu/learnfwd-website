@@ -65,10 +65,7 @@ export default class Page extends Component {
               Say goodbye to traditional PowerPoint presentations and make them truly interactive.
             </h2>
             <h2 className={styles.oneMoreTextDescription}>
-              <strong>Hypersay</strong> takes regular PowerPoint and pushes them out live, connects the presenter and presentation with the audience through their own smartphones, tablets or laptops with no app to download – just a simple web URL.
-            </h2>
-            <h2 className={styles.oneMoreTextDescription}>
-              Attendees can write personal notes, or participate in polls, live Q&A, upvote content, or feedback questionnaires.
+              <strong>Hypersay</strong> takes regular PowerPoint files and turns them into live sessions, connects the presenter and presentation with the audience through their own smartphones, tablets or laptops with no app to download – just a simple web URL.
             </h2>
             <div className={styles.oneMoreTextCtA}>
               <span className={styles.contactUs}>
