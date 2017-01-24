@@ -10,15 +10,13 @@ export default class Page extends Component {
     return (
       <div>
         <div className={styles.lfpFirst} style={style}>
-          <h1>
-            <span className={styles.faded}>◉</span>Hypersay
-          </h1>
+          <img alt="Hypersay" className={styles.hypersayImg} src="bg-dark-1024.png" />
           <h2>Create beautiful and responsive presentations engaging the audience in real-time</h2>
         </div>
         <div className={styles.lfaSecond}>
           <div className={styles.maxW}>
-            <h3>Features:</h3>
-            <ul>
+            <h3 className={styles.featuresTitle}>Features:</h3>
+            <ul className={styles.hsFeaturesList}>
               <li><strong>Easy.</strong> Drag & drop your powerpoint presentation.</li>
               <li><strong>Quick.</strong> Add interactions: quize, text question, text section (markdown support), YouTube videos.</li>
               <li><strong>Responsive. </strong>Connect to your presentation on any browser on any device.</li>
