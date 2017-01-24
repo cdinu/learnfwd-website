@@ -88,7 +88,7 @@ const meta = {
     description: 'Team & Advisors',
   },
   '/contact': {
-    title: 'LFA - Learn Forward Author',
+    title: 'Contact',
     description: 'Digital publishing tools for rich HTML5 publications',
   },
 };
