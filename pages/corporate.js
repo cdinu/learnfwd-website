@@ -14,7 +14,7 @@ export default class Page extends Component {
           <h1>Solutions for Corporate Training</h1>
           <h4>Training can be fun, engaging and not expensive.<br/>Good technology is the key.</h4>
           <span className={styles.contactUsButton}>
-            <Link to='/contact'>CONTACT US</Link>
+            <Link to='/contact'>GET STARTED</Link>
           </span>
         </div>
         <div className={styles.corporateFirst}>
@@ -31,7 +31,7 @@ export default class Page extends Component {
           <div className={styles.maxW}>
             <div className={styles.lfaRight}>
               <h3>Hassle-free training groups?</h3>
-              <p>Right from inside the course you can start a group (virtual classroom). Keep them all connected and engaged. No special setup required.</p>
+              <p>Right from inside the course you can start a group. Keep them all connected and engaged. No special setup required.</p>
             </div>
             <div className={styles.lfaLeft + ' ' + styles.centerT}>
               <Image src='/img/corporate-groups.png' />
@@ -53,7 +53,7 @@ export default class Page extends Component {
           <div className={styles.maxW}>
             <div className={styles.lfaRight}>
               <h3>Change content on-the-fly!</h3>
-              <p>Have some last-minute changes to your course?<br/> You can add content on-the-fly during the training session and the new content gets distributed automatically to your students.</p>
+              <p>Have some last-minute changes to your course?<br/> You can add content on-the-fly during the training session and the new content gets distributed automatically to your audience.</p>
             </div>
             <div className={styles.lfaLeft + ' ' + styles.centerT}>
               <Image src='/img/corporate-edit.png' />
