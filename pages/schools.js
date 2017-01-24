@@ -168,13 +168,12 @@ export default class Page extends Component {
               Say goodbye to traditional PowerPoint presentations and make them truly interactive.
             </h2>
             <h2 className={styles.oneMoreTextDescription}>
-              With a twist.
+              Plan and deliver lessons engaging your students with interactive polls, solicit questions or comment your slides, and collect feedback, all in one place.
             </h2>
             <div className={styles.oneMoreTextCtA}>
               <span className={styles.contactUs}>
-                <Link to='/signUp'>Sign Up</Link>
+                <a href="https://www.hypersay.com/">TRY NOW</a>
               </span>
-              <h2> as a teacher or a school for early&nbsp;access.</h2>
             </div>
           </div>
           </div>
