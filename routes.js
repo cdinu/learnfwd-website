@@ -63,13 +63,29 @@ const meta = {
     title: 'Learn Forward - Making the Digital Classroom Work',
     description: 'We help publishers create collaborative digital textbooks and we help teachers design & deliver lessons in a digital format.',
   },
+  '/publishers': {
+    title: 'Educational Publishers',
+    description: 'Learn Forward - Solutions for Educational Publishers',
+  },
+  '/schools': {
+    title: 'Schools & Teachers',
+    description: 'Learn Forward - Solutions for Schools & Teachers',
+  },
+  '/corporate': {
+    title: 'Corporate Training',
+    description: 'Learn Forward - Solutions for Corporate Training',
+  },
   '/authoring-tool': {
     title: 'LFA - Learn Forward Author',
     description: 'Digital publishing tools for rich HTML5 publications',
   },
   '/hypersay': {
     title: 'Hypersay',
-    description: 'to do',
+    description: 'Hypersay - Distract the Distracted!',
+  },
+  '/team': {
+    title: 'The team',
+    description: 'Team & Advisors',
   },
   '/contact': {
     title: 'LFA - Learn Forward Author',
