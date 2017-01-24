@@ -14,7 +14,7 @@ export default class Page extends Component {
           <h1>Solutions for Corporate Training</h1>
           <h4>Training can be fun, engaging and not expensive.<br/>Good technology is the key.</h4>
           <span className={styles.contactUsButton}>
-            <Link to='/contact'>GET STARTED</Link>
+            <a href="https://www.hypersay.com">GET STARTED</a>
           </span>
         </div>
         <div className={styles.corporateFirst}>
