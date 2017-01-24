@@ -48,7 +48,7 @@ lo:local(.schools) {
 }
 
 :local(.digitised) {
-  background-color: #363636;
+  background-color: #2C5379;
   padding: 3em 1em;
   color: #fff;
 }

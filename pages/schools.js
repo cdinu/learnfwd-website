@@ -78,7 +78,6 @@ export default class Page extends Component {
           </div>
           </div>
         </div>
-        <div className={styles.bottomSpacer} />
         <div className={styles.digitised}>
           <div className={styles.maxwidth}>
           <div className={styles.oneMoreFigure}>
