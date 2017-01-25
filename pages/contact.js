@@ -21,7 +21,6 @@ export default class Page extends Component {
           <p>
             <strong>Address:</strong> c/o Saffery Champness, Lion House, Red Lion Street, London, WC1R 4GB, UK
           </p>
-          <br></br>
           {/* <p>
             32 Naval House, 6 Victory Parade, Plumstead Road, London, SE18 6FN, UK
           </p>

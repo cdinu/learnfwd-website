@@ -116,3 +116,6 @@
     margin: 0 auto;
   }
 }
+:local(.lfaRight) a {
+  color: #ff9800;
+}
