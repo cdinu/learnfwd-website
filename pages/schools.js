@@ -52,10 +52,33 @@ export default class Page extends Component {
             We help you keep students engaged and save time in two ways.
           </h2>
         </div>
-        <div className={styles.digitised}>
+        <div className={styles.oneMore}>
           <div className={styles.maxwidth}>
           <div className={styles.oneMoreFigure}>
             <span className={styles.circledTwo}>1</span>
+          </div>
+          <div className={styles.meetKatImg}>
+            <img alt="Hypersay" src="bg-dark-1024.png" />
+          </div>
+          <div>
+            <h2 className={styles.oneMoreTextDescription}>
+              Say goodbye to traditional PowerPoint presentations and make them truly interactive.
+            </h2>
+            <h2 className={styles.oneMoreTextDescription}>
+              <strong>Hypersay</strong> takes regular PowerPoint files and turns them into live sessions, connects the presenter and presentation with the audience through their own smartphones, tablets or laptops with no app to download – just a simple web URL.
+            </h2>
+            <div className={styles.oneMoreTextCtA}>
+              <span className={styles.contactUs}>
+                <a href="https://www.hypersay.com/">TRY NOW</a>
+              </span>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div className={styles.digitised}>
+          <div className={styles.maxwidth}>
+          <div className={styles.oneMoreFigure}>
+            <span className={styles.circledTwo}>2</span>
           </div>
           <div className={styles.digitisedContent}>
             <h1>Have your content digitised</h1>
@@ -154,35 +177,6 @@ export default class Page extends Component {
           <span className={styles.contactUs}>
             <Link to='/contact'>Contact Us</Link>
           </span>
-        </div>
-        <div className={styles.oneMore}>
-          <div className={styles.maxwidth}>
-          <div className={styles.oneMoreFigure}>
-            <span className={styles.circledTwo}>2</span>
-          </div>
-          <div className={styles.oneMoreText}>
-            <h1 className={styles.oneMoreTextTitle}>
-              One more thing… the platform!
-            </h1>
-            <h2 className={styles.oneMoreTextDescription}>
-              The tools we use to create lessons for you are
-              complex and require coding knowledge.
-              <br />
-              But we want to bring this power in the hands of
-              teachers so we are creating an online platform to
-              allow teachers to do digital lesson-planning.
-            </h2>
-            <h2 className={styles.oneMoreTextDescription}>
-              With a twist.
-            </h2>
-            <div className={styles.oneMoreTextCtA}>
-              <span className={styles.contactUs}>
-                <Link to='/signUp'>Sign Up</Link>
-              </span>
-              <h2> as a teacher or a school for early&nbsp;access.</h2>
-            </div>
-          </div>
-          </div>
         </div>
         <div className={styles.bottomSpacer} />
       </div>

@@ -11,7 +11,7 @@ export default class Footer extends Component {
         <div className={sectionStyle}>
           <strong className='sectionTitle'>Products &amp; services</strong>
           <Link className={styles.sectionLink} to='/authoring-tool'>Learn Forward Author</Link>
-          <Link className={styles.sectionLink} to='/platform'>Learn Forward Platform</Link>
+          <Link className={styles.sectionLink} to='/hypersay'>Hypersay</Link>
           <strong className='sectionTitle'>Solutions</strong>
           <Link className={styles.sectionLink} to='/publishers'>For Educational Publishers</Link>
           <Link className={styles.sectionLink} to='/schools'>For Teachers &amp; Schools</Link>

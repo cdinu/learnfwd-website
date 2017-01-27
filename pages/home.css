@@ -163,6 +163,11 @@
   margin-top: 1em;
 }
 
+:local(.productCard) img {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
 :local(.productCard) a:hover {
   background-color: #E48E3A;
   transition: background-color .3s;
@@ -205,4 +210,25 @@
 }
 :local(.spacerCard) {
   height: 1em;
+}
+
+.customPositioning {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  margin-left: -117px;
+}
+
+.custom-ct-img {
+  align-self: center;
+  width: 14%;
+  display: inline-block;
+  padding-left: .14%;
+  padding-right: .14%;
+}
+
+@media (max-width: 700px) {
+  .custom-ct-img {
+    width: 24.7%;
+  }
 }

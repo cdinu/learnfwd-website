@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styles from './lfp.css';
-import { Link } from 'react-router';
 
 export default class Page extends Component {
   render() {
@@ -11,22 +10,33 @@ export default class Page extends Component {
     return (
       <div>
         <div className={styles.lfpFirst} style={style}>
-          <h1>
-            <span className={styles.faded}>◉</span>Platform
-          </h1>
-          <h2>Digital lesson planning & </h2>
-          <h2>delivery tool.</h2>
-          <h2>With a twist.</h2>
+          <img alt="Hypersay" className={styles.hypersayImg} src="bg-dark-1024.png" />
+          <h2>Turn your powerpoint file into an engaging presentation featuring real-time interactions with your audience</h2>
         </div>
         <div className={styles.lfaSecond}>
           <div className={styles.maxW}>
-            <p>We are currently working on a platform that allows teachers to create, adapt and deliver lessons in a very straightforward manner.</p>
+            <h3 className={styles.featuresTitle}>Features:</h3>
+            <ul className={styles.hsFeaturesList}>
+              <li><strong>Easy.</strong> Drag & drop to upload your powerpoint presentation to the cloud</li>
+              <li><strong>Quick.</strong>Add interactions: quizzes, text questions, further text (markdown support), YouTube videos</li>
+              <li><strong>Responsive.</strong>Connect to your presentation on any browser on any device.</li>
+              <li><strong>Real-time.</strong>Get instant feedback from your audience using:
+                <ul className={styles.hsFeaturesList2}>
+                  <li>Polls: Create beautiful interactive polls / quizzes in the browser under each slide</li>
+                  <li>Likes: Receive likes (as hearts) from the audience in real-time</li>
+                  <li>Questions: Have you audience type answers that reach you in real-time (as they type, really!)</li>
+                </ul>
+              </li>
+              <li><strong>Augmentation.</strong> Add more information to your slides as text sections (markdown available) or YouTube videos.</li>
+              {/* <li><strong>Polls.</strong>Create beautiful interactive polls in the browser.</li>
+              <li><strong>Votes.</strong>Vote casting likes with an awesome like counter.</li>*/}
+            </ul>
           </div>
         </div>
         <div className={styles.lfaSeventh}>
-          <p>Sign up your school for an early invite.</p>
+          <p>Distract the Distracted!</p>
           <span className={styles.getDemoButton}>
-            <Link to='/signup'>SIGN UP</Link>
+            <a href="https://www.hypersay.com">GET STARTED</a>
           </span>
         </div>
       </div>

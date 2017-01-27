@@ -17,7 +17,7 @@ styles.productCard = [
 
 styles.h1 = 'mdl-cell mdl-cell--12-col ' + styles.h1;
 styles.pilotImgContainer = 'mdl-cell mdl-cell--4-col mdl-cell--6-tablet mdl-cell--12-col-phone mdl-grid ' + styles.pilotImgContainer;
-styles.pilotImg = 'mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--3-col-phone';
+styles.pilotImg = 'custom-ct-img';
 
 export default class Page extends Component {
   render() {
@@ -48,24 +48,20 @@ export default class Page extends Component {
               <h2>Schools &amp; Teachers</h2>
               <p>
                 Tired of spending fortunes on useless
-                software? We are building a platform
-                for lesson planning &amp; delivery.
+                software? Try Hypersay
+                for lesson planning &amp; delivery. Engage your students and gain insight into their learning.
                 <br/>
-                Sign up your school for early access.
               </p>
               <div className={styles.spacerCard}></div>
               <div className={styles.linkContainer}>
-                <Link to='/schools'><span>About the platform</span></Link>
+                <Link to='/schools'><span>Discover more</span></Link>
               </div>
             </div>
             <div className={styles.solutionCard}>
               <Image src='/img/abacus.png' />
               <h2>Corporate training</h2>
               <p>
-                There’s life beyond spreadsheets,
-                docs and powerpoint. Power-up your
-                training capacities with exciting and
-                engaging tech.
+                Power-up your training capacities, engage your audience with interactive polls, solicit questions or comment your slides, and collect feedback on your presentations.
               </p>
               <div className={styles.spacerCard}></div>
               <div className={styles.linkContainer}>
@@ -83,37 +79,28 @@ export default class Page extends Component {
                 <span className={styles.faded}>&lt;</span>Author<span className={styles.faded}>/&gt;</span>
               </h2>
               <p>Professional Authoring Tool for state-of-the-art digital textbooks.</p>
-              <div className={'styles.linkContainer'}>
+              <div className={'styles.linkContainer customPositioning'}>
+                <br></br>
                 <Link to='/authoring-tool'><span>Features and services</span></Link>
               </div>
             </div>
             <div className={styles.productCard}>
-              <h2>
-                <span className={styles.faded}>◉</span> Platform
-              </h2>
-              <p>Digital lesson planning &amp; delivery tool.  With a twist.</p>
+              <img alt="Hypersay" src="bg-dark-1024.png" />
+              <p>All your decks on one platform, ready to be presented to anyone, anywhere, with no app to download – just a simple web URL.</p>
               <div className={'styles.linkContainer'}>
-                <Link to='/platform'><span>Details and signup</span></Link>
+                <Link to='/hypersay'><span>GET STARTED</span></Link>
               </div>
             </div>
           </div>
         </div>
         <div className={'mdl-grid ' + styles.pilotsSection}>
-          <div className={styles.pilotImgContainer}>
-            <div className={styles.pilotImg}><Image src='/img/logo-eton.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-oxford.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-hodder.png' /></div>
-          </div>
-          <div className={styles.pilotImgContainer}>
-            <div className={styles.pilotImg}><Image src='/img/logo-harper.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-tlse.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-art.png' /></div>
-          </div>
-          <div className={styles.pilotImgContainer}>
-            <div className={styles.pilotImg}><Image src='/img/logo-samsung.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-jar.png' /></div>
-            <div className={styles.pilotImg}><Image src='/img/logo-humanitas.png' /></div>
-          </div>
+          <div className={styles.pilotImg}><Image src='/img/logo-eton.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-samsung.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/klett-logo.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/raabe-logo.jpg' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-art.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-jar.png' /></div>
+          <div className={styles.pilotImg}><Image src='/img/logo-humanitas.png' /></div>
         </div>
       </div>
     );

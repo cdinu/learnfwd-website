@@ -40,21 +40,16 @@ export default class Page extends Component {
               </p>
             </div>
           </div>
-          <div className={styles.teamFirst}>
-            <div className='mdl-cell mdl-cell--4-col'>
+          <div className={styles.teamMax}>
+            <div className={styles.teamCo}>
               <Image src='/img/team/leo.png'/>
               <h1>Leo Budrincă</h1>
               <p>Content Manager</p>
             </div>
-            <div className='mdl-cell mdl-cell--4-col'>
+            <div className={styles.teamCo}>
               <Image src='/img/team/iulian.png'/>
-              <h1>Iulian Savin</h1>
-              <p>Junior Web Developer</p>
-            </div>
-            <div className='mdl-cell mdl-cell--4-col'>
-              <Image src='/img/team/mara.png'/>
-              <h1>Mara Predescu</h1>
-              <p>Junior Frontend Developer</p>
+               <h1>Iulian Savin</h1>
+               <p>Junior Web Developer</p>
             </div>
           </div>
         </div>
@@ -86,6 +81,7 @@ export default class Page extends Component {
               <p>Experienced International Business Development professional, and Chairman of <a href="https://www.ccbaltic.eu" target="_blank">CCG a specialist consultancy</a> working between the UK , Latvia, Lithuania, Russia and Romania.
               </p>
             </div>
+            {/*
             <div className={styles.teamCo}>
               <Image src='/img/team/angela.png'/>
               <h1>Angela McFarlane</h1>
@@ -97,6 +93,7 @@ export default class Page extends Component {
               <p>Angela McFarlane is an international author and practitioner in engagement and learning, an experienced and inspiring leader, respected researcher and thoughtsmith. Her latest book: <a href="http://www.amazon.co.uk/Authentic-Learning-Digital-Generation-technology/dp/1138014117/" target="_blank">Authentic Learning for the Digital Generation: Realising the potential of technology in the classroom</a> is a fundamental work for EdTech companies looking to build teacher-proof solutions.
               </p>
             </div>
+            */}
             <div className={styles.teamCo}>
               <Image src='/img/team/owen.png'/>
               <h1>Owen White</h1>
