@@ -19,7 +19,7 @@ export default class Footer extends Component {
         </div>
         <div className={sectionStyle}>
           <strong className='sectionTitle'>London Office</strong>
-          <div>32 Naval House, SE18 6FN</div>
+          <div>201 Tide Waiters House, E14 0JL</div>
           <div>London, UK</div>
           <p></p>
           <div>+44 7469 432480</div>
