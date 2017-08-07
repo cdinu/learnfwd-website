@@ -130,6 +130,18 @@
   border:1px solid #696A5D;
 }
 
+:local(.emailError) {
+  color: #fff;
+  background: #800;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+:local(.emailError) a {
+  color: #fff;
+}
+
 :local(.requestPage) {
   border-top: 1px solid rgba(0,0,0,0);
 

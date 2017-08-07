@@ -13,7 +13,9 @@ if (server) {
 
   nodeModules.fs = 'commonjs fs';
 
-  fs.readdirSync('node_modules')
+  fs.readdirSync(process.env.NODE_PATH
+      ? process.env.NODE_PATH.split(':')[0]
+      : 'node_modules')
     .filter(mod => ['.bin'].indexOf(mod) === -1)
     .forEach(mod => {
       nodeModules[mod] = 'commonjs ' + mod;
@@ -84,7 +86,16 @@ if (server) {
 
 if (!server && debug) {
   config.entry.index = [
-    'webpack-dev-server/client?http://localhost:3000',
+    // modificare ca sa mearga pe docker la Savin :)
+    // daca ajunge in repo, pe el dați vina!
+    // modificarile de webpack.config si server
+    // necesita un recompile cu
+    // `SERVER=1 /node_modules/.bin/webpack`
+    // care cel mai simplu se da in masina de frontend
+    // in timp ce merge
+    // cu `docker exec -ti lfwd-site bash`
+    // apoi oprit / pornit cu control+c masina de frontend
+    'webpack-dev-server/client?http://192.168.99.100:3000',
     'webpack/hot/only-dev-server',
     config.entry.index,
   ];

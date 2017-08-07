@@ -22,9 +22,7 @@ export default class Page extends Component {
             <strong>Address:</strong> c/o Saffery Champness, Lion House, Red Lion Street, London, WC1R 4GB, UK
           </p>
           <br></br>
-          <p>
-            201 Tide Waiters House, 62 Blair Street, London, E14 0JL, UK
-          </p>
+
           <br></br>
           <p>
             <strong>VAT:</strong> GB 216 7298 91
