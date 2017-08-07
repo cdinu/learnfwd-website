@@ -23,7 +23,7 @@ export default class Page extends Component {
           </p>
           <br></br>
           <p>
-            32 Naval House, 6 Victory Parade, Plumstead Road, London, SE18 6FN, UK
+            201 Tide Waiters House, 62 Blair Street, London, E14 0JL, UK
           </p>
           <br></br>
           <p>
